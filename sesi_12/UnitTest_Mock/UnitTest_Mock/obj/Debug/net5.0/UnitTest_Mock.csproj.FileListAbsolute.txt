@@ -1,0 +1,138 @@
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\appsettings.Development.json
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\appsettings.json
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.exe
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.deps.json
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.runtimeconfig.json
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.runtimeconfig.dev.json
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\ref\UnitTest_Mock.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.pdb
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Google.Protobuf.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Humanizer.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.OpenApi.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\MySql.Data.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Newtonsoft.Json.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Renci.SshNet.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Runtime.Caching.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.csproj.AssemblyReference.cache
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.GeneratedMSBuildEditorConfig.editorconfig
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.AssemblyInfoInputs.cache
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.AssemblyInfo.cs
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.csproj.CoreCompileInputs.cache
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.MvcApplicationPartsAssemblyInfo.cs
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.MvcApplicationPartsAssemblyInfo.cache
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\staticwebassets\UnitTest_Mock.StaticWebAssets.Manifest.cache
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\staticwebassets\UnitTest_Mock.StaticWebAssets.xml
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\scopedcss\bundle\UnitTest_Mock.styles.css
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.RazorTargetAssemblyInfo.cache
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.csproj.CopyComplete
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\ref\UnitTest_Mock.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.pdb
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.genruntimeconfig.cache
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Castle.Core.dll
+I:\Program Internship OCBC\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Moq.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\appsettings.Development.json
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\appsettings.json
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.exe
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.deps.json
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.runtimeconfig.json
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.runtimeconfig.dev.json
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\ref\UnitTest_Mock.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.pdb
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Castle.Core.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Google.Protobuf.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Humanizer.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Moq.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\MySql.Data.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Renci.SshNet.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.csproj.AssemblyReference.cache
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.AssemblyInfoInputs.cache
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.AssemblyInfo.cs
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.csproj.CoreCompileInputs.cache
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.MvcApplicationPartsAssemblyInfo.cs
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.MvcApplicationPartsAssemblyInfo.cache
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\staticwebassets\UnitTest_Mock.StaticWebAssets.Manifest.cache
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\staticwebassets\UnitTest_Mock.StaticWebAssets.xml
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\scopedcss\bundle\UnitTest_Mock.styles.css
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.RazorTargetAssemblyInfo.cache
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.csproj.CopyComplete
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\ref\UnitTest_Mock.dll
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.pdb
+C:\OCBCHACKTIVE\sesi_12\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.genruntimeconfig.cache

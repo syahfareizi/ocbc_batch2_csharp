@@ -1,0 +1,194 @@
+create database db_bank;
+
+-- TABEL OFFICE DAN ISINYA --
+create table offices(
+    officeCode int identity(1,1) primary key,
+    officeCity varchar(30) not null,
+    officePhone varchar(15) not null, 
+    officeAddressLine1 varchar(30) not null,
+    officeAddressLine2 varchar(30) not null, 
+    officeCountry varchar(15) not null,
+    officePostalCode int not null, 
+    territory varchar(15) not null,
+);
+insert into offices(officeCity,officePhone,officeAddressLine1,officeAddressLine2,officeCountry,officePostalCode,territory) values
+    ('GRESIK','1123','GKB','MANYAR','INDONESIA','61151','A'),
+    ('SURABAYA','1124','HR','KREMBANGAN','INDONESIA','66151','B'),
+    ('MALANG','1125','PERAK','PREAK','INDONESIA','66421','C'),
+    ('MADIUN','1126','MADIUN TIMUR','TIMURNYA MADIUN','INDONESIA','65531','D'),
+    ('JAKARTA','1127','JAKARTA TIMUR','TIMURNYA JAKARTA','INDONESIA','66324','E'),
+    ('BANDUNG','1128','BANDUNG TIMUR','TIMURNYA BANDUNG','INDONESIA','66213','F'),
+    ('BEKASI','1129','BEKASI TIMUR','TIMURNYA BEKASI','INDONESIA','66342','G'),
+    ('TEBET','1130','TEBET TIMUR','TIMURNYA TEBET','INDONESIA','66454','H'),
+    ('BOGOR','1131','BOGOR TIMUR','TIMURNYA BOGOR','INDONESIA','66211','I'),
+    ('JOGJA','1132','JOGJA TIMUR','TIMURNYA JOGJA','INDONESIA','66123','J');
+
+-- TABEL EMPLOYEE DAN ISINYA --
+create table employees(
+    employeeNumber int identity(1,1) primary key, 
+    lastName varchar(20) null,
+    firstName varchar(20) not null,
+    extension varchar(20) null,
+    email varchar(30) not null,
+    officeCode int,
+    reportsTo int null, 
+    jobTitle varchar(20) not null
+    foreign key (officeCode) references offices(officeCode),
+    foreign key (reportsTo) references employees(employeeNumber),
+);
+insert into employees(lastName,firstName,extension,email,officeCode,jobTitle) values
+    ('UDIN','ANTO','S.Pd','ANTO@gmail.com','1','STAF'),
+    ('ROBRET','ALEX','S.Pd','ALEX@gmail.com','1','MANAJER'),
+    ('ROGER','MARK','S.Pd','MARK@gmail.com','1','KEPALA CABANG'),
+    ('UDHIN','ANTHO','S.Pd','ANTHO@gmail.com','2','STAF'),
+    ('SPE','DAVNY','S.Pd','DAVNY@gmail.com','2','MANAJER'),
+    ('MMB','PUTRI','S.Pd','PUTRI@gmail.com','2','KEPALA CABANG'),
+    ('TELKOM','TIA','S.Pd','TIA@gmail.com','3','STAF'),
+    ('TELKOM','BAGUS','S.Pd','BAGUS@gmail.com','3','MANAJER'),
+    ('ELIN','TIKO','S.Pd','TIKO@gmail.com','3','KEPALA CABANG'),
+    ('FAREIZI','SYAH','S.Pd','FARIS@gmail.com','1','CEO');
+update employees set reportsTo='3' where employeeNumber='1' or  employeeNumber='2';
+update employees set reportsTo='6' where employeeNumber='4' or  employeeNumber='5';
+update employees set reportsTo='9' where employeeNumber='7' or  employeeNumber='8';
+update employees set reportsTo='10' where employeeNumber='3' or  employeeNumber='6' or employeeNumber='9';
+
+-- TABEL CUSTOMER DAN ISINYA --
+create table customer(
+    customerNumber int identity(1,1) primary key,
+    customerName varchar(50) null,
+    contactLastName varchar(15) null,
+    contactFirstName varchar(15) not null,
+    phone varchar(15) null,
+    addressLine1 varchar(50) null,
+    addressLine2 varchar(50) null,
+    city varchar(15) null,
+    states varchar(15) null,
+    postalCode int null,
+    country varchar(15) null,
+    salesRepEmployeeNumber int,
+    creditLimit int not null,
+    foreign key (salesRepEmployeeNumber) references employees(employeeNumber),
+);
+insert into customer(customerName,contactLastName,contactFirstName,phone,addressLine1,addressLine2,city,states,postalCode,country,salesRepEmployeeNumber,creditLimit) values
+	('IMAN','IMAN','IMAN','0821','WARU','','SIDOARJO','JAWATIMUR','67212','INDONESIA','1','450'),
+    ('KRISNA','KRISNA','KRISNA','0812','SUKOLILO','','SURABAYA','JAWATIMUR','62531','INDONESIA','1','200'),
+    ('ALAM','ALAM','ALAM','0813','GKB','','JOMBANG','JAWATIMUR','65423','INDONESIA','1','150'),
+    ('NANTA','NANTA','NANTA','0814','WARU','','SIDOARJO','JAWATIMUR','53423','INDONESIA','7','200'),
+    ('BAGUS','BAGUS','BAGUS','0815','PUNCAK','','PASURUAN','JAWATIMUR','62311','INDONESIA','7','200'),
+    ('ILHAM','ILHAM','ILHAM','0816','TALUN','','BLITAR','JAWATIMUR','63412','INDONESIA','4','200'),
+    ('WAYS','WAYS','WAYS','0817','GKB','','MOKER','JAWATIMUR','61231','INDONESIA','4','250'),
+    ('TIA','TIA','TIA','0818','BARUK','','SURABAYA','JAWATIMUR','63242','INDONESIA','4','200'),
+    ('SIFA','SIFA','SIFA','0819','JAKSEL','','JAKARTA','JAWA BARAT','65431','INDONESIA','7','200'),
+    ('FIKI','FIKI','FIKI','0820','BALONGPANGGANG','','GRESIK','JAWATIMUR','67212','INDONESIA','4','600');
+	
+    
+-- TABEL PRODUCTLINES DAN ISINYA --
+create table productlines(
+    productLine varchar(15) primary key,
+    textDescription varchar(50) not null, 
+    htmlDescription varchar(50) null,
+    images varbinary(max) null,
+);
+insert into productlines(productLine, textDescription) values
+    ('SUV','SEBUAH MOBIL'),
+    ('MPV','SEBUAH MOBIL'),
+    ('HATCHBACK','SEBUAH MOBIL'),
+    ('LCGC','SEBUAH MOBIL'),
+    ('SPORT CAR','SEBUAH MOBIL'),
+    ('4X4','SEBUAH MOBIL'),
+    ('BEBEK','SEBUAH MOTOR'),
+    ('MANUAL','SEBUAH MOTOR'),
+    ('MATIC','SEBUAH MOTOR'),
+    ('BEKAS','SEBUAH MOBIL ATAU MOTOR BEKAS');
+
+-- TABEL PRODUCTS DAN ISINYA --
+create table products(
+    productCode int identity(1,1) primary key,
+    productName varchar(25) not null,
+    productLine varchar(15) not null,
+    productScale varchar(15) null,
+    productVendor varchar(15) null,
+    productDescription varchar(100) not null,
+    quantityInStock int not null,
+    buyPrice int not null,
+    MSRP varchar(15) null,
+    foreign key (productLine) references productlines(productLine)
+);
+insert products(productName,productLine,productDescription,quantityInStock,buyPrice) values
+    ('SUPRAX','BEBEK','MOTOR MEREK HONDA','40','2000'),
+    ('SUPRAX BEKAS','BEKAS','MOTOR MEREK HONDA TAPI BEKAS','20','1100'),
+    ('BEAT','MATIC','MOTOR MEREK HONDA','3','1500'),
+    ('AGYA','LCGC','MOBIL MEREK DAIHATSU','40','6000'),
+    ('AYLA','LCGC','MOBIL MEREK TOYOTA','40','6000'),
+    ('DATSUN-GO','LCGC','MOBIL MEREK DATSUN','40','5500'),
+    ('BEAT BEKAS','BEKAS','MOTOR MEREK HONDA','3','900'),
+    ('AGYA BEKAS','BEKAS','MOBIL MEREK DAIHATSU','1','4900'),
+    ('AYLA BEKAS','BEKAS','MOBIL MEREK TOYOTA','2','5100'),
+    ('DATSUN-GO BEKAS','BEKAS','MOBIL MEREK DATSUN','3','5000');
+
+-- TABEL ORDERS DAN ISINYA --
+create table orders(
+    orderNumber int identity(1,1) primary key ,
+    orderDate date not null,
+    requiredDate date not null,
+    shipped date not null, 
+    status varchar(15) null,
+    comments varchar(100) null,
+    customerNumber int,
+    foreign key (customerNumber) references customer(customerNumber)
+);
+insert into orders(orderDate,requiredDate,shipped,status,comments,customerNumber) values
+    ('2021-11-25','2021-11-25','2021-11-26','PAID','NO COMMENTS','1'),
+    ('2021-11-25','2021-11-25','2021-11-26','PAID','NO COMMENTS','2'),
+    ('2021-11-25','2021-11-25','2021-11-26','PAID','NO COMMENTS','3'),
+    ('2021-11-25','2021-11-25','2021-11-26','PAID','NO COMMENTS','4'),
+    ('2021-11-25','2021-11-25','2021-11-26','PENDING','NO COMMENTS','5'),
+    ('2021-11-25','2021-11-25','2021-11-26','PAID','NO COMMENTS','6'),
+    ('2021-11-25','2021-11-25','2021-11-26','PAID','NO COMMENTS','7'),
+    ('2021-11-25','2021-11-25','2021-11-26','PENDING','NO COMMENTS','8'),
+    ('2021-11-25','2021-11-25','2021-11-26','PAID','NO COMMENTS','9'),
+    ('2021-11-25','2021-11-25','2021-11-26','PAID','NO COMMENTS','10');
+
+-- TABEL ORDERDETAILS DAN ISINYA --
+create table orderdetails(
+    orderNumber int,
+    productCode int,
+    quantityOrdered int null,
+    priceEach int null,
+    orderLineNumber varchar(20) null,
+    foreign key (orderNumber) references orders(orderNumber),
+    foreign key (productCode) references products(productCode),
+);
+insert into orderdetails(orderNumber,productCode,quantityOrdered,priceEach,orderLineNumber) values
+    ('1','1','1','2100',''),
+    ('2','2','1','1200',''),
+    ('3','3','1','1600',''),
+    ('4','4','1','6100',''),
+    ('5','5','1','6500',''),
+    ('6','6','1','6550',''),
+    ('7','7','1','1000',''),
+    ('8','8','1','5000',''),
+    ('9','9','1','5300',''),
+    ('10','10','1','5200','');
+
+-- TABEL PAYMENTS DAN ISINYA --
+create table payments(
+    customerNumber int,
+    checkNumber int primary key,
+    paymentDate date not null,
+    amount int null,
+    foreign key (customerNumber) references customer(customerNumber),
+);
+insert into payments(customerNumber,checkNumber,paymentDate,amount) values
+    ('1','4321','2021-11-25','2100'),
+    ('2','4322','2021-11-25','1200'),
+    ('3','4323','2021-11-25','1600'),
+    ('4','4324','2021-11-25','6100'),
+    ('5','4325','2021-11-25','6500'),
+    ('6','4326','2021-11-25','6550'),
+    ('7','4327','2021-11-25','1000'),
+    ('8','4328','2021-11-25','5000'),
+    ('9','4329','2021-11-25','5300'),
+    ('10','4330','2021-11-25','5200');
+
+-- DIAGRAM ERD --

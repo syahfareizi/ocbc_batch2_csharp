@@ -1,0 +1,52 @@
+a.  
+create database nama_staf;
+b.  
+create table data_staf(nik int primary key,nama varchar(50)null,alamat varchar(150)null, handphone varchar(15)null);
+c.  
+insert into data_staf(nik, nama, alamat, handphone) values ('001','Syah Muhammad Alfareizi','Gresik','001');
+d.  
+insert into data_staf(nik, nama, alamat, handphone) values ('002','Yanto','Gresik','002');
+
+insert into data_staf(nik, nama, alamat, handphone) values ('003','Naruto','Surabaya','003');
+e.
+alter table data_staf add joindate date;
+
+insert into data_staf(nik, nama, alamat, handphone,joindate) values ('004','Sasuke','Surabaya','0044','2021-04-05');
+f.
+select top (2) [nik]
+      ,[nama]
+      ,[alamat]
+      ,[handphone]
+      ,[joindate]
+  from [nama_staf].[dbo].[data_staf];
+g.
+select top (3) [nik]
+      ,[nama]
+      ,[alamat]
+      ,[handphone]
+      ,[joindate]
+  from [nama_staf].[dbo].[data_staf];
+h.
+create table stafoutsource(nik int primary key,nama varchar(50)null,alamat varchar(150)null, handphone varchar(15)null, joindate date null);
+i.
+insert into stafoutsource(nik, nama, alamat, handphone,joindate) values 
+('005','Alex','Surabaya','0055','2021-04-05'),
+('006','Hanif','Surabaya','0066','2021-05-05'), 
+('007','Joko','Malang','0077','2021-04-06'),
+('008','Kribo','Bandung','0088','2020-04-05'), 
+('009','Katak','Surabaya','0099','2021-05-05'),
+('010','Bokir','Tangerang','0010','2021-05-05'),
+('011','Dhony','Gresik','0011','2021-03-05'),
+('012','Rifqi','Gresik','0012','2021-02-05'),
+('013','Matt','Surabaya','0013','2021-09-05'),
+('014','Afella','Surabaya','0014','2021-08-05');
+j.
+select * from data_staf inner join stafoutsource on data_staf.joindate=stafoutsource.joindate;
+k.
+select * from data_staf right join stafoutsource on data_staf.joindate=stafoutsource.joindate;
+l.
+select * from data_staf left join stafoutsource on data_staf.joindate=stafoutsource.joindate;
+m.
+select * from data_staf union select * from stafoutsource;
+
+

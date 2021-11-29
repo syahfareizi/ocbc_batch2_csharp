@@ -1,0 +1,16 @@
+C:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\program5.csproj.AssemblyReference.cache
+C:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\program5.GeneratedMSBuildEditorConfig.editorconfig
+C:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\program5.AssemblyInfoInputs.cache
+C:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\program5.AssemblyInfo.cs
+C:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\program5.csproj.CoreCompileInputs.cache
+c:\OCBCHACKTIVE\sesi_5\program5\bin\Debug\net5.0\program5.exe
+c:\OCBCHACKTIVE\sesi_5\program5\bin\Debug\net5.0\program5.deps.json
+c:\OCBCHACKTIVE\sesi_5\program5\bin\Debug\net5.0\program5.runtimeconfig.json
+c:\OCBCHACKTIVE\sesi_5\program5\bin\Debug\net5.0\program5.runtimeconfig.dev.json
+c:\OCBCHACKTIVE\sesi_5\program5\bin\Debug\net5.0\program5.dll
+c:\OCBCHACKTIVE\sesi_5\program5\bin\Debug\net5.0\ref\program5.dll
+c:\OCBCHACKTIVE\sesi_5\program5\bin\Debug\net5.0\program5.pdb
+c:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\program5.dll
+c:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\ref\program5.dll
+c:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\program5.pdb
+c:\OCBCHACKTIVE\sesi_5\program5\obj\Debug\net5.0\program5.genruntimeconfig.cache

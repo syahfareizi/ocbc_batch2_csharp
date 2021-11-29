@@ -1,0 +1,14 @@
+Assignment I
+
+Aplikasi ini merupakan Assignment pertama dalam Bootcamp, cara menggunakan aplikasi ini adalah sebagai berikut :
+    1. jalankan aplikasi dengan klik kanan pada workspace kemudian klik "Run Code"
+    2. setelah dijalankan akan muncul Menu soal yang akan menampilkan jawaban berdasarkan pilihan dari user.
+    3. apabila user ingin kembali memilih menu dapat menekan tombol "y" pada keyboard agar dapat kembali kedalam menu awal aplikasi.
+
+demikian penjelasan singkat tentang cara penggunakan aplikasi sederhana. 
+
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp.git
+

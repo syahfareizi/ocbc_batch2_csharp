@@ -1,0 +1,27 @@
+1. buat folder Models,
+2. buat file dengan nama ItemData.cs (dalam folder model ) dan ApiDbContext.cs (dalam folder data)
+
+3. appsetting.json tambahkan connection String 
+
+4. setting startup.cs menambahkan services.AddDbContext 
+
+5. Migrasi database menggunakan initial Migration 
+
+6. update database menggunakan perintah dotnet ef
+
+7. melanjutkan koding dari TodoController.cs 
+
+8. jalankan dotnet run pada terminal 
+
+9. jika ada error jalankan perintah dotnet run watch ( untuk mengecek jika terjadi error )
+
+10. pastikan running dan bisa mengakses https://localhost:5001/api/todo ( pastikan data todo dapat ditampilkan berbentuk JSON )
+
+11. pengecekan dapat dilakukan dengan menggunakan postman 
+
+12. sesuaikan dengan kondisi nya CRUD 
+-- POST,jika post pilih tab body dengan memilih raw dan tipe konten yaitu JSON 
+-- DELETE,jika post pilih tab body dengan memilih raw dan tipe konten yaitu JSON ( apabila menggunakan parameter maka dalam tautan akan muncul "-" )
+
+
+
