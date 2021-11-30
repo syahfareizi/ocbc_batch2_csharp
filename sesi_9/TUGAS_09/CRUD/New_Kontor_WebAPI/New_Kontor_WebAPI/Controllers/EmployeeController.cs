@@ -39,16 +39,16 @@ namespace New_Kantor_WebAPI.Controllers
             return _context.DeleteEmployee(id);
         }
         [HttpPut("{id}")]
-        public ActionResult<IEnumerable<EmployeeItem>> PutEmployeeItem(string id,string nama , string jenisKelamin, string alamat)
+        public ActionResult<IEnumerable<EmployeeItem>> PutEmployeeItem(string id, EmployeeItem item)
         {
             _context = HttpContext.RequestServices.GetService(typeof(EmployeeContext)) as EmployeeContext;
-            return _context.PutEmployee(id,nama,jenisKelamin,alamat);
+            return _context.PutEmployee(id,item);
         }
         [HttpPost]
-        public ActionResult<IEnumerable<EmployeeItem>> PostEmployeeItem( string nama, string jenisKelamin, string alamat)
+        public ActionResult<IEnumerable<EmployeeItem>> PostEmployeeItem(EmployeeItem item)
         {
             _context = HttpContext.RequestServices.GetService(typeof(EmployeeContext)) as EmployeeContext;
-            return _context.PostEmployee(nama, jenisKelamin, alamat);
+            return _context.PostEmployee(item);
         }
     }
 }

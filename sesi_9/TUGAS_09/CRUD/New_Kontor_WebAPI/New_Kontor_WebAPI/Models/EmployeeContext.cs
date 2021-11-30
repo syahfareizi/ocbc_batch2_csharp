@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Microsoft.AspNetCore.Mvc;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -67,10 +68,9 @@ namespace New_Kantor_WebAPI.Models
             }
             return list;
         }
-        public List<EmployeeItem> DeleteEmployee (string id)
+        public JsonResult DeleteEmployee(string id)
         {
-            List<EmployeeItem> list = new List<EmployeeItem>();
-
+            string result;
             using (MySqlConnection conn = GetConnection())
             {
                 conn.Open();
@@ -78,74 +78,60 @@ namespace New_Kantor_WebAPI.Models
                 cmd.Parameters.AddWithValue("@id", id);
                 using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
-                    while (reader.Read())
+                    if (reader != null)
                     {
-                        list.Add(new EmployeeItem()
-                        {
-                            id = reader.GetInt32("id"),
-                            nama = reader.GetString("nama"),
-                            jenisKelamin = reader.GetString("jenis_kelamin"),
-                            alamat = reader.GetString("alamat")
-                        });
+                        result = "Data Deleted!";
+                    }
+                    else
+                    {
+                        result = "Something Went Wrong!";
                     }
                 }
             }
-            return list;
+            return new JsonResult(result);
         }
-        public List<EmployeeItem> PutEmployee(string id,string nama, string jenisKelamin, string alamat)
+        public JsonResult PutEmployee(string id,EmployeeItem item)
         {
-            List<EmployeeItem> list = new List<EmployeeItem>();
-
+            string result;
             using (MySqlConnection conn = GetConnection())
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand("update employee set nama=@nama,jenis_kelamin=@jenisKelamin,alamat=@alamat where id=@id", conn);
+                MySqlCommand cmd = new MySqlCommand($"update employee set nama='{ item.nama }',jenis_kelamin='{item.jenisKelamin}',alamat='{item.alamat}' where id=@id", conn);
                 cmd.Parameters.AddWithValue("@id", id);
-                cmd.Parameters.AddWithValue("@nama", nama);
-                cmd.Parameters.AddWithValue("@jenisKelamin", jenisKelamin);
-                cmd.Parameters.AddWithValue("@alamat", alamat);
                 using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
-                    while (reader.Read())
-                    {
-                        list.Add(new EmployeeItem()
+                        if (reader != null)
                         {
-                            id = reader.GetInt32("id"),
-                            nama = reader.GetString("nama"),
-                            jenisKelamin = reader.GetString("jenis_kelamin"),
-                            alamat = reader.GetString("alamat")
-                        });
-                    }
+                            result = "Data Updated!";
+                        }
+                        else
+                        {
+                            result = "Something Went Wrong!";
+                        }
                 }
             }
-            return list;
-        }
-        public List<EmployeeItem> PostEmployee(string nama,string jenisKelamin, string alamat)
+            return new JsonResult(result);
+        }   
+        public JsonResult PostEmployee(EmployeeItem item)
         {
-            List<EmployeeItem> list = new List<EmployeeItem>();
+            string result;
             using (MySqlConnection conn = GetConnection())
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into employee(nama,jenis_kelamin,alamat) values(@nama,@jenisKelamin,@alamat);", conn);
-                cmd.Parameters.AddWithValue("@nama", nama);
-                cmd.Parameters.AddWithValue("@jenisKelamin", jenisKelamin);
-                cmd.Parameters.AddWithValue("@alamat", alamat);
+                MySqlCommand cmd = new MySqlCommand($"insert into employee(nama,jenis_kelamin,alamat) values('{item.nama}','{item.jenisKelamin}','{item.alamat}');", conn);
                 using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
-                    while (reader.Read())
-                    {
-                        list.Add(new EmployeeItem()
+                        if (reader != null)
                         {
-                            id = reader.GetInt32("id"),
-                            nama = reader.GetString("nama"),
-                            jenisKelamin = reader.GetString("jenis_kelamin"),
-                            alamat = reader.GetString("alamat")
-
-                        });
-                    }
+                            result = "Data Added!";
+                        }
+                        else
+                        {
+                            result = "Something Went Wrong!";
+                        }
                 }
             }
-            return list;
+            return new JsonResult(result);
         }
     }
 }

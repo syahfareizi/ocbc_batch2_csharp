@@ -8,7 +8,7 @@ using New_TodoApp.Data;
 namespace New_TodoApp.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20211126093830_Initial Migrations")]
+    [Migration("20211130125408_Initial Migrations")]
     partial class InitialMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
