@@ -33,7 +33,7 @@ namespace New_TodoApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
+                
             services.AddDbContext<ApiDbContext>(option =>
                 option.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -76,7 +76,7 @@ namespace New_TodoApp
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "New_TodoApp v1"));
             }
-
+            app.UseAuthentication();
             app.UseHttpsRedirection();
 
             app.UseRouting();

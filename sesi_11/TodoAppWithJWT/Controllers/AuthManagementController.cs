@@ -155,7 +155,7 @@ namespace TodoAppWithJWT.Controllers
                 IsRevorked = false,
                 UserId = user.Id,
                 AddedDate = DateTime.UtcNow,
-                ExpiryDate = DateTime.UtcNow.AddMonths(6),
+                ExpiryDate = DateTime.UtcNow.AddHours(1),
                 Token = RadomString(35) + Guid.NewGuid()
             };
 
