@@ -141,7 +141,7 @@ namespace PaymentAPI.Controllers
                     new Claim(JwtRegisteredClaimNames.Sub, user.Email),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                 }),
-                Expires = DateTime.UtcNow.AddSeconds(30),
+                Expires = DateTime.UtcNow.AddSeconds(1800),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 
@@ -155,7 +155,7 @@ namespace PaymentAPI.Controllers
                 IsRevorked = false,
                 UserId = user.Id,
                 AddedDate = DateTime.UtcNow,
-                ExpiryDate = DateTime.UtcNow.AddHours(1),
+                ExpiryDate = DateTime.UtcNow.AddSeconds(1800),
                 Token = RadomString(35) + Guid.NewGuid()
             };
 
