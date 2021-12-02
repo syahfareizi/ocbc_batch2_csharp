@@ -75,7 +75,7 @@ namespace PaymentAPI
                 IssuerSigningKey = new SymmetricSecurityKey(key),
                 ValidateIssuer = false,
                 ValidateAudience = false,
-                ValidateLifetime = false,
+                ValidateLifetime = true,
                 ClockSkew = TimeSpan.Zero
             };
             services.AddSingleton(TokenValidationParameters);
@@ -89,7 +89,7 @@ namespace PaymentAPI
             })
             .AddJwtBearer(jwt =>
             {
-                 jwt.SaveToken = true;
+                jwt.SaveToken = true;
                 jwt.TokenValidationParameters = TokenValidationParameters;
             });
             services.AddDefaultIdentity<IdentityUser>(option => option.SignIn.RequireConfirmedAccount = true)
