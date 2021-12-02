@@ -1,0 +1,16 @@
+C:\OCBCHACKTIVE\sesi_1\helloword\bin\Debug\net5.0\helloword.exe
+C:\OCBCHACKTIVE\sesi_1\helloword\bin\Debug\net5.0\helloword.deps.json
+C:\OCBCHACKTIVE\sesi_1\helloword\bin\Debug\net5.0\helloword.runtimeconfig.json
+C:\OCBCHACKTIVE\sesi_1\helloword\bin\Debug\net5.0\helloword.runtimeconfig.dev.json
+C:\OCBCHACKTIVE\sesi_1\helloword\bin\Debug\net5.0\helloword.dll
+C:\OCBCHACKTIVE\sesi_1\helloword\bin\Debug\net5.0\ref\helloword.dll
+C:\OCBCHACKTIVE\sesi_1\helloword\bin\Debug\net5.0\helloword.pdb
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\helloword.csproj.AssemblyReference.cache
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\helloword.GeneratedMSBuildEditorConfig.editorconfig
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\helloword.AssemblyInfoInputs.cache
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\helloword.AssemblyInfo.cs
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\helloword.csproj.CoreCompileInputs.cache
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\helloword.dll
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\ref\helloword.dll
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\helloword.pdb
+C:\OCBCHACKTIVE\sesi_1\helloword\obj\Debug\net5.0\helloword.genruntimeconfig.cache

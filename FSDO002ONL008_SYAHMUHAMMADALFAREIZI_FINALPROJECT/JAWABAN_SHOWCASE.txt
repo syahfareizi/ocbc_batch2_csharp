@@ -1,0 +1,37 @@
+pastikan docker engine sudah jalan pada pc pengguna 
+menambahkan Dockerfile sebagai blueprint docker image yang akan dibuat
+menambah file .dockerignore di luar directory 
+buka terminal dan pastikan sudah masuk kedalam folder yang ada Dockerfile
+jalan perintah "docker build -t [nama_image]:dev .
+
+====================
+
+yang folder kosong yang menjadi nama project
+masuk terminal pada folder tersebut
+jalankan perintah 
+	"dotnet new console" => membuat project baru ( template )
+	"dotnet run" => running
+
+====================
+
+gitclone
+	membuat folder baru
+	buka terminal/git bash
+	jalankan perintah
+		"git clone [url git yang akan di clone]"
+
+gitpush 
+	git init ( apabila belum ada )
+	git status
+	git remote -v
+	git remote add [nama_remote] [url git yang akan di clone]
+	git status ( check branch )
+	git checkout -b [branch tujuan]
+	git status ( melihat file file )
+	git add . / bisa aja file tertentu 
+	git commit -m "[tag]"
+	git pull --allow-unrelated-histories
+	git push -u [nama_remote] [nama_branch]
+
+.git 
+
