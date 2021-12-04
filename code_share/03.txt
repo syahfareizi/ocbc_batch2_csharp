@@ -1,0 +1,153 @@
+
+
+=== GITHUB LINK ===
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP.git
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari : Belajar perulangan seperti for, do while, while, dan if, nested if, switch.
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+GitHub link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_03
+Keterangan   : Selesai pengerjaan pada sesi 3
+Improve kode : Mempelajari function dalam pemrogramman.
+Issue kode   : Tidak ada.
+
+Kode peserta: FSDO002ONL013
+Nama peserta: Deandri Firdaus
+GitHub link : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%202/Sesi03
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari : Belajar perulangan seperti for, if, nested if, do while, while, dan switch.
+Improve kode : Logika4 untuk nilai antara 26 sampai 44 akan menghasilkan kosong karena belum dimasukkan di kodingan dan sebaiknya mengakhiri nested if dengan else. 
+Improve kode : Logika4 sebaiknya else if (nilai >= 25) untuk nilai D dan else untuk nilai E.
+Improve kode : Logika5 mendapatkan warning CS0162: Unreachable code detected jika memasukkan Console.ReadLine(); setelah default:{}, namun tidak error jika tidak memasukkan ReadLine();
+Improve kode : Logika6 dan Logika7 dapan menggunakan iterasi a++
+Improve kode : Logika8 tidak perlu menambahkan if, hanya mengganti while menjadi while (i<=5);
+Issue masalah : Tidak ada
+
+Kode peserta: FSDO002ONL016
+Nama peserta: Esra Delima Manurung
+GitHub link : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi03
+Keterangan  : Sudah selesai menjalankan code program yang ada di modul sesi 3
+Yang sudah dipelajari : Belajar perulangan seperti for, if, nested if, do while, while, dan SwitchCase.
+
+Kode peserta: FSDO002ONL019
+Nama peserta: Denny Tandiono
+GitHub link : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi03
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari : Mempelajari for, do while, while , if , nested if ,if else, dan switch case
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi03
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari: Mempelajari conditional (if..else, switch..case, nested if) dan looping (for, do..while, while)
+
+Kode peserta: FSDO002ONL020
+Nama peserta: Duvan Sanjaya
+Github link: https://github.com/Duvans/OCBC-BATCH2-CSharp.git
+Keterangan: Sudah selesai untuk sesi 3
+Yang sudah dipelajari : Belajar Looping(do while, while, for) dan IF ELSE condition, nested if, switch case.
+
+Kode peserta: FSDO002ONL012
+Nama peserta: Agung Wicaksono
+GitHub link : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi03
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari : Belajar C# logic Programming dengan
+menggunakan perulangan dan percabangan.
+isue: -
+Improve Code : -
+
+Kode peserta: FSDO002ONL003
+Nama peserta: Alwi Azra Akbar Djunaid
+URL GitHub: https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi03
+Keterangan: Sesi 3 telah selesai
+Yang dipelajari: Mempelajari syntax untuk logika pemrograman (conditional, switch case, dan loop)
+Issues : -
+Improve code : mengubah a + 1 menjadi a++ pada logika 6 dan 7, menghilangkan Console.ReadLine() pada switch case untuk menghilangkan warning pada logika 5
+
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Sesi03
+Keterangan : Sudah Selesai untuk sesi 3
+yang sudah dipelajarain : logika pemrograman( conditional dan loop)
+issues : tidak ada.
+Improve code : tidak ada
+
+Kode peserta: FSDO002ONL007
+Nama peserta: Yosianus Antonio
+GitHub link : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi03
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari :
+  1. Perulangan  : (If Else, Switch Case) 
+  2. Pengkondisian: (for, Do While, While)
+issue: -
+Improve Code : -
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp.git
+Keterangan : sudah selesai untuk sesi 3
+Hal yang dipelajari : mempelajari bagaimana perulangan pada C# ( for, while, do while, dsb)
+Issues : tidak ada
+Improve code : tidak ada
+
+
+Kode peserta: FSDO002ONL018
+Nama peserta: Gilang Trisetya Indrawan
+GitHub link : https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari: Mempelajari conditional atau percabangan (if..else, switch..case, nested if) dan
+looping atau perulangan (for, do..while, while)
+
+Kode peserta: FSDO002ONL010
+Nama peserta: Abraham Haholongan Narmada Pohan
+GitHub link : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi03
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari :
+  1. Condition  : (If Else, Switch Case) 
+  2. Looping : (for, Do While, While)
+Issue: -
+Improve Code : -
+
+Kode peserta: FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link : https://github.com/pieter17/OCBC-BATCH2-CSharp
+Keterangan  : Sudah selesai untuk sesi 3
+Yang sudah dipelajari : Logika pemograman pengkodisian (if, else if, else, switch case) dan perulangan (for, do while, while)
+issue: Logika4 ada yang salah logika
+Improve Code : Memperbaiki logika di file logika 4
+
+Kode peserta: FSDO002ONL002
+Nama peserta: Widyawati Nur Sholikhah
+GitHub link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi03
+Keterangan  : telah menyelesaikan sesi 3
+Yang sudah dipelajari : belajar logika
+Improve kode : logika4 mengubah <=25 menjadi >=25 dan selain itu menggunakan else
+Issue masalah : -
+
+Kode peserta: FSDO002ONL005
+Nama peserta: Ika Muliana Devi
+GitHub link : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi3
+Keterangan  : sudah selesai untuk sesi 3
+Yang sudah dipelajari : belajar pengkondisian dan perulangan
+Improve kode : -
+Issue masalah : -
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link : https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 3
+Yang sudah dipelajari : Belajar perulangan, pengkondisian, dan switch case
+
+Kode peserta : FSDO002ONL006
+Nama peserta : Victorio Vincent Sugianto
+GitHub link : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi03
+Keterangan : Sudah selesai untuk sesi 3
+Yang sudah dipelajari : mempelajari perulangan pada C# seperti for, while, do while, dll.
+Improve kode : -
+Issue masalah : -
+

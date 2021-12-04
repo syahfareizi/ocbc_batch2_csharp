@@ -1,0 +1,152 @@
+Kode peserta	: FSDO002ONL016
+Nama peserta	: Esra Delima Manurung
+GitHub link 	:https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi09
+Keterangan 	: Sudah Selesai untuk sesi 9 
+issues 		: Tidak ada
+Improve code 	: Menambahkan Tugas CRUD
+
+Kode peserta: FSDO002ONL019
+Nama peserta : Denny Tandiono
+Github Link: https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi09
+Keterangan : Sesi 9 selesai + tugas
+Issues :  -
+Code Improvement : add CRUD
+
+Kode peserta	: FSDO002ONL018
+Nama peserta	: Gilang Trisetya Indrawan
+GitHub link 	: https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi09
+Keterangan 		: Sudah Selesai untuk sesi 9 beserta tugas
+issues 				: Tidak ada
+Improve code 	: validasi update, delete, get user by id. add swagger ui
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+GitHub link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_09
+Keterangan   : live code sesi 9 dan tugas sesi 9 sudah selesai
+issue        : masih bingung membuat crud
+imporve code : menambah pengetahuan baru buat saya.
+
+Kode peserta : FSDO002ONL010
+Nama peserta : Abraham Haholongan Narmada Pohan
+GitHub link  : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi09
+Keterangan   : Sudah selesai untuk sesi 9 & Tugas CRUD
+issue        : -
+imporve code : Tambah Tugas CRUD
+
+Kode peserta	: FSDO002ONL015
+Nama peserta	: Pieter Christian Wenji
+GitHub link 	: https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi09/Kantor_WebAPI
+Keterangan 		: Sudah Selesai untuk sesi 9 
+issues 				: Tidak ada
+Improve code 	: tambah tugas CRUD
+
+Kode peserta	: FSDO002ONL013
+Nama peserta	: Deandri Firdaus
+GitHub link 	: https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%205/Sesi09
+Keterangan 		: Sudah Selesai untuk sesi 9 
+issues 				: Tidak ada
+Improve code 	: -
+
+Kode peserta	: FSDO002ONL020
+Nama peserta	: Duvan Sanjaya
+Github link		: https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/Sesi09
+Keterangan		: Sudah selesai untuk sesi 9
+issue 				: -
+Improve Code	: Swagger + Tugas(CRUD)
+
+Kode peserta : FSDO002ONL0007
+Nama peserta : Yosianus Antonio
+GitHub link  : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi09
+Keterangan   : Sudah selesai untuk sesi 9 
+issue        : -
+imporve code : Menggunakan Swagger sudah delete untuk tugas
+
+Kode peserta	: FSDO002ONL014
+Nama peserta	: Dini Puspita Sukma Ariyanti
+GitHub link 	: https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi09
+Keterangan  	: Sudah selesai untuk sesi 9 beserta crud
+issue 				: -
+improve code	: menambah create, delete, update. menggunakan unit test swagger.
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link  : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Sesi9
+Keterangan   : Sudah selesai untuk sesi 9 dan Tugas 9
+issue        : -
+
+Nama Peserta  : Victorio Vincent Sugianto
+Kode Peserta  : FSDO002ONL006
+GitHub Link   : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi09
+Keterangan    : Sudah selesai untuk sesi 9 beserta tugasnya
+
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Sesi09
+Keterangan   : Sudah selesai untuk sesi 9 dan tugas 9
+issue        : -
+imporve code : -
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/sesi_9
+Keterangan : sudah selesai untuk sesi 9 dan tugas	
+Hal yang dipelajari : mempelajari cara membuat REST API
+Issues : belum bisa testing menggunakan postman, tapi kalo pake swagger bisa jalan lancar
+Improve code : tidak ada
+
+Kode peserta: FSDO002ONL002
+Nama peserta: Widyawati Nur Sholikhah
+GitHub link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi09
+Keterangan  : sudah selesai sesi 9 dan tugas
+Yang sudah dipelajari : mempelajari api dan cara memecahkan kode package yg harus sesuai semua versinya. hmmm :)
+Improve kode : -
+Issue masalah : -
+
+Kode peserta : FSDO002ONL012
+Nama peserta : Agung Wicaksono
+Github link  : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi09
+Keterangan   : sudah selesai sesi 9 dan tugas 9
+Hal yang dipelajari : mempelajari pembuatan API menggunakan ASP.NET
+Improve code : -
+Issue : -
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link ass1: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 9
+Yang sudah dipelajari : Menyambungkan web API dengan database
+
+Kode peserta: FSDO002ONL003
+Nama peserta: Alwi Azra Akbar Djunaid
+GitHub link: https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi09
+GitHub link Tugas sesi 9: https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi09/Tugas09
+Keterangan  : Sesi 9 beserta tugasnya telah selesai
+Yang sudah dipelajari : Menyambungkan web API dengan database
+
+Kode peserta: FSDO002ONL005
+Nama peserta: Ika Muliana Devi
+GitHub link: https: https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi9
+GitHub link Tugas sesi 9: https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi9/Tugas09
+Keterangan  : Sesi 9 beserta tugasnya telah selesai
+Yang sudah dipelajari : pembuatan web api dan menyambungkan web API dengan database
+
+web API
+
+
+-------------------------------------------------------
+Tugas 9
+
+Kode Peserta :
+Nama Peserta :
+
+Struktur Folder:
+Sesi09/Kantor_WebAPI
+Sesi09/Kantor_WebAPI2 //opsional jika mengerjakan 2 kali
+Sesi09/Tugas_09 //CRUD
+
+Tata cara penggunaan aplikasi tugas 9:
+-CRUD
+-postman -> save collection dan workspace
+
+Push ke Github

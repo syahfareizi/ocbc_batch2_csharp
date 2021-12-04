@@ -1,0 +1,267 @@
+Kode peserta	: FSDO002ONL018
+Nama peserta	: Gilang Trisetya Indrawan
+GitHub link 	: https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi10
+Keterangan 		: Sudah Selesai untuk sesi 10
+issues 				: Tidak ada
+Improve code 	: -
+
+Kode peserta	: FSDO002ONL003
+Nama peserta	: Alwi Azra Akbar Djunaid
+GitHub link 	: https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi10
+Keterangan 		: Sudah Selesai untuk sesi 10
+issues 				: Perlu sedikit menggali internet dan dokumentasi untuk mengimpor namespace yang diperlukan
+Improve code 	: -
+
+Nama Peserta  : Victorio Vincent Sugianto
+Kode Peserta  : FSDO002ONL006
+GitHub Link   : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi10
+Keterangan 		: Sudah Selesai untuk sesi 10
+issues 				: kurang teliti mengikuti langkah2 dari kode.id (mengerjakan tidak urut)
+Improve code 	: -
+
+Kode peserta: FSDO002ONL019
+Nama peserta : Denny Tandiono
+Github Link: 
+			Sesi 10 :https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi10
+			Assignment 3 : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Assignment3
+Keterangan : Sesi 10 selesai
+Issues : harus teliti dan banyak mencari references package/library
+Code Improvement :
+
+Kode peserta  : FSDO002ONL009
+Nama peserta  : Muhammad Fikri Azhar
+GitHub link   : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_10
+Keterangan    : Sudah selesai sesi 10
+Issues        : harus teliti dengan package yang dipakai.
+Improve code  : -
+
+Kode peserta			: FSDO002ONL014
+Nama peserta			: Dini Puspita Sukma Ariyanti
+GitHub link 			: https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi10
+Github Assignment	:	https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/014_DiniPuspitaSukmaA_Assignment3
+Keterangan  			: Sudah selesai untuk sesi 10
+issues						: harus teliti dan mencari sendiri references yang diperlukan
+Improve code			: -
+
+Kode peserta	: FSDO002ONL007	
+Nama peserta	: Yosianus Antonio
+GitHub link 	: 
+		Sesi 10 	: https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi10/belajar
+    Tugas09 	: https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi09/Tugas09
+    Assigment : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/007_YosianusAntonio_Assigment3
+Keterangan 		: Sudah Selesai untuk sesi 10
+issues 				: teliti dalam setiap syntax dan perlu mengenal libraries/package
+Improve code 	: -
+
+Kode peserta	: FSDO002ONL001
+Nama peserta	: David Chrissando Frizky
+GitHub link 	: https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/sesi10
+Keterangan  	: Sudah selesai untuk sesi 10
+issues				: harus teliti dan mencari sendiri references yang diperlukan
+Improve code	: -
+
+Kode peserta	: FSDO002ONL015
+Nama peserta	: Pieter Christian Wenji
+GitHub link 	: https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi10
+Keterangan  	: Sudah selesai untuk sesi 10
+issues				: teliti dalam penggunaan package
+Improve code	: -
+
+Kode peserta 	: FSDO002ONL012
+Nama peserta	: Agung Wicakono
+Github link		: https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi10
+Keterangan		: sudah selesai untuk sesi 10
+Issues				: Teliti pada penggunaan packages
+improve code	: -
+
+Kode peserta	: FSDO002ONL010
+Nama peserta	: Abraham Haholongan Narmada Pohan
+GitHub link 	: 
+		Sesi 10 	: https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi10/belajar
+    Assigment : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/010_AbrahamHaholonganNarmadaPohan_Assignment3
+Keterangan 		: Sudah Selesai untuk sesi 10 & Assignment 3
+issues 				: Ketelitian dalam penulisan syntax dan juga penggunaan packages
+Improve code 	: -
+
+Kode peserta 	: FSDO002ONL016
+Nama peserta	: Esra Delima Manurung
+Github link	  : 
+			Sesi10  : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi10
+      Tugas 9 : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi09/Tugas
+  Assignment 3:https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/FSDO002ONL016_EsraDelimaManurung_Assigment3
+Keterangan	  : sudah selesai untuk sesi 10
+Issues		    : Teliti pada penggunaan packages
+improve code	: -
+
+Kode peserta 	: FSDO002ONL013
+Nama peserta	: Deandri Firdaus
+Github link		: 
+    Sesi10 	  : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%205/Sesi10
+    Tugas09 	: https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%205/Sesi09/Tugas_09
+    Assigment : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Assigment/Assignment03
+Keterangan		: Sudah selesai untuk Sesi10, Tugas_09, dan Assignment3.
+Issues				: Sesi10, dapat dijalankan hingga login sampai halaman 53 di file sesi 10, namun setelahnya, link /api/[namacontroller] 404 not found.
+Tambahan      : Sesi10, mohon untuk dicek folder screenshot untuk bukti dapat berjalan hingga halaman 53 di file sesi 10, namun setelahnya 404 not found.
+improve code	: -
+
+Kode peserta	: FSDO002ONL020
+Nama peserta	: Duvan Sanjaya
+Github link		: 
+	   Sesi10		:	https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/Sesi10
+     Tugas9		: https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/Sesi09/Tugas_09
+Assignment3		: https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/020_duvansanjaya_assignment3/MoviesAPI
+Keterangan		: Sudah selesai untuk sesi 10,tugas9, dan assignment 3
+issue 				: Teliti dalam penambahan Package
+Improve Code	: -
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/FSDO002ONL008_SYAHMUHAMMADALFAREIZI_ASSIGNMENT_3
+							https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/sesi_10
+Keterangan : sesi 10 dan assignment 3 sudah selesai
+Hal yang dipelajari : mempelejari membuat restful api dengan input JSON dengan JWT sebagai authentication.
+Issues : kurang paham dengan MVC 
+Improve code : tidak ada
+
+
+Kode peserta	: FSDO002ONL002
+Nama peserta	: Widyawati Nur Sholikhah
+Github link		: https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi10
+Keterangan		: sudah selesai sesi 10
+issue 				: - kembali ke package
+Improve Code	: -
+
+Kode peserta : FSDO002ONL004
+Nama peserta : Giovanni Christian Antonio
+GitHub link  : (Sesi10)   	tree/main/Sesi10
+						 : (Assign3) https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Assign3
+Keterangan   : Sudah selesai untuk sesi 10
+issue        : Harus teliti agar tidak typo
+imporve code : -
+
+Kode peserta : FSDO002ONL005
+Nama peserta : Ika Muliana Devi
+GitHub link  : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi10/TodoApp
+						 : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/FSDO002ONL005_IkaMulianaDevi_Assignment3
+Keterangan   : Sudah selesai untuk sesi 10
+issue        : Harus teliti agar tidak typo
+imporve code : -
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link ass1: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 10
+Yang sudah dipelajari : Menjalankan JSON pada Postman
+
+
+cara buat
+---
+dotnet new webapi -n "TodoApp" -lang "C#" -au none
+https://localhost:5001/api/todo/testrun
+https://localhost:5001/WeatherForecast
+
+dotnet ef migrations add "Initial Migration"
+
+install
+---
+dotnet tool install --global dotnet-ef
+dotnet add package NuGet.CommandLine.XPlat --version 5.11.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.11
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 5.0.11
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.11
+
+database
+--
+dotnet ef database drop
+
+version
+--
+dotnet restore
+dotnet --version
+
+run dotnet
+---
+dotnet run watch
+
+cek certificate
+---
+dotnet dev-certs https --trust
+
+migrasi
+---
+dotnet ef migrations rermove
+dotnet ef migrations add "Initial Migrations"
+dotnet ef migrations add InitialCreate
+dotnet ef migrations add InitialCreate --output-dir Migrations
+dotnet ef migrations add InitialCreate --context BlogContext --output-dir Migrations/SqlServerMigrations
+dotnet ef migrations add InitialCreate --context SqliteBlogContext --output-dir Migrations/SqliteMigrations
+
+dotnet tool update --global dotnet-ef --version 3.1.0
+dotnet tool update --global dotnet-ef --version 5.0.2
+  dotnet tool uninstall --global dotnet-ef
+
+-------------------------------------------------------------
+
+My solution was to install the tool dotnet-ef from microsoft
+https://www.nuget.org/packages/dotnet-ef.
+It uses the same commands but no warnings.
+The change is to use dotnet-ef instead of dotnet ef.
+
+And if you already have dotnet-ef installed then use dotnet tool 
+update --global dotnet-ef --version n.n.n (n.n.n your version to update to)
+
+-------------------------------------------------------------
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools
+Entity Framework Core Tools for the NuGet Package Manager Console in Visual Studio.
+Enables these commonly used commands:
+Add-Migration
+Drop-Database
+Get-DbContext
+Get-Migration
+Remove-Migration
+Scaffold-DbContext
+Script-Migration
+Update-Database
+
+https://www.nuget.org/packages/NuGet.CommandLine.XPlat/
+NuGet executable wrapper for the dotnet CLI nuget functionality.
+
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite/
+SQLite database provider for Entity Framework Core.
+
+https://docs.microsoft.com/en-gb/aspnet/core/data/ef-mvc/intro?view=aspnetcore-5.0
+
+https://stackoverflow.com/questions/41011700/how-to-generate-controller-using-dotnetcore-command-line
+-------------------------------------------------------------
+
+Table Items
+-----
+Id Integer
+Title Text
+Description Text
+Done Integer
+
+CREATE TABLE "Items" ( "Id" INTEGER NOT NULL CONSTRAINT "PK_Items" PRIMARY KEY AUTOINCREMENT, "Title" TEXT NULL, "Description" TEXT NULL, "Done" INTEGER NOT NULL )
+
+CREATE TABLE "__EFMigrationsHistory" ( "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY, "ProductVersion" TEXT NOT NULL )
+
+
+================================================================================
+
+1. buat folder Models,
+2. buat file dengan nama ItemData.cs (dalam folder model ) dan ApiDbContext.cs (dalam folder data)
+3. appsetting.json tambahkan connection String 
+4. setting startup.cs menambahkan services.AddDbContext 
+5. Migrasi database menggunakan initial Migration 
+6. update database menggunakan perintah dotnet ef
+7. melanjutkan koding dari TodoController.cs 
+8. jalankan dotnet run pada terminal 
+9. jika ada error jalankan perintah dotnet run watch ( untuk mengecek jika terjadi error )
+10. pastikan running dan bisa mengakses https://localhost:5001/api/todo ( pastikan data todo dapat ditampilkan berbentuk JSON )
+11. pengecekan dapat dilakukan dengan menggunakan postman 
+12. sesuaikan dengan kondisi nya CRUD 
+-- POST,jika post pilih tab body dengan memilih raw dan tipe konten yaitu JSON 
+-- DELETE,jika post pilih tab body dengan memilih raw dan tipe konten yaitu JSON ( apabila menggunakan parameter maka dalam tautan akan muncul "-" )
+
+
+

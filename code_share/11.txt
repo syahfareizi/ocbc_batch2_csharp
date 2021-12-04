@@ -1,0 +1,814 @@
+Kode peserta	: FSDO002ONL013
+Nama peserta	: Deandri Firdaus
+GitHub link 	: https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%206/Sesi11
+Keterangan 		: Sudah Selesai untuk sesi 11, belajar tentang Token dan RefreshToken
+issues 				: Tidak ada
+Improve code 	: -
+
+Nama Peserta  : Victorio Vincent Sugianto
+Kode Peserta  : FSDO002ONL006
+GitHub Link   : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi11
+Keterangan 		: Sudah Selesai untuk sesi 11
+issues 				: -
+Improve code 	: -
+
+Kode peserta	: FSDO002ONL011
+Nama peserta	: Denny Tandiono
+GitHub link 	: https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi11
+Keterangan 		: Sudah Selesai untuk sesi 11
+issues 				: Tidak ada
+Improve code 	: -
+
+
+Kode peserta	: FSDO002ONL015
+Nama peserta	: Pieter Chrisitan Wenji
+GitHub link 	: https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi11
+Keterangan 		: Sesi 11 sudah selesai.
+issues 				: -
+Improve code 	: -
+
+Kode peserta  : FSDO002ONL008
+Nama peserta  : Syah Muhammad Alfareizi
+GitHub link   : https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/sesi_11
+Keterangan    : Sesi 11 sudah selesai sudah bisa menggunakan fitur JWT Refresh Code
+Issues        : masih belum nemu ada dimana errornya, namun ketika saya winmerge dengan ppunya mas deandri tidak ada yang beda.
+								setelah saya coba pake code dari mas dean berjalan normal. 
+Improve code  : tidak
+
+Kode peserta  : FSDO002ONL009
+Nama peserta  : Muhammad Fikr Azhar
+GitHub link   : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_11/TodoAppWithJwt
+Keterangan    : Sesi 11 sudah selesai
+Issues        : -
+Improve code  : -
+
+Kode peserta	: FSDO002ONL016
+Nama peserta	: Esra Delima Manurung
+GitHub link 	: https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi11
+Keterangan 		: Sesi 11 sudah beres tentang refresh token dan dapatinn token nya
+issues 				: -
+Improve code 	: -
+
+Kode peserta : FSDO002ONL012
+Nama peserta : Agung Wicaksono
+Github link  : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi11/JWTRefreshToken/TodoAppWithJWT
+Keterangan	 : Sesi 11 sudah selesai
+issue 			 : -
+improve code : -
+
+Kode peserta	: FSDO002ONL019
+Nama peserta	: Denny Tandiono
+GitHub link 	: https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi11
+Keterangan	  : Sesi 11 sudah selesai
+issue 				: -
+improve code  : -
+
+Kode peserta	: FSDO002ONL001
+Nama peserta	: David Chrissando Frizky
+GitHub link 	: https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Sesi11/TodoAppRefreshToken
+Keterangan	  : Sesi 11 sudah selesai
+issue 				: -
+improve code  : -
+
+Kode peserta	: FSDO002ONL018
+Nama peserta	: Gilang Trisetya Indrawan
+GitHub link 	: https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi11/TodoAppWithJwtRefreshToken
+Keterangan	  : Sesi 11 sudah selesai
+issue 				: Ketika call api refresh token, seharusnya 
+							  jtw token yang sudah kadaluarsa dapat digenerate kembali tanpa login, tetapi malah disuruh untuk login kembali padahal kita punya refreshToken yang belum kadaluarsa
+                dan jwt yang kadaluarsa.
+improve code  : fungsi VerifyAndGenerateToken(TokenRequest tokenRequest)
+								tokenValidationParams.ValidateLifetime = false;
+                var tokenInverification = jwtTokenHandler.ValidateToken(tokenRequest.Token, tokenValidationParams, out var validatedToken);
+                tokenValidationParams.ValidateLifetime = true;
+                
+                
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Sesi11
+Keterangan   : Sudah selesai untuk sesi 11
+issue        : -
+imporve code : -
+
+Kode peserta	: FSDO002ONL020
+Nama peserta	: Duvan Sanjaya
+Github link		: https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/Sesi11
+Keterangan		: Sudah selesai untuk sesi 11
+issue 				: -
+Improve Code	: -
+
+Kode peserta	: FSDO002ONL014
+Nama peserta	: Dini Puspita Sukma Ariyanti
+GitHub link 	: https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi11
+Keterangan  	: Sudah selesai untuk sesi 11
+Yang sudah dipelajari :  belajar implementasi refresh token (semakin pendek expire time semakin aman)
+issues				: -
+improve code	: -
+
+Kode peserta	: FSDO002ONL007
+Nama peserta	: Yosianus Antonio
+GitHub link 	: https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi11
+Keterangan  	: Sudah selesai untuk sesi 11
+Yang dipelajari :  Belanjar konsep dari Refresh token untuk security  
+issues				: -
+improve code	: -
+
+Kode peserta	: FSDO002ONL010
+Nama peserta	: Abraham Haholongan Narmada Pohan
+GitHub link 	: https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi11
+Keterangan  	: Sudah selesai untuk sesi 11
+Yang dipelajari : Belajar mengenai refresh token (security dalam transaksi data)
+issues				: Ketelitian dalam menuliskan syntax, kadang typo
+improve code	: -
+
+Kode peserta	: FSDO002ONL002
+Nama peserta	: Widyawati Nur Sholikhah
+GitHub link 	: https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi11
+Yang dipelajari :  belajar merefresh token
+issues				: - salah penempatan folder
+improve code	: -
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link ass1: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 11
+Yang sudah dipelajari : Belajar tentang refresh token pada JWT
+
+-----------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using MovieApp.Configuration;
+using MovieApp.Data;
+//using CrossOrigin.WebService.Models.DbEntities;
+
+
+namespace MovieApp
+{
+    public class Startup
+    {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
+
+            services.AddDbContext<ApiDbContext>(options => 
+                options.UseMySQL(
+                    Configuration.GetConnectionString("DefaultConnection")
+                )
+            );
+
+            services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { 
+                    Title = "MovieApp", 
+                    Version = "v1",
+                    Description = "Authentication and Authorization in ASP.NET 5 with JWT and Swagger"
+                });
+
+                // To Enable authorization using Swagger (JWT)
+                c.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme()
+                {
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    In = ParameterLocation.Header,
+                    Description = "Enter 'Bearer' [space] and then your valid token in the text input below.\r\n\r\nExample: \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\""
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                    {
+                        new OpenApiSecurityScheme {
+                            Reference = new OpenApiReference {
+                                            Type = ReferenceType.SecurityScheme,
+                                            Id = "Bearer"
+                                        }
+                        },
+                        new string[] { }
+                    }
+                });
+            });
+
+            services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
+
+            services.AddAuthentication(options => {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(jwt => {
+                var key  = Encoding.ASCII.GetBytes(Configuration["JwtConfig:Secret"]);
+
+                jwt.SaveToken = true;
+                jwt.TokenValidationParameters = new TokenValidationParameters {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ValidateLifetime = true,
+                    RequireExpirationTime = false
+                };
+            });
+
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                        .AddEntityFrameworkStores<ApiDbContext>();
+        }
+
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MovieApp v1"));
+            }
+
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            app.UseAuthentication();
+
+            app.UseAuthorization();
+
+            app.UseCors(MyAllowSpecificOrigins);
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+        }
+    }
+}
+
+-------------------------------------------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
+using System.Security.Claims;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using TodoAppWithJWT.Configuration;
+using TodoAppWithJWT.Data;
+using TodoAppWithJWT.Models;
+using TodoAppWithJWT.Models.DTOs.Requests;
+using TodoAppWithJWT.Models.DTOs.Responses;
+
+namespace TodoAppWithJWT.Controllers
+{
+    [Route("api/[controller]")] // api/authManagement
+    [ApiController]
+    public class AuthManagementController : ControllerBase
+    {
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly JwtConfig _jwtConfig;
+        private readonly TokenValidationParameters _tokenValidationParams;
+        private readonly ApiDbContext _apiDbContext;
+
+        public AuthManagementController(
+            UserManager<IdentityUser> userManager,
+            IOptionsMonitor<JwtConfig> optionsMonitor,
+            TokenValidationParameters tokenValidationParams,
+            ApiDbContext apiDbContext)
+        {
+            _userManager = userManager;
+            _jwtConfig = optionsMonitor.CurrentValue;
+            _tokenValidationParams = tokenValidationParams;
+            _apiDbContext = apiDbContext;
+        }
+
+        [HttpPost]
+        [Route("Register")]
+        public async Task<IActionResult> Register([FromBody] UserRegistrationDto user)
+        {
+            if(ModelState.IsValid)
+            {
+                // We can utilise the model
+                var existingUser = await _userManager.FindByEmailAsync(user.Email);
+
+                if(existingUser != null)
+                {
+                    return BadRequest(new RegistrationResponse(){
+                            Errors = new List<string>() {
+                                "Email already in use"
+                            },
+                            Success = false
+                    });
+                }
+
+                var newUser = new IdentityUser() { Email = user.Email, UserName = user.Username};
+                var isCreated = await _userManager.CreateAsync(newUser, user.Password);
+                if(isCreated.Succeeded)
+                {
+                   var jwtToken =  GenerateJwtToken( newUser);
+
+                   /*return Ok(new RegistrationResponse() {
+                       Success = true,
+                       Token = jwtToken
+                   });*/
+                    return Ok(jwtToken);
+                } else {
+                    return BadRequest(new RegistrationResponse(){
+                            Errors = isCreated.Errors.Select(x => x.Description).ToList(),
+                            Success = false
+                    });
+                }
+            }
+
+            return BadRequest(new RegistrationResponse(){
+                    Errors = new List<string>() {
+                        "Invalid payload"
+                    },
+                    Success = false
+            });
+        }
+
+        [HttpPost]
+        [Route("Login")]
+        public async Task<IActionResult> Login([FromBody] UserLoginRequest user)
+        {
+            if(ModelState.IsValid)
+            {
+                var existingUser = await _userManager.FindByEmailAsync(user.Email);
+
+                if(existingUser == null) {
+                        return BadRequest(new RegistrationResponse(){
+                            Errors = new List<string>() {
+                                "Invalid login request"
+                            },
+                            Success = false
+                    });
+                }
+
+                var isCorrect = await _userManager.CheckPasswordAsync(existingUser, user.Password);
+
+                if(!isCorrect) {
+                      return BadRequest(new RegistrationResponse(){
+                            Errors = new List<string>() {
+                                "Invalid login request"
+                            },
+                            Success = false
+                    });
+                }
+
+                var jwtToken  = GenerateJwtToken(existingUser);
+
+                /*return Ok(new RegistrationResponse() {
+                    Success = true,
+                    Token = jwtToken
+                });*/
+                return Ok(jwtToken);
+            }
+
+            return BadRequest(new RegistrationResponse(){
+                    Errors = new List<string>() {
+                        "Invalid payload"
+                    },
+                    Success = false
+            });
+        }
+
+
+        [HttpPost]
+        [Route("RefreshToken")]
+        public async Task<IActionResult> RefreshToken([FromBody] TokenRequest tokenRequest)
+        {
+            if(ModelState.IsValid)
+            {
+                var result = await VerifyAndGenerateToken(tokenRequest);
+
+                if(result == null) {
+                    return BadRequest(new RegistrationResponse() {
+                        Errors = new List<string>() {
+                            "Invalid tokens"
+                        },
+                        Success = false
+                    });
+                }
+
+                return Ok(result);
+            }
+
+            return BadRequest(new RegistrationResponse() {
+                Errors = new List<string>() {
+                    "Invalid payload"
+                },
+                Success = false
+            });
+        }
+
+        private  async Task<AuthResult>  GenerateJwtToken(IdentityUser user)
+        {
+            var jwtTokenHandler = new JwtSecurityTokenHandler();
+
+            var key = Encoding.ASCII.GetBytes(_jwtConfig.Secret);
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new []
+                {
+                    new Claim("Id", user.Id), 
+                    new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                    new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                }),
+                //Expires = DateTime.UtcNow.AddHours(6),
+                Expires = DateTime.UtcNow.AddSeconds(30), // 5-10 
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            var token = jwtTokenHandler.CreateToken(tokenDescriptor);
+            var jwtToken = jwtTokenHandler.WriteToken(token);
+
+            var refreshToken = new RefreshToken()
+            {
+                JwtId = token.Id,
+                IsUsed = false,
+                IsRevorked = false,
+                UserId = user.Id,
+                AddedDate = DateTime.UtcNow,
+                ExpiryDate = DateTime.UtcNow.AddMonths(6),
+                Token = RandomString(35) + Guid.NewGuid()
+            };
+
+            await _apiDbContext.RefreshTokens.AddAsync(refreshToken);
+            await _apiDbContext.SaveChangesAsync();
+
+            return new AuthResult() {
+                Token = jwtToken,
+                Success = true,
+                RefreshToken = refreshToken.Token
+            };
+
+            //return jwtToken;
+        }
+
+        private async Task<AuthResult> VerifyAndGenerateToken(TokenRequest tokenRequest)
+        {
+            var jwtTokenHandler = new JwtSecurityTokenHandler();
+
+            try
+            {   
+                // Validation 1 - Validation JWT token format
+                var tokenInVerification = jwtTokenHandler.ValidateToken(tokenRequest.Token, _tokenValidationParams, out var validatedToken);
+
+                // Validation 2 - Validate encryption alg
+                if(validatedToken is JwtSecurityToken jwtSecurityToken)
+                {
+                    var result = jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase);
+
+                    if(result == false) {
+                        return null;
+                    }
+                }
+
+                // Validation 3 - validate expiry date
+                var utcExpiryDate = long.Parse(tokenInVerification.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Exp).Value);
+
+                var expiryDate = UnixTimeStampToDateTime(utcExpiryDate);
+
+                if(expiryDate > DateTime.UtcNow) {
+                    return new AuthResult() {
+                        Success = false,
+                        Errors = new List<string>() {
+                            "Token has not yet expired"
+                        }
+                    };
+                }
+
+                // validation 4 - validate existence of the token
+                var storedToken = await _apiDbContext.RefreshTokens.FirstOrDefaultAsync(x => x.Token == tokenRequest.RefreshToken);
+
+                if(storedToken == null)
+                {
+                    return new AuthResult() {
+                        Success = false,
+                        Errors = new List<string>() {
+                            "Token does not exist"
+                        }
+                    };
+                }
+
+                // Validation 5 - validate if used
+                if(storedToken.IsUsed)
+                {
+                    return new AuthResult() {
+                        Success = false,
+                        Errors = new List<string>() {
+                            "Token has been used"
+                        }
+                    };
+                }
+
+                // Validation 6 - validate if revoked
+                if(storedToken.IsRevorked)
+                {
+                    return new AuthResult() {
+                        Success = false,
+                        Errors = new List<string>() {
+                            "Token has been revoked"
+                        }
+                    };
+                }
+
+                // Validation 7 - validate the id
+                var jti = tokenInVerification.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Jti).Value;
+
+                if(storedToken.JwtId != jti)
+                {
+                    return new AuthResult() {
+                        Success = false,
+                        Errors = new List<string>() {
+                            "Token doesn't match"
+                        }
+                    };
+                }
+
+                // update current token 
+
+                storedToken.IsUsed = true;
+                _apiDbContext.RefreshTokens.Update(storedToken);
+                await _apiDbContext.SaveChangesAsync();
+                
+                // Generate a new token
+                var dbUser = await _userManager.FindByIdAsync(storedToken.UserId);
+                return await GenerateJwtToken(dbUser);
+            }
+            catch(Exception ex)
+            {
+                if(ex.Message.Contains("Lifetime validation failed. The token is expired.")) {
+
+                      return new AuthResult() {
+                        Success = false,
+                        Errors = new List<string>() {
+                            "Token has expired please re-login"
+                        }
+                    };
+                
+                } else {
+                      return new AuthResult() {
+                        Success = false,
+                        Errors = new List<string>() {
+                            "Something went wrong."
+                        }
+                    };
+                }
+            }    
+        }
+
+        private DateTime UnixTimeStampToDateTime(long unixTimeStamp)
+        {
+            var dateTimeVal = new DateTime(1970, 1,1,0,0,0,0, DateTimeKind.Utc);
+            dateTimeVal = dateTimeVal.AddSeconds(unixTimeStamp).ToUniversalTime();
+
+            return dateTimeVal;
+        }
+
+        private string RandomString(int length)
+        {
+            var random = new Random();
+            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            return new string(Enumerable.Repeat(chars, length)
+                .Select(x => x[random.Next(x.Length)]).ToArray());
+        }
+    }  
+}
+
+
+==================================================================================================================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
+using TodoAppWithJWT.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using TodoAppWithJWT.Configuration;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
+
+namespace TodoAppWithJWT
+{
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
+            services.AddDbContext<ApiDbContext>(options =>
+                options.UseSqlite(
+                    Configuration.GetConnectionString("DefaultConnection")    
+                ));
+            services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+               c.SwaggerDoc("v1", new OpenApiInfo { 
+                    Title = "TodoApp", 
+                    Version = "v1",
+                    Description = "Authentication and Authorization in ASP.NET 5 with JWT and Swagger"
+                });
+
+                // To Enable authorization using Swagger (JWT)
+                c.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme()
+                {
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    In = ParameterLocation.Header,
+                    Description = "Enter 'Bearer' [space] and then your valid token in the text input below.\r\n\r\nExample: \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\""
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                    {
+                        new OpenApiSecurityScheme {
+                            Reference = new OpenApiReference {
+                                            Type = ReferenceType.SecurityScheme,
+                                            Id = "Bearer"
+                                        }
+                        },
+                        new string[] { }
+                    }
+                });
+            });
+            
+            var key = Encoding.ASCII.GetBytes(Configuration["JwtConfig:Secret"]);
+
+            var tokenValidationParams = new TokenValidationParameters{
+                ValidateIssuerSigningKey = true, // This will use us in  appsettings  Added in  secret  To verify  JWT token  Part three , And verify  JWT token  It's generated by us 
+                IssuerSigningKey = new SymmetricSecurityKey(key), // Add the key to our  JWT  Encryption algorithm 
+                ValidateIssuer = false,
+                ValidateAudience = false,
+                ValidateLifetime = true,
+                RequireExpirationTime = false,
+                ClockSkew = TimeSpan.Zero
+            };
+
+            services.AddSingleton(tokenValidationParams);
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            })
+            .AddJwtBearer(jwt =>
+            {
+                jwt.SaveToken = true;
+                jwt.TokenValidationParameters = tokenValidationParams;
+            });
+
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                        .AddEntityFrameworkStores<ApiDbContext>();
+        }
+
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoAppWithJWT v1"));
+            }
+
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            app.UseAuthorization();
+            
+            app.UseAuthentication();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+        }
+    }
+}
+
+=================================
+
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.InvalidOperationException: Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.TokenValidationParameters' while attempting to activate 'New_TodoApp.Controllers.AuthManagementController'.
+         at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+         at lambda_method9(Closure , IServiceProvider , Object[] )
+         at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+         at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+lean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)    
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+         
+---------------------
+
+internal class AuthResponsesOperationFilter : IOperationFilter
+    {
+        public void Apply(OpenApiOperation operation, OperationFilterContext context)
+        {
+            var attributes = context.MethodInfo.DeclaringType.GetCustomAttributes(true)
+                                .Union(context.MethodInfo.GetCustomAttributes(true));
+
+            if (attributes.OfType<IAllowAnonymous>().Any())
+            {
+                return;
+            }
+
+            var authAttributes = attributes.OfType<IAuthorizeData>();
+
+            if (authAttributes.Any())
+            {
+                operation.Responses["401"] = new OpenApiResponse { Description = "Unauthorized" };
+
+                if (authAttributes.Any(att => !String.IsNullOrWhiteSpace(att.Roles) || !String.IsNullOrWhiteSpace(att.Policy)))
+                {
+                    operation.Responses["403"] = new OpenApiResponse { Description = "Forbidden" };
+                }
+
+                operation.Security = new List<OpenApiSecurityRequirement>
+                {
+                    new OpenApiSecurityRequirement
+                    {
+                        {
+                            new OpenApiSecurityScheme
+                            {
+                                Reference = new OpenApiReference
+                                {
+                                    Id = "BearerAuth",
+                                    Type = ReferenceType.SecurityScheme
+                                }
+                            },
+                            Array.Empty<string>()
+                        }
+                    }
+                };
+            }
+        }
+    }

@@ -1,0 +1,185 @@
+ode peserta: FSDO002ONL003
+Nama peserta : Alwi Azra Akbar Djunaid
+Github Link: https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi07
+Keterangan : Sesi 7 selesai
+Issues : -
+Code Improvement : Menambahkan validasi saat register akun
+
+Nama Peserta  : Victorio Vincent Sugianto
+Kode Peserta  : FSDO002ONL006
+Tugas         : Sesi 7
+GitHub Link   : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi07
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Sesi7/Sesi7/Sesi7
+Keterangan : Sesi 7 selesai
+Issues : -
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+GitHub link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_07/LoginSystem
+Keterangan   : Sudah selesai
+Issue        : -
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Sesi07
+Keterangan : Sudah Selesai untuk sesi 7
+issues : tidak ada.
+Improve code : Menambahkan validasi dan pengecekan username sudah ada atau belum
+
+Kode peserta: FSDO002ONL010
+Nama peserta: Abraham Haholongan Narmada Pohan
+GitHub link : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi07
+Keterangan : Sudah Selesai untuk sesi 7
+issues : tidak ada.
+Improve code : tidak ada.
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/sesi_7/LoginForm/FormLogin
+Keterangan : telah menyelesaikan sesi 7
+Hal yang dipelajari : membuat sebuah dekstop form app 
+Issues : tidak ada 
+Improve code : menambahkan desain menarik pada form app
+
+
+Kode peserta: FSDO002ONL016
+Nama peserta: Esra Delima Manurung
+GitHub link : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi07/Login1/FormLogin1
+Keterangan : Sudah Selesai untuk sesi 7
+issues : tidak ada.
+Improve code : tidak ada.
+
+Kode peserta	: FSDO002ONL018
+Nama peserta	: Gilang Trisetya Indrawan
+GitHub link 	: https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi07
+Keterangan 		: Sudah Selesai untuk sesi 7
+issues 				: tidak ada.
+Database			: MS SQL SERVER 2017, tanpa username dan password
+Improve code 	: Banyak perubahan code menyesuaikan database SQL SERVER 2017, karena yang ada di kode id memakai mySql Server
+
+Kode peserta: FSDO002ONL019
+Nama peserta : Denny Tandiono
+Github Link: https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi07
+Keterangan : Sesi 7 selesai
+Issues : instalasi XAMPP
+Code Improvement : Tambah validasi register akun
+
+Kode peserta: FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link : https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi07
+Keterangan : Sudah Selesai untuk sesi 7
+issues : Data masuk ke database 2 kali.
+Improve code : tambah validasi dan konfirmasi untuk register.
+
+Kode peserta: FSDO002ONL007
+Nama peserta: Yosianus Antonio
+GitHub link : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi07
+Keterangan : Sudah Selesai untuk sesi 7
+issues : Maslah Query
+Improve code : tambah validasi dan konfirmasi untuk register.
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi07
+Keterangan  : Sudah selesai untuk sesi 7
+issues : -
+
+Kode peserta:FSDO002ONL002
+Nama Peserta : Widyawati Nur Sholikhah
+Github lnk : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi07/LoginForm/FormLogin
+Keterangan : done sesi 7
+issues : -
+
+Kode Peserta : FSDO002ONL012
+Nama Peserta : Agung Wicaksono
+Github Link : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi07/FormLogin
+Keterangan : Sudah selesai untu sesi 7
+issues : -
+
+Kode Peserta : FSDO002ONL013
+Nama Peserta : Deandri Firdaus
+Github Link : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%204/Sesi07/All_LatihanSesi01/LatihanSesi01
+Keterangan : Sudah selesai untuk sesi 7
+issues : -
+
+Kode Peserta : FSDO002ONL005
+Nama Peserta : Ika Muliana Devi
+Github Link : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi7
+Keterangan : Sudah selesai untuk sesi 7
+issues : -
+
+Kode peserta: FSDO002ONL020
+Nama peserta: Duvan Sanjaya
+Github link: https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/Sesi07
+Keterangan: Sudah selesai untuk sesi 7
+issue : -
+Improve Code: -
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link ass1: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 7
+Yang sudah dipelajari : Membuat sebuah aplikasi dekstop yang terkoneksi dengan database
+
+install
+---
+MySql.Data 
+Renci.SshNet.Asyn
+
+https://www.getsetsolution.com/solved-could-not-load-file-or-assembly
+https://www.c-sharpcorner.com/article/how-to-connect-mysql-with-asp-net-core/
+https://www.youtube.com/watch?v=JGPhybZvdck //desktop
+https://www.youtube.com/watch?v=F7mmzhFXugM //web api
+
+
+MySQL
+--
+yang diinstal
+https://dev.mysql.com/downloads/windows/visualstudio/ //untuk data connection
+https://dev.mysql.com/downloads/connector/net/ //untuk connector	
+
+config
+---
+view > other windows > document outline > ctrl + alt + t
+solution explorer > referense > add referense > browse mysql.data > checklist / add
+solution explorer > windows forms app > manage nuget referense
+
+
+---------------------
+
+string nama = edNama.Text;
+string username = edUsername.Text;
+string password = edPass.Text;
+
+if (nama.Equals("") || username.Equals("") || password.Equals(""))
+{
+    edNama.Focus();
+    MessageBox.Show("Data Kosong !", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+    return;
+}
+
+string message = "Ingin Register Data ?";
+string caption = "Information";
+MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+DialogResult result;
+
+// Displays the MessageBox
+result = MessageBox.Show(message, caption, buttons);
+if (result == DialogResult.Yes)
+{
+    string query = "insert into user_info(names, username, password) values(@names, @username,@password)";
+    db.tambahRegister(query, nama, username, password);
+    MessageBox.Show("Berhasil Register Data...", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+    edNama.Text = "";
+    edUsername.Text = "";
+    edPass.Text = "";
+    this.Close();
+}
+else
+{
+    this.Close(); // close the connection setup form
+}
+

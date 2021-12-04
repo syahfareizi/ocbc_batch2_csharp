@@ -1,0 +1,146 @@
+
+Kode peserta: FSDO002ONL007
+Nama peserta: Yosianus Antonio
+GitHub link : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi05
+Keterangan : Sudah Selesai untuk sesi 4
+yang sudah dipelajarain : Object Oriented Programming (Class, Object, Method, Proprety), Encapsulation,Identifier, Inheritance, Polimorfisme(overloading,overriding)
+issues : tidak ada.
+Improve code : Input pada program1 laptop
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+GitHub link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_05
+keterangan   : Sudah selesai untuk sesi 5
+Yang sudah dipelajari : Object Oriented Programming
+Issue        : Tidak ada
+Improve code : Input pada live code 1
+
+Kode peserta: FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link : https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi05
+Keterangan : Sudah Selesai untuk sesi 5
+yang sudah dipelajarain : belajar tentang konsep(class,objek,property,method), Encapsulation,Identifier, Inheritance, Polimorfisme(overloading,overriding) pada oop.
+issues : -
+Improve code : Menambah input pada program 1.
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi05
+Keterangan  : Sudah selesai untuk sesi 5
+Yang sudah dipelajari : Belajar tentang OOP (class, object, property, method), encapsulation, identifier, inheritance, polimorfisme (overloading), dan mengerjakan modul.
+issue: -
+Improve Code : Menambahkan input user pada program1.
+
+Kode peserta: FSDO002ONL018
+Nama peserta: Gilang Trisetya Indrawan
+GitHub link : https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi05
+Keterangan : Sudah Selesai untuk sesi 4
+yang sudah dipelajarain : Mempelajari Konsep OOP (Objek Oriented Programming) Seperti Encapsulation, Identifier, Inheritance, Polymorphism pada C#
+issues : tidak ada.
+Improve code : Mengeluarkan class didalam class, Penulisan function dengan cara camelCase, Penulisan Class dengan cara CapitalCase
+
+Kode peserta: FSDO002ONL013
+Nama peserta: Deandri Firdaus
+GitHub link : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%203/Sesi05
+Keterangan : Sudah Selesai untuk sesi 5
+yang sudah dipelajarain : Belajar konsep OOP, enkapsulasi, inheritance, overloading, dan overriding.
+issues : Remove double class di program1, program2 dan program4, serta menambahkan class baru bernama pesawat di program3.
+Improve code : -
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/sesi05
+Keterangan : Sudah Selesai untuk sesi 5
+yang sudah dipelajarain : OOP( class, inheritance,polimorfisme)
+issues : tidak ada.
+Improve code : tidak ada
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Sesi5
+Keterangan : Sudah Selesai untuk sesi 5
+yang sudah dipelajarain : Object Oriented Programming (Class, Object, Method, Proprety), Encapsulation,Identifier, Inheritance, Polimorfisme(overloading,overriding)
+issues : tidak ada.
+Improve code : Input pada program1 laptop
+
+Kode peserta: FSDO002ONL020
+Nama peserta: Duvan Sanjaya
+Github link: https://github.com/Duvans/OCBC-BATCH2-CSharp.git
+Keterangan: Sudah selesai untuk sesi 5
+Yang sudah dipelajari : konsep oop, encapsulation, inheritance, polimorfisme(overloading dan overriding)
+issue : -
+Improve Code: Program 1
+
+Kode peserta: FSDO002ONL012
+Nama peserta: Agung Wicaksono
+GitHub link : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi05
+Keterangan : Sudah Selesai untuk sesi 5
+yang sudah dipelajarain : Mempelajari konsep OOP pada C#, Inheritance Overloading dan Overriding;
+issues : -
+Improve code : Program1 dan Program 5 input dari console;
+
+Kode peserta: FSDO002ONL019
+Nama peserta: Denny Tandiono
+GitHub link : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi05
+Keterangan  : Sudah selesai untuk sesi 5
+Yang sudah dipelajari : Mempelajari Object Oriented Programming dalam C# ( Class , Method, Object, Enapsulation, Polimorphism , etc)
+Issues : -
+Improve Code : Improve code program 1.
+
+Kode peserta: FSDO002ONL016
+Nama peserta: Esra Delima Manurung
+GitHub link : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi05
+Keterangan : Sesi 5 telah selesai
+yang sudah dipelajarain : Object Oriented Programming , Encapsulation,Identifier, Inheritance, Polimorfisme(overloading,overriding) pada C#
+issues : -
+Improve code : Membuat Input code pada program1 Laptop.cs
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp.git
+Keterangan : sudah slesai sesi 5
+Hal yang dipelajari : membelajari tentang OOP pada C# termasuk pilar pilar OOP
+Issues : tidak ada
+Improve code : improve code ada program 1
+
+Kode peserta: FSDO002ONL003
+Nama peserta: Alwi Azra Akbar Djunaid
+GitHub link : https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi05
+Keterangan : Sesi 5 telah selesai
+yang sudah dipelajarain : Object Oriented Programming (Class, Object, Method, Proprety), Encapsulation,Identifier, Inheritance, Polimorfisme(overloading,overriding) pada C#
+issues : tidak ada.
+Improve code : Input pada program1 laptop, merubah access modifier attribute menjadi private atau protected (sebelumnya public) pada program 2,3,4, dan 5. Serta menggunakan setter/getter untuk mengakses attribute pada program 2 dan 3
+
+Kode peserta: FSDO002ONL010
+Nama peserta: Abraham Haholongan Narmada Pohan
+GitHub link : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi05
+Keterangan  : Sudah selesai untuk sesi 5
+Yang sudah dipelajari : Mempelajari Object Oriented Programming dalam C#
+Issues : -
+Improve Code : Improve code program 1.
+
+Kode peserta : FSDO002ONL006
+Nama peserta : Victorio Vincent Sugianto
+GitHub link : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi05
+Keterangan : Sudah selesai untuk sesi 5
+Yang sudah dipelajari : belajar pemrograman berbasis objek C#
+
+Kode peserta : FSDO002ONL005
+Nama peserta : Ika Muliana Devi
+GitHub link : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi5
+Keterangan : Sudah selesai untuk sesi 5
+Yang sudah dipelajari : belajar object oriented programming 
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link ass1: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 5
+Yang sudah dipelajari : Mempelajari konsep OOP pada C#, Inheritance Overloading dan Overriding
+Improve code: Menambah input pada program 1
+
+Kode peserta: FSO002ONL002
+Nama peserta : Widyawati Nur Sholikhah
+Github link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi05
+Keterangan : sudah menyelesaikan sesi 5
+Yang sudah dipelajari : belajar oop
+

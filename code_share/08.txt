@@ -1,0 +1,202 @@
+Kode peserta: FSDO002ONL007
+Nama peserta: Yosianus Antonio
+GitHub link : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi08
+Keterangan : Sudah Selesai untuk sesi 7
+issues : Maslah Query
+Improve code : tambah validasi dan konfirmasi untuk register.
+
+Nama Peserta  : Victorio Vincent Sugianto
+Kode Peserta  : FSDO002ONL006
+Tugas         : Sesi 8
+GitHub Link   : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi08
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi08
+Keterangan  : Sudah selesai untuk sesi 8
+issues : -
+
+Kode peserta: FSDO002ONL018
+Nama peserta: Gilang Trisetya Indrawan
+GitHub link : https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi08
+Keterangan  : Sudah selesai untuk sesi 8
+issues : -
+
+Kode peserta: FSDO002ONL016
+Nama peserta: Esra Delima Manurung
+GitHub link : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi08/BelajarApi
+Keterangan : Sudah Selesai untuk sesi 8
+issues : tidak ada.
+
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link :https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Sesi08
+Keterangan : Sudah Selesai untuk sesi 8
+issues : -
+Improve code : - 
+
+Kode peserta: FSDO002ONL019
+Nama peserta : Denny Tandiono
+Github Link: https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi08
+Keterangan : Sesi 8 selesai
+Issues : -
+Code Improvement :
+
+Kode peserta: FSDO002ONL020
+Nama peserta: Duvan Sanjaya
+Github link: https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/Sesi08
+Keterangan: Sudah selesai untuk sesi 8
+issue : -
+Improve Code: -
+
+Kode peserta: FSDO002ONL010
+Nama peserta: Abraham Haholongan Narmada Pohan
+GitHub link :https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi08
+Keterangan : Sudah Selesai untuk sesi 8
+issues : -
+Improve code : - 
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+GitHub link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_08/WebAPI
+Keterangan   : Sudah selesai sesi 8
+Issues       : -
+Improve code : -
+
+Kode peserta: FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link : https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi08
+Keterangan : Sudah Selesai untuk sesi 8
+issues : -
+Improve code : - 
+
+Kode peserta: FSDO002ONL003
+Nama peserta: Alwi Azra Akbar Djunaid
+GitHub link : https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi08
+Keterangan : Sudah Selesai untuk sesi 8
+issues : -
+Improve code : - 
+
+Kode peserta : FSDO002ONL002
+Nama peserta : widyawati nur sholikhah
+GitHub link  : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi08
+Keterangan   : Sudah Selesai untuk sesi 8
+Issues       : -
+Improve code : -
+
+Kode Peserta : FSDO002ONL012
+Nama Peserta : Agung WIcaksono
+Github Link : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi08/HelloApi
+Keterangan : Sudah selesai untuk sesi 8
+issue : -
+improve code : -
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Sesi8/Sesi8
+Keterangan : Sesi 8 selesai
+Issues : -
+Improve code : -
+
+Kode peserta: FSDO002ONL013
+Nama peserta: Deandri Firdaus
+GitHub link : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%204/Sesi08/All_LatihanSesi08
+Keterangan  : Sudah selesai untuk sesi 8
+
+Kode peserta: FSDO002ONL005
+Nama peserta: Ika Muliana Devi
+GitHub link : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi8/HappyApi
+Keterangan  : Sudah selesai untuk sesi 8
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/sesi_8/WebAPI/WebApplication
+Keterangan : sudah selesai sesi 8
+Hal yang dipelajari : mempelajari membuat web API menggunakan template yang disediakan oleh visual studio 
+Issues : tidak ada 
+Improve code : tidak ada
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link ass1: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 8
+Yang sudah dipelajari :Pengenalan web API
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+1. pembuatan aplikasi web asp.net web api dengan template project
+2. pembuatan class controller web api
+    - pembuatan folder
+    - pembuatan file pendukung
+    - konfigurasi > agar class controller dapat di akses dan digunakan
+3. akses web api
+4. buat halaman bantuan (help page) > melihat daftar class  controller serta API
+5. instalasi dan konfigurasi tool test client yang sederhana
+    - untuk mengakses dan menguji api yang telah dibuat
+
+menggunakan template
+--
+Add New Project pilih Visual C# 
+  - pilih Web
+  - pilih ASP.NET Web Application
+  - tuliskan nama project pada kolum name > klik tombol ok
+  - pada window New ASP.NET project
+  - pilih Web API dan klik tombol OK.
+
+cara running
+  - pada Solution Explorer 
+  - pilih Debug > Start new instance.
+  
+jika membuat project kosong 
+  - Pilih File > New Project
+  - pada window Add New Project pilih Visual C# > Web 
+  - pilih ASP.NET Web Application. 
+  - selanjutnya, 
+    - pilih window New ASP.NET Project
+    - pilih Empty
+    - pada area Select a template
+    - centang Web API pada area Add folder and core reference for.
+  - menambahkan class Web API controller
+    - klik kanan pada folder controllers
+    - pilih Add > Web API Controller Class (v2)
+    - beri nama ValuesController sebagai nama class.
+    
+
+
+1. WebApiConfig.cs yang terdapat pada folder App_Start.
+2. Global.asax yang terdapat pada /.
+3. ValuesController.cs yang terdapat pada folder Controllers.
+
+File WebApiConfig.cs berfungsi sebagai konfigurasi Web API routes yang menentukan bagaimana format url untuk mengakses class-class controller.
+http://[nama_domain]/webapi/[nama_controller]/
+
+
+Global.asax 
+File ini berfungsi untuk memanggil dan mengaktifkan konfigurasi Web API pada class WebApiConfig.cs
+saat aplikasi web dijalankan. 
+
+ValuesController.cs > format nama class controller [nama_controller]Controller.cs
+nama class controller yang telah dibuat adalah ValuesController.cs maka dapat ditulis url
+http://[nama_domain]/api/Values/
+
+Pada project Web Application secara default sudah memiliki file Global.asax 
+1. Menambahkan folder App_Start.
+2. Menambahkan file WebApiConfig.cs ke dalam folder App_Start dengan isi seperti yang telah dijelaskan pada awal sesi.
+3. Menambahkan baris untuk mengaktifkan konfigurasi WebApiConfig.cs ke dalam file Global.asax.
+4. Menambahkan folder Controllers.
+5. Menambahkan class Web API Controller pada folder Controllers, pada saat melakukan proses ini secara otomatis akan ditambahkan reference yang berhubungan dengan Web API seperti System.Web.Http dan lain-lain
+
+Misal alamat akses project tersebut adalah http://localhost:11739/ dan nama class controlleradalah ValuesController.cs maka alamat yang diakses adalah :      http://localhost:11739/api/Values/
+
+install WebApiTestClient
+pada solution explorer > klik kanan pilih window Manage NuGet Packages.
+search  pada browser WebApiTestClient
+klik install dan tunggu
+jika sudah install modifikasi file Api.cshtml yang terletak pada folder Areas\HelpPage\Views\Help\
+https://www.nuget.org/packages/WebApiTestClient/
+
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio
+https://www.c-sharpcorner.com/UploadFile/2b481f/adding-the-test-api-in-the-Asp-Net-web-api-help-page/

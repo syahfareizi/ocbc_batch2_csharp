@@ -1,0 +1,155 @@
+
+
+Kode peserta: FSDO002ONL013
+Nama peserta: Deandri Firdaus
+GitHub link : https://github.com/henchhh/corewebapisample
+Heroku link : https://carter-api-dean.herokuapp.com/weatherforecast
+Keterangan  : Sudah selesai untuk sesi 13
+Yang sudah dipelajari: Belajar soal docker, docker cli, heroku, herokucli, dan seterusnya.
+Improve kode : Tadi ditambahkan oleh mentor untuk isi dari Dockerfile
+Issue masalah : Sudah sukses, namun kendalanya adalah rebuild image docker, heroku buildapp, cli docker, cli heroku, deploy heroku, dan seterusnya.
+
+
+Kode peserta: FSDO002ONL019
+Nama peserta: Denny Tandiono
+Github link : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi13
+Heroku link : https://dennytandiono-corewebapi.herokuapp.com/weatherforecast
+Keterangan  : Sudah selesai untuk sesi 13 
+issue       : kendala docker.
+imporve code: -
+
+Kode peserta: FSDO002ONL006
+Nama peserta: Victorio Vincent Sugianto
+Github link : https://github.com/victoriovincent/corewebapisample
+Heroku link : https://victurapp.herokuapp.com/weatherforecast
+Keterangan  : Sudah selesai untuk sesi 13 
+issue       : -
+imporve code: -
+
+
+Kode peserta: FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link : https://github.com/pieter17/sample-api
+Heroku link : https://samplenet-api.herokuapp.com/weatherforecast
+Keterangan  : Sudah selesai untuk sesi 13
+issue       : -
+imporve code: Swagger tidak bisa.
+
+Kode peserta	: FSDO002ONL020
+Nama peserta	: Duvan Sanjaya
+Github link		: https://github.com/Duvans/corewebapisample/tree/development
+								https://corewebapisample-duvansanjaya.herokuapp.com
+Keterangan		: Sudah selesai untuk Sesi 13 dan 14
+issue 				: -
+Improve Code	: -
+
+Kode peserta    : FSDO002ONL010
+Nama peserta    : Abraham Haholongan Narmada Pohan
+GitHub link 		: https://github.com/NPohann/CoreWebApiSample/tree/master
+Heroku link 		: https://carter-apis.herokuapp.com/WeatherForecast
+Keterangan      : Sudah selesai untuk sesi 13
+issue           : -
+improve code    : -
+
+Kode peserta	: FSDO002ONL007
+Nama peserta	: Yosianus Antonio
+Github link		: 
+    Final Project: https://github.com/Yosianus11/Final-Project-CSharp/tree/master
+          Sesi14 : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi14
+Heroku link		: https://payment-a.herokuapp.com
+database			: MySQL
+Keterangan		: Sudah selesai untuk Final Project sudah dapat melakukan CRUD secara online, silahkan lihat README.md untuk panduan di repo
+issue 				: Kurang unit test dan performance test
+Improve Code	: -
+
+Kode peserta	: FSDO002ONL018
+Nama peserta	: Gilang Trisetya Indrawan
+Github link		: https://github.com/ginwa123/GIC-OCBC-NISP-FINAL-PROJECT-1
+Heroku link		: https://final-project-csharp.herokuapp.com
+database			: Postgres 
+Keterangan		: Sudah selesai untuk Final Project sudah dapat melakukan CRUD secara online, silahkan lihat README.md untuk panduan di github repo
+issue 				: Kurang unit test dan performance test
+Improve Code	: -
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://syahfareizi-corewebapi.herokuapp.com/WeatherForecast
+Keterangan : Sudah selesai untuk sesi 13
+Hal yang dipelajari : mempelajari cara membuat API pada heroku
+issues			 : -
+Improve code : -
+
+Kode peserta 		: FSDO002ONL012
+Nama peserta 		: Agung Wicaksono
+Github link 		: https://github.com/agung-wic/corewebaspisample
+Heroku link 		: http://corewebapi-sample.herokuapp.com/weatherforecast
+Keterangan 			: Sudah selesai sesi 14
+issue 					: -
+improve code 		: -
+Kode peserta 		: FSDO002ONL016
+Nama peserta 		: Esra Delima Manurung
+Github link 		:	https://github.com/esramanurung/charter-web-api
+Heroku link 		: https://charter-web-api.herokuapp.com/weatherforecast
+Keterangan 			: Sudah selesai sesi 14
+issue 					: -
+improve code 		: -
+
+Kode peserta	: FSDO002ONL013
+Nama peserta	: Deandri Firdaus
+Github link		: https://github.com/henchhh/final-project-1-dean
+Heroku link		: https://final-projects-1-dean.herokuapp.com/
+Database 			: MySQL
+Keterangan		: Sudah selesai untuk Final Project
+issue 			  : Kendala startup.cs untuk mysql dan dibantu oleh Pak Faris.
+Improve Code	: -
+
+
+Kode peserta	: FSDO002ONL003
+Nama peserta	: Alwi Azra Akbar Djunaid
+Github link		: https://github.com/alwi-djoenaid/finalproject
+Heroku link		: https://alwisfinalproject.herokuapp.com/
+Database 			: MySQL
+Keterangan		: Sudah selesai untuk Final Project
+issue 			  : Kendala startup.cs untuk mysql dan dibantu oleh Pak Faris dan kawan-kawan.
+Improve Code	: -
+
+Kode peserta	: FSDO002ONL001
+Nama peserta	: David Chrissando Frizky
+Github link		: https://github.com/daveFrizky/CoreWebApiSimple
+Heroku link		: https://dav-app.herokuapp.com/WeatherForecast
+Database 			: MySQL
+Keterangan		: Sudah selesai Sesi 14
+issue 				: -
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/corewebapisample
+              (heroku) https://gio-app-sesi13.herokuapp.com/WeatherForecast
+Keterangan   : Sudah selesai untuk sesi 13 dan 14
+issue        : -
+imporve code : -
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link : https://github.com/Rasoki/DockerTest
+Heroku link : https://carter-api2.herokuapp.com/WeatherForecast
+Keterangan  : Sudah sesi 14
+Yang sudah dipelajari : Belajar Docker
+
+
+Kode peserta	: FSDO002ONL014
+Nama peserta	: Dini Puspita Sukma Ariyanti
+GitHub link 	: https://github.com/clinophile/webservice-dini
+Heroku link 	: https://webservice-dini.herokuapp.com/WeatherForecast
+Keterangan  	: Sudah selesai untuk 13 dan 14
+issue					: -
+Improve code 	: -
+
+Kode peserta		: FSDO002ONL005 
+Nama peserta		: Ika Muliana Devi
+Github link 		: https://github.com/ikamuliana/corewebapi
+Heroku link 		: https://core-webapi.herokuapp.com/weatherforecast
+Keterangan			: sudah selesai sesi 13
+issue						: -
+improve code 		: -
+

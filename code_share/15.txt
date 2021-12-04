@@ -1,0 +1,203 @@
+format pengiriman final projects
+------------------------------------------------
+>> folder kodepeserta_namapeserta_final_project
+	>> word panduan penggunaan aplikasi (cara akses url api di postman + screenshot hasil)
+  >> sertakan file collection dari postman
+  >> link github & link heroku (link aplikasi github & heroku.txt)
+  >> text file jika ada improve (sertakan apa aja kode yg di improve)
+di zipkan kasih nama kodepeserta_namapeserta_final_project.zip
+sample 001_arifsetiawan_final_project_payment.zip
+
+upload ke google class room
+------------------------------------------------
+
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://syahfareizi-paymentapi.herokuapp.com/
+							https://github.com/syahfareizi/paymentapi/tree/development
+              https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/FSDO002ONL008_SYAHMUHAMMADALFAREIZI_FINALPROJECT/PaymentAPI
+Keterangan : Sudah selesai untuk final project
+Hal yang dipelajari : mempelajari cara membuat REST API dengan JWT yang ada fitur refreshtoken, serta menggunakan database online.
+Issues : tidak ada 
+Improve code : menambahkan jwt dan refreshtoken
+
+Kode peserta	: FSDO002ONL018
+Nama peserta	: Gilang Trisetya Indrawan
+Github link		: https://github.com/ginwa123/GIC-OCBC-NISP-FINAL-PROJECT-1
+Heroku link		: https://final-project-csharp.herokuapp.com
+database			: Postgres 
+Keterangan		: Sudah selesai untuk Final Project sudah dapat melakukan CRUD secara online, silahkan lihat README.md untuk panduan di github repo
+issue 				: -
+Improve Code	: -
+
+Kode peserta: FSDO002ONL006
+Nama peserta: Victorio Vincent Sugianto
+GitHub link : https://github.com/victoriovincent/Final_Project_1
+heroku 			 : https://final-project-victur.herokuapp.com/
+Keterangan   : Final project 
+issue        : error (sudah dibantu Pak Arif)
+imporve code : JWT dan refresh token
+
+Kode peserta	: FSDO002ONL018
+Nama peserta	: Gilang Trisetya Indrawan
+Github link		: https://github.com/ginwa123/GIC-OCBC-NISP-FINAL-PROJECT-1
+Heroku link		: https://final-project-csharp.herokuapp.com
+database			: Postgres 
+Keterangan		: Sudah selesai untuk Final Project sudah dapat melakukan CRUD secara online, silahkan lihat README.md untuk panduan di github repo
+issue 				: -
+Improve Code	: -
+=============================================
+
+Kode peserta	: FSDO002ONL016
+Nama peserta	: Esra Delima Manurung
+Github link		: 
+    Final Projec: https://github.com/esramanurung/Final_Project_1
+    Sesi14		:	https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/FSDO002ONL016_EsraDelimaManurung_Final_Project
+Heroku link		: https://dashboard.heroku.com/apps/final-project-payment/deploy/github
+database		: MySQL Db4free
+Keterangan		: Sudah selesai untuk Final Project sudah dapat melakukan CRUD secara online di heroku
+issue 			: -
+Improve Code	: Menambahkan Tambah JWT dan Refresh Token dan Memberikan Respon Data kalau melakukan update,delete,insert,post
+
+Kode peserta	: FSDO002ONL020
+Nama peserta	: Duvan Sanjaya
+Github link		: https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/FinalProject1
+								https://github.com/Duvans/paymentapiduvan/tree/development
+								https://paymentapi-duvansanjaya.herokuapp.com
+Keterangan		: Sudah selesai untuk Final Project
+issue 				: -
+Improve Code	: Tambah JWT dan Refresh Token
+
+==============================================
+Kode peserta	: FSDO002ONL007
+Nama peserta	: Yosianus Antonio
+Github link		: 
+    Final Project: https://github.com/Yosianus11/Final-Project-CSharp/tree/master
+          Sesi14 : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/007_YosianusAntonio_Final_Project_Payment
+Heroku link		: https://payment-a.herokuapp.com
+database			: MySQL
+Keterangan		: Sudah selesai untuk Final Project sudah dapat melakukan CRUD secara online di heroku
+issue 				: -
+Improve Code	: Menambahkan respone feedback saat ok. resgister login first
+
+
+Kode peserta	: FSDO002ONL019
+Nama peserta	: Denny Tandiono
+Github link		: 
+    Final Project: https://github.com/dennytandiono/finalproject-repo
+          Sesi14 : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi14
+Heroku link		: https://finalproject-docker.herokuapp.com
+database			: MySQL
+Keterangan		: Sudah selesai untuk Final Project 
+issue 				: -
+Improve Code	: penambahan register, token & refresh token
+
+Kode peserta	: FSDO002ONL012
+Nama peserta	: Agung Wicaksono
+Github link	(Deploy to Heroku): https://github.com/agung-wic/finalproject-csharp
+Github link (Documentation) : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/FinalProject1
+Heroku link		: https://paymentweb-api.herokuapp.com/
+Database 			: MySQL (Azure Database for MySQL Server)
+Keterangan		: Sudah selesai untuk Final Project
+issue 			  : -
+Improve Code	: memperbaiki response untuk CRUD, menambahkan start page untuk informasi singkat penggunaan API
+
+Kode peserta	: FSDO002ONL013
+Nama peserta	: Deandri Firdaus
+Github link		: https://github.com/henchhh/final-project-1-dean
+Heroku link		: https://final-projects-1-dean.herokuapp.com/
+Manual book   : https://github.com/henchhh/final-project-1-dean/blob/main/PDF%20MANUAL%20BOOK/FSDO002ONL013_DeandriFirdaus_Project1.pdf
+Postman link1 : https://go.postman.co/workspace/Sesi10~78116a65-10de-432a-a936-5cf3d43f1e8b/collection/18450595-ce0fa4f2-d776-479c-9655-8096b1f0ac67
+Postman link2 : https://github.com/henchhh/final-project-1-dean/blob/main/Project1.postman_collection.json
+Database 			: MySQL
+Keterangan		: Sudah selesai untuk Final Project
+issue 			  : Kendala startup.cs untuk mysql dan dibantu oleh Pak Faris.
+Improve Code	: Sedang mempelajari untuk index.html dan mudah-mudahan sempat
+
+Kode peserta: FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link (Heroku) : https://github.com/pieter17/paymentfinalapi
+Github link : https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi14
+Heroku link : https://paymentapifinal.herokuapp.com/
+Keterangan  : Sudah selesai untuk sesi 14 final project
+issue       : tidak bisa migrate database karena tidak cukup dari free database, jadi harus cari" database free yang pas.
+imporve code: jwt and refresh token.
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/payment
+              (heroku) https://gio-payment.herokuapp.com/
+Keterangan   : Sudah selesai untuk Final project 
+issue        : -
+imporve code : JWT dan refresh token
+
+Kode peserta	: FSDO002ONL001
+Nama peserta	: David Chrissando Frizky
+Github link		: https://github.com/daveFrizky/Payment_Detail
+Heroku link		: https://app-payment-final.herokuapp.com/api/Register
+Database 			: MySQL
+Keterangan		: Sudah selesai untuk Final Project
+issue 				: -
+Improve Code	: memperbaiki response untuk CRUD
+
+=============================================================================================
+Kode peserta	: FSDO002ONL010
+Nama peserta	: Abraham Haholongan Narmada Pohan
+Github link		: hhttps://github.com/NPohann/OCBC-FINALPROJECT-PAYMENT/tree/master
+Heroku link		: https://payment-api-finalproject.herokuapp.com/
+Database 			: MySQL
+Keterangan		: Sudah selesai untuk Final Project
+issue 			  : Penulisan Syntax yang kurang / typo sehingga program terjadi error
+Improve Code	: JWT & RefreshToken serta Feedback setelah melakukan transaksi pada API
+==============================================================================================
+
+Kode peserta  : FSDO002ONL009
+Nama peserta  : Muhammad Fikri Azhar
+Github link   : https://github.com/mhmmdfkrazr/FinalProject
+Heroku link   : https://finalproject-payment.herokuapp.com/
+Database      : Mysql
+Keterangan    : Sudah selesai Final project
+issue         : -
+Improve Code  : jwt dan refresh token menggunakan db online
+
+================================
+Kode peserta	: FSDO002ONL014
+Nama peserta	: Dini Puspita Sukma Ariyanti
+GitHub link 	
+	Final Project	: https://github.com/clinophile/FinalProject-PaymentAPI
+	Sesi14				: https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi14
+Heroku link 	: https://paymentapi-dini.herokuapp.com/
+Database			: MySQL
+Keterangan  	: Sudah selesai untuk Final Project
+issue					: -
+Improve code 	: -
+
+Kode peserta	: FSDO002ONL003
+Nama peserta	: Alwi Azra Akbar Djunaid
+Github link		: https://github.com/alwi-djoenaid/finalproject
+Heroku link		: https://alwisfinalproject.herokuapp.com/
+Database 			: MySQL
+Keterangan		: Sudah selesai untuk Final Project
+issue 			  : Kendala startup.cs untuk mysql dan dibantu oleh Pak Faris dan kawan-kawan.
+Improve Code	: -
+
+
+Kode peserta	: FSDO002ONL002
+Nama peserta	: Widyawati Nur Sholikhah
+Github link		: https://github.com/widyalikha15/paymentappfinal
+Heroku link		: https://paymentappwidya.herokuapp.com/
+Database 			: MySQL sql6.freesqldatabase.com
+Keterangan		: -
+issue 			  : -
+Improve Code	: - jwt, refresh token
+
+
+Kode peserta	: FSDO002ONL005
+Nama peserta	: Ika Muliana Devi
+Github link		: https://github.com/ikamuliana/FinalProject
+Heroku link		: https://finalprojectwebapi.herokuapp.com/
+Database 			: MySQL sql6.freesqldatabase.com
+Keterangan		: sudah selesai final project
+issue 			  : kendala refresh token eror
+Improve Code	: tambah jwt, refresh token

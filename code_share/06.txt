@@ -1,0 +1,139 @@
+=== Format Tugas ===
+
+Nama Peserta  : Deandri Firdaus
+Kode Peserta  : FSDO002ONL013
+Tugas         : Tugas 1 (SQL Server)
+GitHub Link   : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%203/Sesi06/FSDO002ONL013_DeandriFirdaus_Tugas1
+
+Nama Peserta  : Yosianus Antonio
+Kode Peserta  : FSDO002ONL007
+Tugas         : Tugas 1 (SQL Server)
+GitHub Link   : 
+Sesi6					: https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi06
+Assigment2		: https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/007_YosianusAntonio_Assigment2
+
+Nama Peserta  : Pieter Christian Wenji
+Kode Peserta  : FSDO002ONL015
+Tugas         : Tugas 1 (SQL Server)
+GitHub Link   : https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi06
+
+Nama Peserta  : Victorio Vincent Sugianto
+Kode Peserta  : FSDO002ONL006
+Tugas         : Tugas 1 (SQL Server)
+GitHub Link   : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi06
+
+Nama peserta  : Muhammad Fikri Azhar
+Kode peserta  : FSDO002ONL009
+Tugas         : Tugas 1 (SQL Server)
+GitHub link   : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_06/FSDO002ONL009
+GitHub Assignment 2 : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/FSDO002ONL009_MuhammadFikriAzhar_Assignment2
+
+Kode peserta 	: FSDO002ONL008
+Nama peserta	: Syah Muhammad Alfareizi
+Tugas					: Tugas 1 ( SQL SERVER )
+GitHub link 	: https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/sesi_6
+
+Nama Peserta  : Abraham Haholongan Narmada Pohan
+Kode Peserta  : FSDO002ONL010
+Tugas         : Tugas 1 (SQL Server)
+GitHub Link   : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi06
+GitHub Assignment 2 : https://github.com/NPohann/OCBC-BATCH2-CSHARP/blob/main/010_AbrahamHaholonganNarmadaPohan_Assignment2.rar
+
+Kode Peserta 	: FSDO002ONL020
+Nama Peserta	: Duvan Sanjaya
+Tugas		      : Tugas 1 (SQL Server)
+GitHub link	  : https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/Sesi06 
+
+Nama Peserta  : Giovanni Christian Antonio
+Kode Peserta  : FSDO002ONL004
+Tugas         : Tugas 1 (SQL Server)
+GitHub Link   : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Tugas1
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+Tugas				: Modul Sesi 06 + Assignment 2 (SQL Server)
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi06
+Github Assignment 2 : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/014_DiniPuspitaSukmaA_Assignment2
+
+Kode peserta: FSDO002ONL016
+Nama peserta : Esra Delima Manurung
+Github Link: https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi06
+Keterangan : Tugas 1 (SQL Server)
+
+Kode peserta: FSDO002ONL018
+Nama peserta: Gilang Trisetya Indrawan
+Tugas       : Tugas 1 (SQL Server)
+GitHub link : https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi06
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Sesi6
+Keterangan : Tugas 1 (SQL Server)
+
+Kode peserta: FSDO002ONL0019
+Nama peserta: Denny Tandiono
+GitHub link : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi06
+Keterangan : Tugas 1 (SQL Server)
+
+Kode peserta:FSDO002ONL002
+Nama peserta: widyawati nur sholikhah
+GitHub link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi06
+GitHub link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi06/FSDO002ONL002_WidyawatiNurSholikhah_assignment2
+Tugas       : Tugas 1 (SQL Server)
+
+Kode peserta : FSDO002ONL012
+Nama peserta : Agung Wicaksono
+Tugas 			 : Tugas 1 (SQL Server)
+Github Link  : 
+Sesi06       : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi06
+Assignment 2 : https://github.com/agung-wic/ocbc-csharp-batch2/blob/master/Sesi06/FSDO002ONL012_Agung%20WIcaksono_Assignment2.zip
+
+Kode peserta: FSDO002ONL005
+Nama peserta : Ika Muliana Devi
+Github Link: https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi6
+Assignment 2 : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/FSDO002ONL005_IkaMulianaDevi_Assignment2
+Keterangan : Tugas 1 (SQL Server)
+
+Kode peserta: FSDO002ONL003
+Nama peserta : Alwi Azra Akbar Djunaid
+Github Link: https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi06
+Keterangan : Tugas 1 (SQL Server)
+
+Nama Peserta  : RASOKI SALAS HARAHAP
+Kode Peserta  : FSDO002ONL011
+Tugas         : Tugas 1 (SQL Server)
+GitHub Link   : 
+Sesi6	      	: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Assigment2    : https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+-------------------------------------------------------------------------------------------
+
+Buat Folder KodePeserta_NamaPeserta_Assigment2.zip
+Buat File Query_Assigment.txt > DISI QUERY NYA
+Export File Query_SQL_EXPORT.sql
+
+Query_Assigment.txt
+----------------
+NamaPeserta   : NamaAnda
+Kode Peserta  : 001 (Kode PESERTA LENGKAP)
+Tugas         : Assigment 2
+----------------
+
+Screenshot Output Hasil Per Soal
+No. 1 Soal
+Jawaban Query Soal No. 1
+-------------------
+
+Screenshot Output Hasil Per Soal
+No. 2 Soal
+Jawaban Query Soal No. 2
+-------------------
+
+Screenshot Output Hasil Per Soal
+NO.3 Soal
+Jawaban Query Soal No. 3
+-------------------
+
+DST
+-------------------
+
+

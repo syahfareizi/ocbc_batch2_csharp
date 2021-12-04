@@ -1,0 +1,140 @@
+=== GITHUB LINK ===
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP.git
+Keterangan  : Sudah selesai untuk dan sesi 2
+Yang sudah dipelajari : Pembelajaran bahasa C# lebih lanjut hingga terhubung ke github repository
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+Github link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_02
+Keterangan   : Selesai dengan materi dan pembelajaran pada sesi 2
+imporve kode : -
+Issue        : -
+
+Kode peserta: FSDO002ONL013
+Nama peserta: Deandri Firdaus
+GitHub link : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%201/Sesi02
+Keterangan  : Sudah selesai untuk sesi 2
+Yang sudah dipelajari: Belajar soal class, objek, fungsi, operator aritmatika dan boolean, dan lain sebagainya. 
+Improve kode : Tidak ada
+Issue masalah : Tadi sempat beberapa kali typo dan lupa untuk deklarasi tipe data objek di paling atas.
+
+Kode peserta: FSDO002ONL003
+Nama peserta: Alwi Azra Akbar Djunaid
+URL GitHub: https://github.com/alwi-djoenaid/ocbc-batch2-csharp
+Keterangan: Sesi 2 telah selesai
+Yang dipelajari: Mempelajari inisialisasi variabel, tipe data, operator, dan syntax pada C#
+Issues : -
+Improve code : -
+
+Kode peserta: FSDO002ONL006
+Nama peserta: Victorio Vincent Sugianto
+GitHub link : https://github.com/victoriovincent/OCBC-BATCH2-CSharp
+Keterangan  : Sudah sesi 2
+Yang dipelajari: Mempelajari variabel operasi, tipe data dll
+Issues : -
+Improve code : -
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp.git
+Keterangan : telah menyelesaikan serangkaian mini projek pada modul dan telah dipush pada github.
+Hal yang dipelajari : mempelajari basic dari bahasa C# ( variable, operasi, dsb)
+Issues : tidak ada.
+Improve code : tidak ada. 
+
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/Sesi02
+Keterangan : Sudah Selesai untuk sesi 2
+yang sudah dipelajarain : mempelajari basic dari C# dan push ke GitHub
+issues : tidak ada.
+Improve code : tidak ada
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link : https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 2 
+Yang sudah dipelajari: Instalasi tools dan menghubungkan projek sesi 2 ke github
+
+Kode Peserta: FSDO002ONL015
+Nama Peserta: Pieter Christian Wenji
+Github link : https://github.com/pieter17/OCBC-BATCH2-CSharp
+Keterangan  : Sudah selesai untuk sesi 2 
+Yand sudah dipelajari : menghubungkan program ke version control git, dan pengenalan terhadap c# (variabel, tipe data) menerima dan menampilkan hasil program di terminal.
+issue : -
+improve code : -
+
+Kode peserta: FSDO002ONL020
+Nama peserta: Duvan Sanjaya
+Github link: https://github.com/Duvans/OCBC-BATCH2-CSharp.git
+Keterangan: Sudah selesai untuk sesi 2
+Yang sudah dipelajari : Basic C# dan membuat project sesi 2 beserta push git
+
+Kode peserta: FSDO002ONL019
+Nama peserta: Denny Tandiono
+GitHub link : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi02
+Keterangan  : Sudah selesai untuk sesi 2
+Yang sudah dipelajari : Mempelajari dasar bahasa C#
+Issues : -
+Improve Code : -
+
+Kode peserta :FSDO002ONL002
+nama peserta : Widyawati Nur Sholikhah
+Github link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi02
+keterangan : telah menyelesaikan sesi 2
+yang sudah dipelajari : dapat ilmu git manual, soalnya biasanya pake tool sourcetree, belajar bahasa baru
+issue : tidak ada
+improve code : -
+
+
+Kode Peserta: FSDO002ONL010
+Nama Peserta: ABRAHAM HAHOLONGAN NARMADA POHAN
+Github link : https://github.com/NPohann/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah selesai untuk sesi 2 
+Yand sudah dipelajari : Config workspace dengan GitHub, mempelajari dasar C#.
+issue : -
+improve code : -
+
+Kode peserta: FSDO002ONL012
+Nama peserta: Agung Wicaksono
+GitHub link : https://github.com/agung-wic/ocbc-csharp-batch2
+Keterangan : sudah menyelesaikan modul
+Issue : sempat typo antara WriteLine dan ReadLine
+improve code: =
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi02
+Keterangan  : Sudah selesai untuk sesi 2
+Yang sudah dipelajari: belajar dasar-dasar C# (tipe data + variabel) dan mengerjakan beberapa modul C# dan push projectnya ke GitHub. 
+Issues : -
+Improve code : -
+
+Kode peserta: FSDO002ONL005
+Nama peserta: Ika Muliana Devi
+GitHub link : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi2
+Keterangan  : Sudah selesai untuk sesi 2
+Yang sudah dipelajari: dasar c#, mengerjakan sesi 2 dan push project ke github
+Issues : -
+Improve code : -
+
+
+Kode peserta: FSDO002ONL016
+Nama peserta: Esra Delima Manurung
+GitHub link : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi02
+Keterangan  : Sudah selesai untuk sesi 2
+Yang sudah dipelajari: dasar c#, mengerjakan sesi 2 dan push project ke github
+Issues : -
+Improve code : -
+
+Kode peserta: FSDO002ONL018
+Nama peserta: Gilang Trisetya Indrawan
+GitHub link : https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP
+Keterangan  : Sudah selesai untuk sesi 2
+Yang sudah dipelajari: belajar dasar-dasar C# (tipe data + variabel) dan mengerjakan beberapa modul C# dan push projectnya ke GitHub. 
+Issues : -
+Improve code : -

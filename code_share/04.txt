@@ -1,0 +1,259 @@
+
+=== GITHUB LINK ===
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Sesi4
+Keterangan : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Belajar tentang array tunggal, array multidimensi, array jagged, dan tipe data string beserta fungsi yang dapat digunakan untuk tipe tersebut.
+Issue masalah : Tidak ada
+
+Kode peserta : FSDO002ONL013
+Nama peserta : Deandri Firdaus
+GitHub link : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%202/Sesi04
+Keterangan : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Belajar tentang array tunggal, array multidimensi, array jagged, dan tipe data string beserta fungsi yang dapat digunakan untuk tipe tersebut.
+Improve kode : data3 dan data4 dapat dibantu dengan menggunakan variabel baru yang nilainya 1 dan variabel baru tersebut akan mengalami increment di dalam nested formnya.
+Issue masalah : Tidak ada
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp.git
+Keterangan : sudah selesai sesi 4
+Hal yang dipelajari : membelajari tentang array dan segala method yang dapat digunakan
+Issues : berusaha improve untuk menggunakan fungsi pada jagged.cs namun masih belum bisa di run
+Improve code : menggabungkan for agar penggunaan for tidak berlebih ( jagged.cs )
+
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+GitHub link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_04
+Keterangan   : Selesai dengan materin dan pembelajaran live code di sesi 4
+Improve kode : Array.
+Issue        : -
+
+Kode peserta: FSDO002ONL002
+Nama peserta: Widyawati Nur Sholikhah
+GitHub link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi04
+Keterangan  : telah menyelesaikan sesi 4
+Yang sudah dipelajari : belajar looping
+Improve kode : -
+Issue masalah : -
+
+Kode peserta: FSDO002ONL020
+Nama peserta: Duvan Sanjaya
+Github link: https://github.com/Duvans/OCBC-BATCH2-CSharp.git
+Keterangan: Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Konsep memori, Array(cara akses dan menampilkan array), Array MultiDimensi, Inisialisasi Array MultiDimensi, Array Jagged, String.
+Issue : -
+
+Kode peserta : FSDO002ONL012
+Nama peserta : Agung Wicaksono
+GitHub link : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi04
+Keterangan : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : mempelajari mengenai data dalam C#, array dan string beserta fungsinya.
+Improve kode : -
+Issue masalah : saat penggunaa CultureInfo dan CurrentCulture pada .ToLower dan .ToUpper, terjadi error.
+
+Kode peserta: FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link : https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi04
+Keterangan  : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : belajar data array, array 2 dimensi, array 3 dimensi, array jagged, alokasi memori, foreach untuk array dan manipulasi juga kelas dari string.
+issue: -
+Improve Code : -
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi04
+Keterangan  : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Belajar tentang Struktur data pada C# seperti Array (multidimensi, jagged), String dan function2nya.
+issue: -
+Improve Code : -
+
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Sesi04
+Keterangan : Sudah Selesai untuk sesi 4
+yang sudah dipelajarain : Data( memory dalam pemrograman, array, array jagged, dan string)
+issues : tidak ada.
+Improve code : tidak ada
+
+Kode peserta : FSDO002ONL016
+Nama peserta : Esra Delima Manurung
+GitHub link : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi04
+Keterangan : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : mempelajari mengenai data dalam C#, array dalam string beserta fungsinyadan konsep memori
+Improve kode : Tidak Ada
+Issue masalah :  Penggunaan CultureInfo dan CurrentCulture pada ToLower dan ToUpper, terjadi error sehingga harus ditambahkan library using System Globalization.
+
+Kode peserta: FSDO002ONL007
+Nama peserta: Yosianus Antonio
+GitHub link : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi04
+Keterangan : Sudah Selesai untuk sesi 4
+yang sudah dipelajarain : Data( memory dalam pemrograman, array, Array Multi dimensi, array jagged, dan manipulasi string)
+issues : tidak ada.
+Improve code : Mencoba Array String Push(list add) C#
+
+Kode peserta: FSDO002ONL019
+Nama peserta: Denny Tandiono
+GitHub link : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi04
+Keterangan  : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Mempelajari Array dalam C# ( multi dimensi, jagged , string, dll)
+Issues : -
+Improve Code : -
+
+Kode peserta: FSDO002ONL010
+Nama peserta: Abraham Haholongan Narmada Pohan
+GitHub link : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi04
+Keterangan  : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Mempelajari Array dan berbagai macam tipenya pada C# (Array Multi Dimensi, Array Jagged) dan Manipulasi String
+Issues : -
+Improve Code : -
+
+Kode peserta: FSDO002ONL018
+Nama peserta: Gilang Trisetya Indrawan
+GitHub link : https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP
+Keterangan  : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Mempelajari tipe data dan struktur data dalam C# seperti
+array, string, array 2d, array jagged
+Issues : -
+Improve Code : -
+
+Kode peserta: FSDO002ONL005
+Nama peserta: Ika Muliana Devi
+GitHub link : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi4
+Keterangan : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Belajar data dalam C#, macam macam tipe array
+Issue masalah : kurang teliti dalam penggunaan huruf besar dan kecil.
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link : https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 4
+Yang sudah dipelajari : Belajar memory dalam pemrograman, array, array multidimensi, array jagged, array, dan manipulasi string
+
+Kode peserta : FSDO002ONL006
+Nama peserta : Victorio Vincent Sugianto
+GitHub link : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi04
+Keterangan : Sudah selesai untuk sesi 4
+Yang sudah dipelajari : Belajar tentang berbagai jenis array dan string serta fungsi yang dapat digunakan untuk tipe tersebut.
+Improve kode : -
+Issue masalah : -
+
+------------------------------------------------
+format tugas assignment 1
+
+folder kodepeserta_namapeserta_assignment1
+- nama file kodepeserta_namapeserta_assignment1.cs
+- panduan penggunaan.txt 
+  - terdapat cara pakai aplikasi
+  - terdapat link github (push ke github)
+di zipkan kasih nama kodepeserta_namapeserta_assignment1.zip
+sample 001_arifsetiawan_assignment1.zip
+
+upload ke google class room
+
+buat 1 file project assigment 1
+di dalam nya terdapat jawaban 5 soal
+
+sample
+---
+selamat datang di assigment 1
+
+nama lengkap saya : arif
+nomor peserta : 001 (lengkap)
+alamat : bandar lampung
+
+pilih menu soal
+1. soal a (disingkat aja untuk deskripsi soalnya)
+2. soal b (disingkat aja untuk deskripsi soalnya)
+4. soal c (disingkat aja untuk deskripsi soalnya)
+5. soal d (disingkat aja untuk deskripsi soalnya)
+6. soal e (disingkat aja untuk deskripsi soalnya)C:\Users\User\003_Alwi Azra Akbar Djunaid_Assignment1\Program.cs
+7. about / tentang saya
+8. exit
+
+jika pilih 1 akan nampil jawaban soal a, sample :
+anda memilih soal a
+jawaban soal a adalah (isi jawban disini)
+
+kembali kemenu awal ? jawab ya > masuk kemenu awal
+
+------------------------------------------------
+kirmin link github assigment 1
+
+Kode peserta : FSDO002ONL001
+Nama peserta : David Chrissando Frizky
+GitHub link ass1 : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Asssignment1
+
+Kode peserta : FSDO002ONL003
+Nama peserta : Alwi Azra Akbar Djunaid
+GitHub link ass1 : https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Assignment01
+
+Kode peserta : FSDO002ONL013
+Nama peserta : Deandri Firdaus
+GitHub link ass1 : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Assigment/Assignment01
+
+Kode peserta : FSDO002ONL018
+Nama peserta : Gilang Trisetya Indrawan
+GitHub link ass1 : https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Assign1
+
+Kode Peserta : FSDO002ONL015
+Nama Peserta : Pieter Christian Wenji
+Github Link : https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi04/FSDO002ONL015_pieterchristianwenji_assignment1
+
+Kode peserta : FSDO002ONL006
+Nama peserta : Victorio Vincent Sugianto
+GitHub link : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Assingment01
+
+Kode peserta : FSDO002ONL020
+Nama peserta : Duvan Sanjaya
+GitHub link : https://github.com/Duvans/Assignment1.git
+
+Kode peserta : FSDO002ONL007
+Nama peserta : Yosianus Antonio
+GitHub link ass1 : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Assigment1
+
+Kode peserta : FSDO002ONL012
+Nama peserta : Agung Wicaksono
+Github link ass1 : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Assignment1
+
+Kode peserta : FSDO002ONL016
+Nama peserta : Esra Delima Manurung
+Github link ass1 : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/FSDO002ONL016_EsraDelimaManurung_assignment1
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Assign1
+
+Kode peserta: FSDO002ONL010
+Nama peserta: Abraham Haholongan Narmada Pohan
+GitHub link : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Assign_01
+
+Kode peserta  : FSDO002ONL009
+Nama peserta  : Muhammad Fikri Azhar
+GitHub link   : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/FSDO002ONL009_MuhammadFikriAzhar_Assignment1
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/FSDO002ONL008_SYAHMUHAMMADALFAREIZI_ASSIGNMENT_1
+
+Kode peserta : FSDO002ONL002
+Nama Peserta : Widyawati Nur Sholikhah
+Github Link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/FSDO002ONL002_WidyawatiNurSholikhah_assignment1
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link ass1: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+
+Kode peserta : FSDO002ONL005
+Nama peserta: Ika Muliana Devi
+GitHub link : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/FSDO002ONL005_ikamulianadevi_assignment1
+
+

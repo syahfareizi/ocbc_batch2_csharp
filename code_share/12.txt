@@ -1,0 +1,423 @@
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp/tree/main/sesi_12
+Keterangan : Sesi 12 aman
+Hal yang dipelajari : mempelejari cara kerja dan menggunakan dari unittesting app dengan package Moq
+Issues : tidak ada
+Improve code : tidak ada
+
+Nama Peserta  : Victorio Vincent Sugianto
+Kode Peserta  : FSDO002ONL006
+GitHub Link   : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi12
+Keterangan 		: Sesi 12 error
+issues 				: -
+Improve code 	: -
+
+Kode peserta : FSDO002ONL010
+Nama peserta : Abraham Haholongan Narmada Pohan
+GitHub link  : https://github.com/NPohann/OCBC-BATCH2-CSHARP/tree/main/Sesi12
+Keterangan   : Sesi 12 sudah selesai
+Hal yang dipelajari : Mempelajari unit testing Web API dengan menggunakan mock dan JMeter
+Issues       : -
+Improve code : -
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+GitHub link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_12/UnitTest_Mock
+Keterangan   : Sesi 12 sudah selesai
+Hal yang dipelajari : banyak hal baru yang dipelajari pada sesi ini
+Issues       : -
+Improve code : -
+
+Kode peserta : FSDO002ONL016
+Nama peserta:Esra Delima Manurung
+GitHub link : https://github.com/esramanurung/OCBC-BATCH2-CSharp/tree/main/Sesi12
+Keterangan : sesi 12 sudah selesai
+Hal yang dipelajari : mempelejari cara unit test untuk sebuah aplikasi web api menggunakan mock dan jmeter
+Issues : tidak ada
+Improve code : tidak ada
+
+Kode peserta	: FSDO002ONL020
+Nama peserta	: Duvan Sanjaya
+Github link		: https://github.com/Duvans/OCBC-BATCH2-CSharp/tree/main/BOOTCAMP/Sesi12/UnitTest_Mock
+Keterangan		: Sudah selesai untuk sesi 12
+issue 				: -
+Improve Code	: -
+
+
+Kode peserta : FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link : https://github.com/pieter17/OCBC-BATCH2-CSharp/tree/main/Sesi12
+Keterangan : sesi 12 sudah selesai
+Hal yang dipelajari : mempelejari cara unit test untuk sebuah aplikasi web api
+Issues : tidak ada
+Improve code : tidak ada
+
+Kode peserta: FSDO002ONL019
+Nama peserta: Denny Tandiono
+GitHub link : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi12
+Keterangan   : Sudah selesai untuk sesi 12
+issue        : -
+imporve code : -
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/tree/main/Sesi12
+Keterangan   : Sudah selesai untuk sesi 12
+issue        : -
+imporve code : -
+
+Kode peserta    : FSDO002ONL001
+Nama peserta    : David Chrissando Frizky
+GitHub link 		: https://github.com/daveFrizky/OCBC-BATCH2-CSHARP/tree/main/Sesi12/UnitTest_Mock
+Keterangan      : Sudah selesai untuk sesi 12
+issue           : -
+imporve code    : -
+
+Kode peserta    : FSDO002ONL018
+Nama peserta    : Gilang Trisetya Indrawan
+GitHub link 		: https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi12
+Keterangan      : Sudah selesai untuk sesi 12 unit test dan performance test
+issue           : -
+imporve code    : -
+
+Kode peserta    : FSDO002ONL007
+Nama peserta    : Yosianus Antonio
+GitHub link 		: https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Sesi12
+Keterangan      : Sudah selesai untuk sesi 12
+issue           : -
+imporve code    : -
+
+Kode peserta	: FSDO002ONL014
+Nama peserta	: Dini Puspita Sukma Ariyanti
+GitHub link 	: https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi12
+Keterangan  	: Sudah selesai untuk sesi 12
+issues				: -
+improve code	: -
+
+Kode peserta : FSDO002ONL012
+Nama peserta : Agung Wicaksono
+Github link  : https://github.com/agung-wic/ocbc-csharp-batch2/tree/master/Sesi12
+Keterangan	 : Sesi 12 sudah selesai
+issue 			 : -
+improve code : -
+
+Kode peserta : FSDO002ONL013
+Nama peserta : Deandri Firdaus
+Github link  : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%206/Sesi12
+Keterangan	 : Sesi 12 sudah selesai, belajar aplikasi JMeter untuk mengetahui informasi tentang api yang sedang berjalan
+issue 			 : -
+improve code : -
+
+Kode peserta : FSDO002ONL002
+Nama peserta : Widyawati Nur Sholikhah
+Github link  : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi12
+Keterangan	 : - 
+issue 			 : -
+improve code : -
+
+Kode peserta : FSDO002ONL003
+Nama peserta : Alwi Azra Akbar Djunaid
+Github link  : https://github.com/alwi-djoenaid/ocbc-batch2-csharp/tree/main/Sesi12/UnitTest_Mock
+Keterangan	 : 
+issue 			 : -
+improve code : -
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link ass1: https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 12
+Yang sudah dipelajari : Belajar aplikasi JMeter untuk mengetahui informasi tentang api yang sedang berjalan
+
+
+- testing framework Jasmine: https://jasmine.github.io/
+- test runner Karma: https://karma-runner.github.io/latest/index.html
+https://reqbin.com/echo/get/json
+
+-------------
+
+https://archive.apache.org/dist/jmeter/binaries/
+https://jmeter-plugins.org/wiki/PluginsManager/  
+
+cara buka jmeter bin/jmeter.bat
+---------------------------------------------------------
+1. download plugin jmeter
+2. copy plugin pada directory jmeter/lib/ext
+3. dotnet run UnitTest_mock
+4. test Swagger --> http://localhost:5001/swagger/index.html
+5. open jmeter -> option -> plugin manager -> checklist sesuai https://jmeter-plugins.org/wiki/PluginsManager/
+
+
+cek http header manager
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
+-------------------------------------------------------------------------------------------
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace UnitTest_Mock.Model
+{
+    public partial class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
+        public DbSet<Employee> Employees { get; set; }
+    }	
+}
+-------------------------------------------------------------------------------------------
+
+internal class AuthResponsesOperationFilter : IOperationFilter
+    {
+        public void Apply(OpenApiOperation operation, OperationFilterContext context)
+        {
+            var attributes = context.MethodInfo.DeclaringType.GetCustomAttributes(true)
+                                .Union(context.MethodInfo.GetCustomAttributes(true));
+
+            if (attributes.OfType<IAllowAnonymous>().Any())
+            {
+                return;
+            }
+
+            var authAttributes = attributes.OfType<IAuthorizeData>();
+
+            if (authAttributes.Any())
+            {
+                operation.Responses["401"] = new OpenApiResponse { Description = "Unauthorized" };
+
+                if (authAttributes.Any(att => !String.IsNullOrWhiteSpace(att.Roles) || !String.IsNullOrWhiteSpace(att.Policy)))
+                {
+                    operation.Responses["403"] = new OpenApiResponse { Description = "Forbidden" };
+                }
+
+                operation.Security = new List<OpenApiSecurityRequirement>
+                {
+                    new OpenApiSecurityRequirement
+                    {
+                        {
+                            new OpenApiSecurityScheme
+                            {
+                                Reference = new OpenApiReference
+                                {
+                                    Id = "BearerAuth",
+                                    Type = ReferenceType.SecurityScheme
+                                }
+                            },
+                            Array.Empty<string>()
+                        }
+                    }
+                };
+            }
+        }
+    }
+-------------------------------------------------------------------------
+c.OperationFilter<AuthResponsesOperationFilter>();
+----
+  
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
+using TodoAppRefreshToken.Configuration;
+using TodoAppRefreshToken.Data;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Identity;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using Microsoft.AspNetCore.Authorization;
+
+------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+
+namespace UnitTest_Mock.Models
+{
+    public partial class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
+        public DbSet<Employee> Employees { get; set; }
+    }
+}
+
+
+=======================================================================
+
+aplikasi 1. employe app
+> running
+
+aplikasi 2. unit testing
+> cek pada aplikasi 1
+> cek emplye id
+> cek emplye detail
+
+> cek nya itu dari apliokasi
+1. cek dari aplikasi 1
+2. cek statistik hit request api
+3. cek paket data dari request api
+4. cek total request
+
+1 aplikasi
+> 20 user
+
+1 menit
+end point login
+ > di hit brp user ?
+
+tercatat data > 
+1. hit nya ada 10
+	> login
+	> paket data 
+	> database / query
+	> total req
+
+
+-----
+
+Sesi 12
+-- UnitTesting
+----- UnitTestMock
+	> seperti di code id
+----- UnitTest
+	> EmployeTest.cs
+	> UnitTest.cs
+	(controller yang ada di employe test di call melalui unittest > menuju folder unittest mock)
+-- ini jika 1 aplikasi (1 folder)
+> tida perlu call melalui unittest > menuju folder unittest mock
+-- jika 1 aplikasi beda folder (2 folder)
+> call melalui unittest > menuju folder unittest mock
+--- perlu call melalui unittest > menuju folder unittest mock
+
+- controller
+- modles
+- unittest
+	> uni test .cs
+  
+  
+------- JMETER
+
+1. download plugin jmeter
+2. copy plugin pada directory jmeter/lib/ext
+3. dotnet run UnitTest_mock
+4. test Swagger --> http://localhost:5001/swagger/index.html
+5. open jmeter -> option -> plugin manager -> checklist sesuai https://jmeter-plugins.org/wiki/PluginsManager/
+6. ikutin modul kode.id sesi 12
+	user-Agent : Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+7. run di jmeter
+
+--cek versi java (java error)
+buka cmd ketik java -version
+
+--------
+
+
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using UnitTest_Mock.Models;
+
+namespace UnitTest_Mock.Services
+{
+    public class EmployeeService : IEmployeeService
+    {
+        #region Property
+
+        private readonly ApiDbContext _apiDbContext;
+
+        #endregion
+
+        #region Constructor
+
+        public EmployeeService(ApiDbContext apiDbContext)
+        {
+            _apiDbContext = apiDbContext;
+        }
+
+        #endregion
+
+        public async Task<string> GetEmployeebyId(int empID)
+        {
+            var name = await _apiDbContext.Employees.Where(
+                c => c.id == empID).Select(
+                d => d.name).FirstOrDefaultAsync();
+
+            return name;
+        }
+
+        public async Task<Employee> GetEmployeeDetails(int empID)
+        {
+            var emp = await _apiDbContext.Employees.FirstOrDefaultAsync(
+                c => c.id == empID);
+
+            return emp;
+        }
+    }
+}
+
+-----------------
+
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using UnitTest_Mock.Models;
+using UnitTest_Mock.Services;
+
+namespace UnitTest_Mock.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class EmployeeController : ControllerBase
+    {
+        #region Property
+
+        private readonly IEmployeeService _employeeService;
+
+        #endregion
+
+        #region Constructor
+
+        public EmployeeController(IEmployeeService employeeService)
+        {
+            _employeeService = employeeService;
+        }
+
+        #endregion
+
+        [HttpGet(nameof(GetEmployeeById))]
+        public async Task<string> GetEmployeeById(int empID)
+        {
+            var result = await _employeeService.GetEmployeebyId(empID);
+            return result;
+        }
+
+        [HttpGet(nameof(GetEmployeeDetails))]
+        public async Task<Employee> GetEmployeeDetails(int empId)
+        {
+            var result = await _employeeService.GetEmployeeDetails(empId);
+            return result;
+        }
+    }
+}

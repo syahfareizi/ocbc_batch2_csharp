@@ -1,0 +1,250 @@
+
+tools  windows
+jdk dan jre	8-11	https://www.openlogic.com/openjdk-downloads
+jdk dan jre 8		https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html#license-lightbox
+
+dot net core 4.8 / 5	https://dotnet.microsoft.com/download/dotnet/5.0
+dotnet core 3			https://dotnet.microsoft.com/download/dotnet/3.1
+dot net core		https://dotnet.microsoft.com/download
+
+
+docker			https://docs.docker.com/desktop/windows/install/
+wsl 2			https://docs.microsoft.com/en-gb/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+download wsl 2	https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+remove docker setup 
+lokasi		C:\Users\heris\AppData\Roaming\Docker
+file		settings.json
+
+git			https://git-scm.com/download/win
+			https://git-scm.com/
+						
+heroku		https://cli-assets.heroku.com/heroku-x64.exe
+			https://devcenter.heroku.com/articles/heroku-cli
+
+config mono
+lokasi		C:\Program Files\Mono\bin
+windows + r > C:\Windows\system32\rundll32.exe sysdm.cpl,EditEnvironmentVariables
+			> SystemPropertiesAdvanced		
+menu user variabel > path > edit > new add lokasi mono > C:\Program Files\Mono\bin > save
+----------------------------------------------------------------
+
+tutorial c#
+
+cek version tools
+mcs compiler	mcs --version
+mono			mono --version
+git 			git --version
+heroku			heroku --version
+node js			node --version
+npm				npm --version
+
+config code runner
+"csharp" : "cd $dir && mcs $fileName -out:$fileNameWithoutExt && mono $fileNameWithoutExt",
+
+extension code runner
+checklist 			code-runner	> run in terminal
+setting in json 	code-runner > ketikan code-runner.executorMap
+	
+
+install library dotnet-ef
+---
+dotnet tool install --global dotnet-ef
+
+create hello app
+---
+dotnet new console
+dotnet run
+
+mcs hello.cs > untuk compile
+mono hello.exe > mono untuk ekekusi / running
+
+
+-------------------------------
+
+check git current username & email
+---
+git config --list
+
+change config
+---
+git config --global user.name "Nama"
+git config --global user.email "email"
+git config --global credential.username "username"
+
+pindah branch 
+---
+git checkout -b main
+git checkout -b master
+
+cek branch
+---
+git status
+
+remote branch
+---
+git branch //local branch
+git branch -r //remote branch
+git branch -a //all local and remote branch
+
+git remote
+---
+  git remote add origin https://github.com/username/namarepo.git
+git remote set-url origin git@github.com:username/namarepo.git
+
+remove semua repositori
+---
+rm -rf .git
+
+git linked check remote
+---
+git remote -v
+
+bermain git
+---
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Leonuch/flex.git
+git checkout -b main
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+
+referensi
+---
+https://www.nobledesktop.com/learn/git/git-branches
+https://stackoverflow.com/questions/1213430/how-to-fully-delete-a-git-repository-created-with-init
+https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal/36782014
+https://www.niagahoster.co.id/blog/git-tutorial-dasar/
+https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
+
+
+=== GITHUB LINK ===
+
+Kode peserta: FSDO002ONL001
+Nama peserta: David Chrissando Frizky
+GitHub link : https://github.com/daveFrizky/OCBC-BATCH2-CSHARP.git
+Keterangan  : Sudah selesai untuk dan sesi 1
+Yang sudah dipelajari : Instalasi tools dan problem solving serta pengenalan bahasa C#
+
+Kode peserta : FSDO002ONL009
+Nama peserta : Muhammad Fikri Azhar
+GitHub link  : https://github.com/mhmmdfkrazr/OCBC-BATCH2-CSharp/tree/main/Sesi_01
+Keterangan   : Sudah selesai.
+Issue        : Terjadi beberapa masalah dalam penginstallan tools.
+
+Kode peserta: FSDO002ONL013
+Nama peserta: Deandri Firdaus
+GitHub link : https://github.com/henchhh/OCBC-BATCH2-CSHARP/tree/main/Day%201/Sesi01
+Keterangan  : Sudah selesai untuk sesi 1
+Yang sudah dipelajari: Instalasi tools sampai dapat berjalan dengan baik dan menyambungkan projek sesi pertama ke GitHub.
+Issue masalah: Perlu melakukan uninstall Visual Studio Community 2022 dan install Visual Studio Community 2019.
+
+Kode peserta: FSDO002ONL014
+Nama peserta: Dini Puspita Sukma Ariyanti
+GitHub link : https://github.com/clinophile/OCBC-Batch-2-CSharp/tree/main/Sesi01
+Keterangan  : Sudah selesai untuk sesi 1
+Yang sudah dipelajari: Instalasi tools untuk C# seperti .NET, Mono, Visual Studio Code, Visual Studio Community. Belajar menggunakan Git dan push project ke GitHub.
+Issues : perlu mengganti VS Community 2022 dengan VS Community 2019 karena dibutuhkan .NET 4.8 / 5.
+
+Kode peserta: FSDO002ONL019
+Nama peserta: Denny Tandiono
+GitHub link : https://github.com/dennytandiono/OCBC-BATCH2-CSharp/tree/main/Sesi01
+Keterangan  : Sudah selesai untuk sesi 1
+Yang sudah dipelajari : Instalasi semua tools yang diperlukan sampai bisa berjalan dengan baik dan menghubungkan project ke GitHub.
+Issues : Visual code community 2022 diganti ke 2019
+Improve Code : -
+
+Kode Peserta: FSDO002ONL015
+Nama Peserta: Pieter Christian Wenji
+Github link : https://github.com/pieter17/OCBC-BATCH2-CSharp
+Keterangan  : Sudah selesai untuk sesi 1 
+Yand sudah dipelajari : Instalasi tools untuk menjalankan c# dan pendukung lainnya (Visual studio, vs code, sql server, docker, etc.) dan membuat program hello word menggunakan mono sdk dan dotnet.
+issue : beda versi .net
+improve code : -
+
+
+Kode peserta: FSDO002ONL020
+Nama peserta: Duvan Sanjaya
+Github link: https://github.com/Duvans/OCBC-BATCH2-CSharp.git
+Keterangan: Sudah selesai untuk sesi 1
+Yang sudah dipelajari : Instalasi tools sampai selesai, Membuat project sesi 1 dan push git sesi 1.
+
+Kode peserta: FSDO002ONL006
+Nama peserta: Victorio Vincent Sugianto
+GitHub link : https://github.com/victoriovincent/OCBC-BATCH2-CSharp/tree/main/Sesi01
+Keterangan  : Sudah sesi 1 
+Yang sudah dipelajari: Instalasi tools dan mengupload sesi 1 ke github
+
+Kode peserta: FSDO002ONL007
+Nama peserta: Yosianus Antonio
+GitHub link : 
+  Sesi01 : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi01
+  Sesi02 : https://github.com/Yosianus11/OCBC-BATCH2-CSharp/tree/main/Sesi02
+Keterangan  : Sudah selesai untuk sesi 1 dan sesi 2(belum pembahasan)
+Yang sudah dipelajari : Instalasi enviroment C# & .net, Version Control .Git & Belajar fundamental C#
+
+Kode peserta : FSDO002ONL008
+Nama peserta: Syah Muhammad Alfareizi
+GitHub link : https://github.com/syahfareizi/ocbc_batch2_csharp.git
+Keterangan : sesi 1 sudah selesai
+Hal yang dipelajari : Telah melakukan installasi seluruh tools yang akan digunakan pada proses Bootcamp, mempelajari environment basic itu development C# ( VSCODE, MONOSDK, Visual Studio, dsb)
+Issues : .NET yang digunakan masih versi 6 ( SOLVED )
+Improve code : tidak ada.
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/OCBC-Batch2-CSharp/Sesi01
+Keterangan : Sudah Selesai untuk sesi 1
+yang sudah dipelajarain : Install tool dengan baik sampai push ke ke GitHub
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link : https://github.com/Rasoki/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 1 
+Yang sudah dipelajari: Instalasi tools dan menghubungkan projek sesi 1 ke github
+
+Kode peserta :FSDO002ONL002
+nama peserta : Widyawati Nur Sholikhah
+Github link : https://github.com/widyalikha15/OCBC-BATCH2-CSharp/tree/main/sesi01
+keterangan : telah menyelesaikansesi 1
+yang sudah dipelajari : cara instalasi c# dari berbagaimacam tool yang diperlukan
+
+Kode peserta: FSDO002ONL018
+Nama peserta: GILANG TRISETYA INDRAWAN
+GitHub link : https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP
+Keterangan  : Telah menyelesaikan sesi 1 dan sesi 2 
+Yang sudah dipelajari: Instalasi tools .NET versi 5 dan Mono Compiler ,
+menjalankan aplikasi C# dengan .NET dan compiler Mono ,
+inisialisasi folder bootcamp dengan git, lalu melakukan push code sesi 1 dan sesi 2 ke GitHub Repository
+
+Kode peserta: FSDO002ONL005
+Nama peserta: IKA MULIANA DEVI
+GitHub link : https://github.com/ikamuliana/OCBC-BATCH2-CSHARP/tree/main/sesi1
+Keterangan  : Sudah sesi 1 
+Yang sudah dipelajari: Instalasi tools dan menghubungkan projek sesi 1 ke github
+
+
+Kode peserta: FSDO002ONL010
+Nama peserta: ABRAHAM HAHOLONGAN NARMADA POHAN
+GitHub link : https://github.com/NPohann/OCBC-BATCH2-CSHARP
+Keterangan  : Sudah sesi 1 
+Yang sudah dipelajari: Instalasi tools untuk develop C# seperti mono, visual studio, .NET Framework dan config ke GitHub.
+
+Kode peserta: FSDO002ONL012
+Nama peserta: Agung Wicaksono
+GitHub link : https://github.com/agung-wic/ocbc-csharp-batch2
+Keterangan : Sudah Selesai untuk sesi 1 dan sesi 2
+Yang sudah dipelajari : Instal .NET SDK, .NET Runtime, Mono SDK VSCode dan mengatur ekstensinya, 
+membuat aplikasi konsol dengan "dotnet new console" dan jalankan dengan "dotnet run", 
+membuat aplikasi konsol dengan bahasa C# dan menjalankan dengan Mono SDK.
+melakukan push ke repository github.
+
+Kode peserta: FSDO002ONL016
+Nama peserta: Esra Delima Manurung
+GitHub link : https://github.com/esramanurung/OCBC-BATCH2-CSharp
+Keterangan  : Telah menyelesaikan sesi 1 dan sesi 2 
+Yang sudah dipelajari: Instalasi tools .NET versi 5 dan Mono Compiler ,
+menjalankan aplikasi C# dengan .NET dan compiler Mono ,
+inisialisasi folder bootcamp dengan git, lalu melakukan push code sesi 1 dan sesi 2 GitHub Repository

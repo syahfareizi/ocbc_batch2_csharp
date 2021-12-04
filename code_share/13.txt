@@ -1,0 +1,464 @@
+
+link code share yg belum: lupa linknya
+
+
+
+Kode peserta    : FSDO002ONL001
+Nama peserta    : David Chrissando Frizky
+GitHub link 		: https://github.com/daveFrizky/CoreWebApiSimple
+Heroku link 		: https://dav-app.herokuapp.com/WeatherForecast
+Keterangan      : Sudah selesai untuk sesi 13
+issue           : -
+imporve code    : -
+
+Kode peserta    : FSDO002ONL009
+Nama peserta    : Muhammad Fikri Azhar
+GitHub link     : https://github.com/mhmmdfkrazr/corewebapisample
+Heroku link     : https://cartel-api.herokuapp.com/WeatherForecast
+Keterangan      : Sudah selesai sesi 13
+Issue           : -
+Improve code    : -
+
+Kode peserta: FSDO002ONL004
+Nama peserta: Giovanni Christian Antonio
+GitHub link : https://github.com/gca98/corewebapisample
+              (heroku) https://gio-app-sesi13.herokuapp.com/WeatherForecast
+Keterangan   : Sudah selesai untuk sesi 13
+issue        : -
+imporve code : -
+
+Kode peserta: FSDO002ONL006
+Nama peserta: Victorio Vincent Sugianto
+Github link : https://github.com/victoriovincent/corewebapisample
+Heroku link : https://victurapp.herokuapp.com/weatherforecast
+Keterangan  : Sudah selesai untuk sesi 13 
+issue       : -
+imporve code: -
+
+Kode peserta: FSDO002ONL015
+Nama peserta: Pieter Christian Wenji
+GitHub link : https://github.com/pieter17/sample-api
+Heroku link : https://samplenet-api.herokuapp.com/weatherforecast
+Keterangan  : Sudah selesai untuk sesi 13
+issue       : -
+imporve code: Swagger tidak bisa.
+
+Kode peserta    : FSDO002ONL018
+Nama peserta    : Gilang Trisetya Indrawan
+GitHub link 		: https://github.com/ginwa123/test-for-heroku
+HerokuLink		  : https://tesk-gilang-docker.herokuapp.com/weatherForecast
+Keterangan      :  Sudah selesai untuk sesi 13
+issue           : swagger tidak berfungsi
+improve code    : -
+cara						: 1. buat webapitemplate dari vs comunity
+									2. checklist opsi docker linux
+									3. buka Dockerfile, ubah ENTRYPOINT ["dotnet", "SampleForHeroku.dll"] menjadi CMD ASPNETCORE_URLS=http://*:$PORT dotnet SampleForHeroku.dll
+									4. buat file baru namanya heroku.yml di root project bersama Dockerfile, isinya 
+									build:
+  									docker:
+    									web: Dockerfile
+                  4. sebelum push run project dengan cara dotnet run   
+									5. push project tersebut ke github
+									6. buat app di website heroku,
+                  7. set aplikasi framework dari stack ke container dengan cara mengetik ke terminal
+                     heroku stack:set container --app tesk-gilang-docker
+                     heroku stack:set container --app namaAppnya
+									8. lalu deploy, menggunakan github repo yang sudah dibuat
+referensi 			: https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
+
+Kode peserta    : FSDO002ONL007
+Nama peserta    : Yosianus Antonio
+GitHub link 		: https://github.com/Yosianus11/corewebapisample
+Heroku link 		: https://cather-api.herokuapp.com/
+Keterangan      : Sudah selesai untuk sesi 13
+issue           : -
+imporve code    : -
+
+Kode peserta    : FSDO002ONL003
+Nama peserta    : Alwi Azra Akbar Djunaid
+GitHub link 		: https://github.com/alwi-djoenaid/testingwebapi
+Heroku link 		: Tidak ada, sudah ditimpa oleh final project
+Keterangan      : Sudah selesai untuk sesi 13
+issue           : -
+imporve code    : -
+
+Kode peserta		: FSDO002ONL020
+Nama peserta		: Duvan Sanjaya
+Github link			: https://github.com/Duvans/corewebapisample/tree/development
+									https://corewebapisample-duvansanjaya.herokuapp.com
+Keterangan			: Sudah selesai untuk Sesi 13 dan 14
+issue 					: -
+Improve Code		: -
+
+Kode peserta    : FSDO002ONL002
+Nama peserta    : Widyawati Nur Sholikhah
+GitHub link 		: https://github.com/widyalikha15/webservice
+Heroku link 		: https://charter-appwidya.herokuapp.com/WeatherForecast
+Keterangan      : Sudah selesai untuk sesi 13
+issue           : -
+imporve code    : -
+
+Kode peserta 		: FSDO002ONL012
+Nama peserta 		: Agung Wicaksono
+Github link 		: https://github.com/agung-wic/corewebaspisample
+Heroku link 		: http://corewebapi-sample.herokuapp.com/weatherforecast
+Keterangan 			: Sudah selesai sesi 13
+issue 					: -
+improve code 		: -
+
+
+Kode peserta		: FSDO002ONL005 
+Nama peserta		: Ika Muliana Devi
+Github link 		: https://github.com/ikamuliana/corewebapi
+Heroku link 		: https://core-webapi.herokuapp.com/weatherforecast
+Keterangan			: sudah selesai sesi 13
+issue						: -
+improve code 		: -
+
+Kode peserta: FSDO002ONL011
+Nama peserta: RASOKI SALAS HARAHAP
+GitHub link : https://github.com/Rasoki/DockerTest
+Heroku link : https://carter-api2.herokuapp.com/WeatherForecast
+Keterangan  : Sudah sesi 13
+Yang sudah dipelajari : Belajar Docker
+-----------------------
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+EXPOSE 48719
+EXPOSE 27017
+EXPOSE 5000
+EXPOSE 5001
+
+
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+WORKDIR /src
+COPY . .
+
+#COPY ["CoreWebApi/CoreWebApi.csproj", "CoreWebApi/"]
+#RUN dotnet restore "CoreWebApi/CoreWebApi.csproj"
+#COPY . .
+#WORKDIR "/src/CoreWebApi"
+#RUN dotnet build "CoreWebApi.csproj" -c Release -o /app/build
+
+RUN dotnet restore 
+RUN dotnet build --no-restore -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish "CoreWebApi.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+#COPY --from=publish /app/publish .
+COPY --from=publish /app/ .
+#ENTRYPOINT ["dotnet", "CoreWebApi.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet CoreWebApi.dll
+-----------------------
+
+
+
+
+
+
+install heroku
+install git
+install docker
+
+1. jlankan docker engie
+2. buat project webservice
+3. tambahkan dockerfile
+	> masukan kode dari kode share (sesuaikan dengan versi .NET)
+4. running aplikasi > dotnet run > test jika running (lalu stop)
+5. runnning docker > jalankan perintah dari codeshare (panduan ada di kode.id juga)
+6. setelah jalankan command > akan terbuat images  > dan membuat container > untuk menjalankan
+7. setelah sudah sukses di docker > masuk ke heroku
+8. sama sperti di git / ada git push atau git pull > untuk penggunaan heroku
+9. sehingga nanti project c# yang dibuat > ke build dalam image docker > lalu di push ke git > dan di ekstrak melalui heroku
+
+alamat dll c#
+UnitTest_Mock -> C:\Users\david\Documents\Bootcamp\Sesi12\UnitTest_Mock\UnitTest_Mock\bin\Debug\net5.0\UnitTest_Mock.dll
+
+1. git heroku > docker > push/pull
+2. github > ini set nya buildpack > creat (c# di heroku)
+3. buildpack > manual
+
+------------------------------
+
+jika service docker failed start
+------------------------------
+%appdata%\Docker and %appdata%\Docker Desktop
+C:\Users\Arif\AppData\Roaming\Docker
+
+delete settings.json
+delete %appdata%\Docker\settings.json
+rm %appdata%\Docker\settings.json
+------------------------------
+
+
+running docker
+------------------------------
+Start-Process 'C:\Program Files\Docker\Docker\Docker Desktop.exe'
+
+docker run -d -p 80:80 docker/getting-started
+
+-d - run the container in detached mode (in the background)
+-p 80:80 - map port 80 of the host to port 80 in the container
+docker/getting-started - the image to use
+------------------------------
+
+
+referensi
+---
+https://forums.docker.com/t/solved-docker-failed-to-start-docker-desktop-for-windows/106976/2
+
+---------------------------
+
+npm install -g heroku
+heroku --version
+
+step 1
+---
+add package.json
+  "engines": {
+    "node": "14.x"
+  }
+heroku local web
+
+use heroku
+---
+heroku update
+
+heroku login
+---
+heroku login
+heroku login -i
+
+heroku remote
+---
+git remote -v
+heroku  https://git.heroku.com/boiling-hollows-83642.git (fetch)
+heroku  https://git.heroku.com/boiling-hollows-83642.git (push)
+
+heroku git:remote -A boiling-hollows-83642
+
+
+buildpack nodejs
+---
+heroku buildpacks:set heroku/nodejs
+heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#latest -a my-app
+# Create a new Heroku app that uses your buildpack
+heroku create --buildpack <your-github-url>
+# Configure an existing Heroku app to use your buildpack
+heroku buildpacks:set <your-github-url>
+# You can also use a git branch!
+heroku buildpacks:set <your-github-url>#your-branch
+
+remote heroku
+---
+heroku git:remote -a herokuAppName
+git push heroku master
+
+heroku create
+git push heroku main
+
+heroku buildpacks:set heroku/php
+
+-----------------------------------------------
+
+
+## Setup WSL + Windows Hypervisor Platform
+1. Buka `appwiz.cpl` lewat [Windows] + [R]
+2. Klik `Turn Windows features on or off` di panel kiri
+3. Cari dan pastikan kedua fitur berikut sudah ter-install:
+   - Windows Subsystem for Linux
+   - Windows Hypervisor Platform
+4. Jika sudah, jalankan ini dan pastikan `wsl` dapat dijalankan:
+```
+wsl --version (wsl --status)
+```
+5. Update WSL menjadi WSL 2, dengan mengikuti link berikut:
+```
+https://docs.microsoft.com/en-gb/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+```
+
+## Download Heroku CLI, Docker Desktop
+1. Download `heroku-cli` dari link https://devcenter.heroku.com/articles/heroku-cli
+2. Download `docker` dari salah satu link berikut, bergantung OS yang digunakan:
+   - Mac & Windows: https://www.docker.com/products/docker-desktop
+   - Linux: install package `docker` dari distro kalian (Debian/Ubuntu pakai `apt`, Fedora pakai `dnf`, Arch pakai `pacman`)
+3. Jalankan instalasi dari keduanya, dan jalankan line berikut untuk memastikan keduanya sudah berjalan
+```
+heroku --version
+docker --version
+```
+
+## Sign up (atau Login) di Heroku
+1. Buka heroku.com, dan sign up (atau login) di sana
+2. Setelah berhasil, klik New App
+3. Masukkan nama app kalian (akan disebut dengan dyno setelahnya), nama ini akan dijadikan referensi ketika publish nanti
+4. Klik Create App
+
+## Cara push app ke Heroku
+### Heroku Git
+git add
+git commit
+git push heroku master/main
+
+### Github.com
+git add
+git commit
+git push origin master/main
+**kalau push kedalam branch master akan melakukan deploy manual menuju heroku
+**kalau push ke main akan otomatis deploy menuju heroku
+
+#### Push via GitHub vs Heroku Git
+
+push github origin main akan langsung deploy
+++ lebih cepat
+-- akan makan resource dan error akan muncul di heroku
+
+push github origin master tidak langsung deploy
+++ lebih aman untuk checking error dan testing
+
+### Docker Container
+Kita akan pakai cara ini untuk sesi kali ini.
+nameapp visual studio: corewebapi
+heroku nameapp : demo-corewebapi
+registry.heroku.com/demo-corewebapi/web
+
+## Publish App lewat Docker ke Heroku/Heroku Registry
+1. ketik:
+```
+heroku login
+heroku container:login
+```
+// heroku git:remote -a [NAMA_APP] ** kalau via Heroku git
+// heroku container:push web -a [NAMA_APP] **Belum dipakai
+
+2. ganti dulu isi Dockerfile dengan ini:
+
+```
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+EXPOSE 48719
+EXPOSE 27017
+EXPOSE 5000
+EXPOSE 5001
+
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+WORKDIR /src
+COPY . .
+
+RUN dotnet restore 
+RUN dotnet build --no-restore -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish --no-restore -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet [NAMA_PROJECT].dll
+```
+
+3. jalankan ini:
+```
+dotnet publish -c Release
+docker build -t [NAMA_APP]:dev .
+
+docker run -d -p 5000:80 --name myapp [NAMA_APP]:dev
+docker tag [NAMA_APP]:dev registry.heroku.com/[NAMA_DYNO_HEROKU]/web
+
+heroku container:push web -a [NAMA_DYNO_HEROKU]
+heroku container:release web -a [NAMA_DYNO_HEROKU]
+```
+
+## Troubleshooting
+
+### Menggunakan PostgreSQL di Heroku? Coba lewat GitHub (thanks 016_Gusti!)
+
+1. Buat app (dyno) baru di Heroku jika belum ada
+2. Tambahkan buildpack `dotnetcore-buildpack` dengan mengikuti instruksi di sini:
+   - https://elements.heroku.com/buildpacks/jincod/dotnetcore-buildpack
+3. Publish via Github dengan branch `main` (jika lewat branch `master`, harus set manual)
+
+#### Cara kompleks (via Application Stack), namun bisa pakai env variable Heroku
+
+Ikuti instruksi di sini:
+- https://n1ghtmare.github.io/2020-09-28/deploying-a-dockerized-aspnet-core-app-using-a-postgresql-db-to-heroku/
+
+### Alternatif docker heroku
+
+1. buat generate solution pake cara cli ketik
+```
+dotnet new sln
+```
+2. pastikan struktur folder project nya 2 level
+3. ikuti seperti di thread stackoverflow
+   - https://stackoverflow.com/questions/59434242/asp-net-core-gives-system-net-sockets-socketexception-error-on-heroku/61719804#61719804
+
+Contoh :
+
+.
++-- CoreWebApi
+¦   +-- appsettings.Development.json
+¦   +-- appsettings.json
+¦   +-- bin
+¦   +-- Controllers
+¦   +-- CoreWebApi.csproj
+¦   +-- obj
+¦   +-- Program.cs
+¦   +-- Properties
+¦   +-- Startup.cs
+¦   +-- WeatherForecast.cs
++-- CoreWebApi.sln
++-- Dockerfile
+
+
+### Deploy Menggunakan Github
+
+di heroku cli menggunakan build pack ini https://buildpack-registry.s3.amazonaws.com/buildpacks/jincod/dotnetcore.tgz
+kemudian di manual deploy apabila sebelumnya error
+
+=========================
+
+kamus :
+	1. aplikasi = projek yang dibuat melalui vs community 
+  2. [nama_app_anda] = adalah nama aplikasi | contoh corewebapi
+  3. [nama_container_yang_dibuat] = penamaan bebas namun bedakan dengan nama aplikasi | contoh corewebapi_container
+  4. [nama_image_yang_telah_dibuat] = sama dengan [nama_app_aplikasi]
+  
+
+1. buat image docker 
+				"docker build -t [nama_app_anda]:dev ." 
+
+2. jalankan container docker untuk cek apakah docker sudah jalan
+				"docker run -d  -p 5000:80 --name [nama_container_yang_akan_dibuat] [nama_image_yang_telah_dibuat]:dev" 
+
+3. masuk kedalam heroku kemudian buat app baru.
+
+4. set buildpak heroku dengan menggunakan cli heroku
+      masuk ke terminal "heroku login"
+      kemudian remote app heroku yang telah dibuat "heroku git:remote -a syahfareizi-corewebapi"
+      setelah berhasil remote update buildpak: "heroku buildpacks:set jincod/dotnetcore"
+
+5. push aplikasi kita ke repository baru ( yang di push termasuk .sln ) pada branch development
+
+6. hubungkan repo yang telah terisi aplikasi kita dengan appheroku 
+			masuk kedalam dashboard heroku ( pastikan ada free akun dan telah login )
+      pilih connect github, kemudian pilih repo yang telah berisi aplikasi.
+      
+7. matikan fitur automatic deploy apabila branch belum terpisah
+
+8. pilih branch tempat aplikasi dan kemudian deploy 
+
+9. jalankan di web. 
+
+10. selesai 
+
+
