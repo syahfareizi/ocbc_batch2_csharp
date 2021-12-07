@@ -1,0 +1,60 @@
+<app-header [headerTitle]="title"></app-header>
+
+Lihat source code jika ingin melihat cara kerjanya.
+
+<h2>Angular Data Binding</h2>
+
+<h3>Interpolation dengan tanda <code>{{ "{{}}" }}</code></h3>
+
+{{ "Hai, ini adalah tulisan hasil interpolation!" }}
+
+<h4>Ketika tombol pertama di bawah diklik, akan muncul pesan di bawah ini</h4>
+
+{{ message }}
+
+<h3>Property Binding dengan <code>[]</code></h3>
+
+<h3>Event Binding dengan <code>()</code></h3>
+
+<app-footer (clickHandler)="showMessage($event)"></app-footer>
+
+<h2>Angular Expressions</h2>
+
+Sebagian besar sudah ada pada contoh di atas, maka hanya bagian lain yang akan di-cover di sini.
+
+<h3>Variable Template</h3>
+
+<input #inputData>{{ inputData }}
+<button (click)="showMessage(inputData.value)">Send Me</button>
+
+<h2>Angular Directives</h2>
+
+<h3>Penggunaan <code>*ngIf</code> untuk conditional</h3>
+
+<input #userName>
+<button (click)="login(userName.value)">Login</button>
+
+<div *ngIf="checkLoginState()">
+  <h3>Halo, {{ userData.name }}!</h3>
+</div>
+
+<h3>Penggunaan <code>*ngFor</code> untuk looping</h3>
+
+<div *ngFor="let m of messages" index="m">
+  <span>{{ m }}</span>
+</div>
+
+<h3>Penggunaan <code>*ngSwitch</code> untuk conditional</h3>
+
+<p>
+  NOTE: Data di bawah ini berubah berdasarkan status login pada contoh <code>*ngIf</code> di atas.
+</p>
+
+<div [ngSwitch]="checkLoginState()">
+  <div *ngSwitchCase="true">User sudah login dengan nama {{ userData.name }}</div>
+  <div *ngSwitchCase="false">User belum login.</div>
+</div>
+<br>
+<div>{{ 7200000 | customFileSize }}</div>
+<br>
+<app-media></app-media>
