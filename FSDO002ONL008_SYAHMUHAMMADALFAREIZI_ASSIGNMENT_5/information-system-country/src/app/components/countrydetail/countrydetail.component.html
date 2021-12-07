@@ -1,0 +1,24 @@
+<div *ngFor="let country of allCountries" index="country">
+    <div *ngIf="selectedCountry==country.nama">
+        <span>
+            <h4>{{country.nama}}</h4>
+        </span>
+        <br>
+        <span>Capital:  {{country.capital}}</span>
+        <br>
+        <span>Area:  {{country.area}}</span>
+        <br>
+        <span>Population:  {{country.population}}</span>
+        <br>
+        <span>GDP:  {{country.gdp}}</span>
+        <br>
+        <span>Currency:  {{country.currency}}</span>
+        <br>
+    </div>
+</div>
+<br>
+<div>
+    <button (click)="setState()" (click)="buttonClicked()">
+        Go Back
+    </button>
+</div>

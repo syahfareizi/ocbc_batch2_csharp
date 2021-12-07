@@ -1,0 +1,11 @@
+<div *ngFor="let country of allCountries" index="country">
+    <br>
+    <button (click)="setSelectedCountry(country.nama)" (click)="buttonClicked()">
+        <span>{{country.nama}}</span>
+        <br>
+        <span>Capital</span>
+        <br>
+        <span>{{country.capital}}</span>
+    </button>
+    <br>
+</div>

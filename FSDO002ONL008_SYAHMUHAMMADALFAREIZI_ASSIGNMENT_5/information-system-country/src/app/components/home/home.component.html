@@ -1,0 +1,51 @@
+<div class="title-place">
+    <app-header></app-header>
+  </div>
+  
+  <div class="button-place">
+      <app-button-navigation [currentstate]="state" (clickAHandler)="setState($event)" (clickBHandler)="setState($event)"></app-button-navigation>
+  </div>
+  
+  <div class="page-place" [ngSwitch]="checkState()">
+    <div *ngSwitchCase="0">
+        <div>
+            <div>
+                <h2>Three Most Populated Countries</h2>
+            </div>
+            <div *ngFor="let country of countries | slice:0:3" index="country">
+                    <br>
+                    <button (click)="setSelectedCountry(country.nama)" (click)="setState({
+                        currentState:2,
+                        prevState:0
+                    })">
+                        <span>{{country.nama}}</span>
+                        <br>
+                        <span>{{country.population}}</span>
+                        <br>
+                        <span>People</span>
+                    </button>
+            </div>
+            <div>
+                <h2>Three Largest Countries ( Area )</h2>
+            </div>
+            <div *ngFor="let country of countries | slice:0:3" index="country">
+                <br>
+                <button (click)="setSelectedCountry(country.nama)" (click)="setState({
+                    currentState:2,
+                    prevState:0
+                })">
+                    <span>{{country.nama}}</span>
+                    <br>
+                    <span>{{country.area}}</span>
+                </button>
+        </div>
+        </div>
+    </div>
+    <div *ngSwitchCase="1">
+        <app-allcountry [allCountries]="countries" [currentstate]="state" (clickHandler)="setState($event)" (secondClickHandler)="setSelectedCountry($event)"></app-allcountry>
+    </div>
+    <div *ngSwitchCase="2">
+        <app-countrydetail [allCountries]="countries" [currentState]="state" [selectedCountry]="selectedCountry" (clickHandler)="setState($event)"></app-countrydetail>
+    </div>
+  </div>
+  
