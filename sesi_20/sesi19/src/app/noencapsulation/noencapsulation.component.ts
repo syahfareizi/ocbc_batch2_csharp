@@ -6,7 +6,7 @@ import { Component,ViewEncapsulation} from '@angular/core';
     <h2>None</h2>
     <div class="none-message">No Encapsulation</div>`
     ,
-  styles: ['h2, .none-messages {color: red;} ' ],
+  styles: ['h2, .none-message {color: red;} ' ],
   encapsulation : ViewEncapsulation.None
 })
 export class NoencapsulationComponent  {}
