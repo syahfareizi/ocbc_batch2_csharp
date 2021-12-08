@@ -17,6 +17,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
   countries:Country[]=[]
   selectedCountry:string=""
+  largestCountry:Country[]=[]
+  populatedCountry:Country[]=[]
 
   ngOnInit(): void {
     this.countries = [
@@ -61,6 +63,8 @@ export class HomeComponent implements OnInit {
         currency : "DOLLAR (CAD)"
       },
     ]
+    // this.sortLargest()
+    // this.sortPopulated()
   }
   state : State = {
     currentState : 0
@@ -69,7 +73,14 @@ export class HomeComponent implements OnInit {
   setState(nextState: State){
     this.state=nextState
   }
-
+  // sortLargest(){
+  //   this.largestCountry=this.countries
+  //   this.largestCountry.sort((a, b) => (a.area < b.area) ? 1 : -1)
+  // }
+  // sortPopulated(){
+  //   this.populatedCountry=this.countries
+  //   this.populatedCountry.sort((a, b) => (a.population < b.population) ? 1 : -1)
+  // }
   checkState(){
     return this.state.currentState
   }
