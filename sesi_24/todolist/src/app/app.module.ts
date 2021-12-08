@@ -1,17 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TemplatedrivenformComponent } from './components/templatedrivenform/templatedrivenform.component';
+import { FormsModule } from '@angular/forms';
+import { TemplateDrivenFormComponent } from './components/template-driven-form/template-driven-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TemplatedrivenformComponent
+    TemplateDrivenFormComponent,
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

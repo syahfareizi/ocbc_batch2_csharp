@@ -12,7 +12,7 @@
             <div>
                 <h2>Three Most Populated Countries</h2>
             </div>
-            <div *ngFor="let country of countries | slice:0:3" index="country">
+            <div *ngFor="let country of populatedCountry | slice:0:3" index="country">
                     <br>
                     <button (click)="setSelectedCountry(country.nama)" (click)="setState({
                         currentState:2,
@@ -28,7 +28,7 @@
             <div>
                 <h2>Three Largest Countries ( Area )</h2>
             </div>
-            <div *ngFor="let country of countries | slice:0:3" index="country">
+            <div *ngFor="let country of largestCountry | slice:0:3" index="country">
                 <br>
                 <button (click)="setSelectedCountry(country.nama)" (click)="setState({
                     currentState:2,
