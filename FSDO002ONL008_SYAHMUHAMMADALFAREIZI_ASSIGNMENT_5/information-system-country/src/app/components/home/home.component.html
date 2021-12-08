@@ -1,44 +1,46 @@
-<div class="title-place">
+<div class="container d-flex justify-content-center p-5">
     <app-header></app-header>
   </div>
   
-  <div class="button-place">
+  <div class="container d-flex justify-content-center m-auto">
       <app-button-navigation [currentstate]="state" (clickAHandler)="setState($event)" (clickBHandler)="setState($event)"></app-button-navigation>
   </div>
   
-  <div class="page-place" [ngSwitch]="checkState()">
+  <div class="container d-flex justify-content-center m-auto" [ngSwitch]="checkState()">
     <div *ngSwitchCase="0">
         <div>
             <div>
                 <h2>Three Most Populated Countries</h2>
             </div>
-            <div *ngFor="let country of populatedCountry | slice:0:3" index="country">
-                    <br>
+            <div class="container d-flex justify-content-center m-auto">
+                <span *ngFor="let country of populatedCountry | slice:0:3" index="country">
                     <button (click)="setSelectedCountry(country.nama)" (click)="setState({
                         currentState:2,
                         prevState:0
-                    })">
+                    })" class="btn btn-primary m-2">
                         <span>{{country.nama}}</span>
                         <br>
-                        <span>{{country.population}}</span>
+                        <span>{{country.population | number:''}} </span>
                         <br>
                         <span>People</span>
                     </button>
+            </span>
             </div>
             <div>
                 <h2>Three Largest Countries ( Area )</h2>
             </div>
-            <div *ngFor="let country of largestCountry | slice:0:3" index="country">
-                <br>
-                <button (click)="setSelectedCountry(country.nama)" (click)="setState({
-                    currentState:2,
-                    prevState:0
-                })">
-                    <span>{{country.nama}}</span>
-                    <br>
-                    <span>{{country.area}}</span>
-                </button>
-        </div>
+            <div class="container d-flex justify-content-center m-auto">
+                <span *ngFor="let country of largestCountry | slice:0:3" index="country">
+                    <button (click)="setSelectedCountry(country.nama)" (click)="setState({
+                        currentState:2,
+                        prevState:0
+                    })"  class="btn btn-primary m-2" >
+                        <span>{{country.nama}}</span>
+                        <br>
+                        <span>{{country.area | number:''}} Km²</span>
+                    </button>
+            </span>
+            </div>
         </div>
     </div>
     <div *ngSwitchCase="1">

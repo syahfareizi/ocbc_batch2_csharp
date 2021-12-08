@@ -1,14 +1,12 @@
-<div>
+<div class="container d-flex justify-content-center m-auto">
     <h2>This is All Countries in our Database</h2>
 </div>
-<div *ngFor="let country of allCountries" index="country">
-    <br>
-    <button (click)="setSelectedCountry(country.nama)" (click)="buttonClicked()">
+<span *ngFor="let country of allCountries" index="country">
+    <button (click)="setSelectedCountry(country.nama)" (click)="buttonClicked()" class="btn btn-success m-2">
         <span>{{country.nama}}</span>
         <br>
         <span>Capital</span>
         <br>
         <span>( {{country.capital}} )</span>
     </button>
-    <br>
-</div>
+</span>
