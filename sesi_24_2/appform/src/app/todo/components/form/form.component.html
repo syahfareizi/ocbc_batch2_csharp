@@ -1,0 +1,18 @@
+<form (ngSubmit)="addTodo(todoForm)" #todoForm="ngForm">
+    <h3>Add New Task</h3>
+    <div>
+        Task :
+        <input type="text" name="task" id="task" [(ngModel)]="task">
+    </div>
+    <div>
+        Category :
+        <input type="text" name="category" id="category" [(ngModel)]="category">
+    </div>
+    <input type="submit" value="Add Task">
+</form>
+
+<!-- <form (ngSubmit)="addTodo(anotherTodoForm)" #anotherTodoForm="ngForm">
+    <h3>Add Another New Task</h3>
+    <input type="text" name="anotherTask" id="anotherTask" [(ngModel)]="anotherTask">
+    <input type="submit" value="Add Another Task">
+</form> -->
