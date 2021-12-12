@@ -1,6 +1,6 @@
 <div class="auth-wrapper">
     <form class="form-updateEmployee" [formGroup]="updateEmployeeForm" (ngSubmit)="updateEmployee()">
-        <h3 class="h3 mb-3 font-weight-normal text-center">Add New Employee</h3>
+        <h3 class="h3 mb-3 font-weight-normal text-center">Edit Employee Data</h3>
         <div class="form-group mt-3">
             <label >Id Employee :</label>
             <input type="text" class="form-control" formControlName="Id" placeholder="Enter Id: " required>
@@ -42,7 +42,7 @@
                     <option *ngFor="let updaterole of roles" [value]="updaterole">{{updaterole}}</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-block btn-primary mt-3">Sign Up</button>
+        <button type="submit" class="btn btn-block btn-primary mt-3" [routerLink]="['/homepage']">Edit</button>
     </form>
     <div class="container d-flex justify-content-right m-auto">
         <a [routerLink]="['']" class="btn btn-dark m-2">
