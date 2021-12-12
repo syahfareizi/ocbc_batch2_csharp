@@ -59,7 +59,7 @@ export class UpdateemployeeComponent implements OnInit {
     this.employeemanagementService.updateEmployee(this.updateEmployeeForm.value,id).subscribe((res)=>{
       if(res.result){
         this.updateEmployeeForm.reset()
-        this.route.navigate([''])
+        this.route.navigate(['/homepage'])
       }
     })
   }

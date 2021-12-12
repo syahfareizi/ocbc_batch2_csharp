@@ -1,4 +1,3 @@
-import { JsonPipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Employee } from 'src/app/models/employee';
@@ -41,6 +40,6 @@ export class GetemployeeComponent implements OnInit {
       this.allEmployee= data
       console.log(data)
     })
-    this.route.navigate(['homepage'])
+    this.route.navigate(['/homepage'])
   }
 }
