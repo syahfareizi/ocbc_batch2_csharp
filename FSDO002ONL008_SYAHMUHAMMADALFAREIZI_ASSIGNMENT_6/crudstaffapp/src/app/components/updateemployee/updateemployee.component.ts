@@ -58,9 +58,9 @@ export class UpdateemployeeComponent implements OnInit {
   updateEmployee(id:number=this.id){
     this.employeemanagementService.updateEmployee(this.updateEmployeeForm.value,id).subscribe((res)=>{
       if(res.result){
-        this.updateEmployeeForm.reset()
-        this.route.navigate(['/homepage'])
       }
+      this.updateEmployeeForm.reset()
+      this.route.navigate(['/homepage'])
     })
   }
 }

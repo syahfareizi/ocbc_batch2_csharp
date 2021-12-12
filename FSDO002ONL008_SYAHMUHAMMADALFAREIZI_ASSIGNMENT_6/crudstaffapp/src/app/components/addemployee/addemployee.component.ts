@@ -56,9 +56,9 @@ export class AddemployeeComponent implements OnInit {
   addEmployee(){
     this.employeemagementService.addEmployee(this.addEmployeeForm.value).subscribe((res)=>{
       if(res.result){
-        this.addEmployeeForm.reset()
-        this.router.navigate(['/homepage'])
       }
+      this.addEmployeeForm.reset()
+      this.router.navigate(['/homepage'])
     })
   }
 }

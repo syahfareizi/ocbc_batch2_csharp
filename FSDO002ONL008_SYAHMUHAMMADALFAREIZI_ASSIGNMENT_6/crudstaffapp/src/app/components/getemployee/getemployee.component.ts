@@ -39,7 +39,7 @@ export class GetemployeeComponent implements OnInit {
     this.employeemanagementService.deleteEmployee(id).subscribe(data =>{
       this.allEmployee= data
       console.log(data)
+      location.reload()
     })
-    this.route.navigate(['/homepage'])
   }
 }
