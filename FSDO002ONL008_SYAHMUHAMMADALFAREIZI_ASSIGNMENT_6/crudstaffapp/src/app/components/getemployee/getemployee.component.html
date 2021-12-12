@@ -1,1 +1,52 @@
-<p>getemployee works!</p>
+<div class="container d-flex justify-content-center m-auto">
+    <h2>This is All Employee in our Database</h2>
+</div>
+<div class="container d-flex justify-content-right m-auto">
+    <a [routerLink]="['/addemployee']" class="btn btn-dark m-2">
+        Add new Employee
+    </a>
+</div>
+
+<div class="data-tables datatable-dark m-3">
+    <table id="dataTable" class="display" style="width:100%">
+        <thead class="thead-dark">
+            <tr>
+                <th>No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Manage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let Employee of allEmployee; let i=index">
+                <td>{{i+1}}</td>
+                <td>{{Employee.firstName}}</td>
+                <td>{{Employee.lastName}}</td>
+                <td>{{Employee.email}}</td>
+                <td>{{Employee.role}}</td>
+                <td>
+                    <button [routerLink]="['/updateemployee/',Employee.id]" class="btn btn-primary m-2"> Update Data </button>
+                    <button (click)="confirmDelete(Employee.id!)" class="btn btn-danger m-2"> Delete Data </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- <button *ngFor="let Employee of allEmployee" index="Employee">
+    <span>
+        <h4>{{Employee.firstName}} {{Employee.lastName}}</h4>
+    </span>
+    <br>
+    <span>Capital:  {{country.capital}}</span>
+    <br>
+    <span>Area:  {{country.area | number:''}} Km²</span>
+    <br>
+    <span>Population:  {{country.population | number:''}} People</span>
+    <br>
+    <span>GDP:  ${{country.gdp|number:''}}</span>
+    <br>
+    <span>Currency:  {{country.currency }}</span>
+    <br>
+</button> -->

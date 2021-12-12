@@ -23,6 +23,43 @@ export class EmployeemanagementService {
                 .pipe( catchError(this.handleError))
   }
 
+  //* GET EMPLOYEE
+  getEmployee (): Observable<any> {
+    return (
+      this.http
+      .get(`${this.endpoint}/users`)
+      .pipe( catchError(this.handleError) )
+    )
+  }
+
+  //* GET EMPLOYEE BY ID
+  getOneEmployee (id: number): Observable<any> {
+    return (
+      this.http
+      .get(this.endpoint, { params: { id } })
+      .pipe( catchError(this.handleError) )
+    )
+  }
+
+  //* UPDATE EMPLOYEE BY ID
+  updateEmployee(employee: Employee,id:number): Observable<any> {
+    console.log(employee)
+    return (
+      this.http
+      .put(`${this.endpoint}/users/${id}`, employee)
+      .pipe( catchError(this.handleError) )
+    )
+  }
+
+  //* DELETE EMPLOYEE BY ID
+  deleteEmployee(id: string): Observable<any> {
+    return (
+      this.http
+      .delete(`${this.endpoint}/users/${id}`)
+      .pipe( catchError(this.handleError) )
+    )
+  }
+
   //* ERROR HANDLER
   handleError(error:HttpErrorResponse){
     let msg =''
