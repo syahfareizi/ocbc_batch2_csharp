@@ -31,7 +31,7 @@ export class GetemployeeComponent implements OnInit {
   }
 
   confirmDelete(id: string) {
-    if(confirm(`Are you sure you want to delete Movie ID ${id}?`))
+    if(confirm(`Are you sure you want to delete Employee ID ${id}?`))
       this.deleteEmployee(id)
   }
   

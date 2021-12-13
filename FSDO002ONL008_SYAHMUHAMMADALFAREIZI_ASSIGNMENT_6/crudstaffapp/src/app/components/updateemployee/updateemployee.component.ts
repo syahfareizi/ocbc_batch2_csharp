@@ -22,7 +22,7 @@ export class UpdateemployeeComponent implements OnInit {
   roles = ["0","1"]
 
   updateEmployeeForm = new FormGroup({
-    Id:new FormControl('',[Validators.required,Validators.maxLength(1)]),
+    Id:new FormControl(this.id),
     Title: new FormControl('',[Validators.required,Validators.minLength(3)]),
     FirstName: new FormControl('',[Validators.required,Validators.minLength(3)]),
     LastName: new FormControl('',[Validators.required,Validators.minLength(3)]),

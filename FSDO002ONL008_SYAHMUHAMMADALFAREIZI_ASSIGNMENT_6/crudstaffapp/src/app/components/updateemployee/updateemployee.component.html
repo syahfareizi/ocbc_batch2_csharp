@@ -1,13 +1,13 @@
 <div class="auth-wrapper">
     <form class="form-updateEmployee" [formGroup]="updateEmployeeForm" (ngSubmit)="updateEmployee()">
         <h3 class="h3 mb-3 font-weight-normal text-center">Edit Employee Data</h3>
-        <div class="form-group mt-3">
+        <!-- <div class="form-group mt-3">
             <label >Id Employee :</label>
             <input type="text" class="form-control" formControlName="Id" placeholder="Enter Id: " required>
             <span style="color: red;" *ngIf="Title && Title.touched && Title.invalid">
                 Insert Id based on the Url
             </span>
-        </div>
+        </div> -->
         <div class="form-group mt-3">
             <label >Title :</label>
             <input type="text" class="form-control" formControlName="Title" placeholder="Enter Title: " required>
