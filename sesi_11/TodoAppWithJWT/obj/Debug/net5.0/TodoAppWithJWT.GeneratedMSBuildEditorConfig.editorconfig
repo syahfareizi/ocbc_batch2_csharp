@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = TodoAppWithJWT
-build_property.ProjectDir = C:\OCBCHACKTIVE\sesi_11\TodoAppWithJWT\
+build_property.ProjectDir = c:\OCBCHACKTIVE\sesi_11\TodoAppWithJWT\
