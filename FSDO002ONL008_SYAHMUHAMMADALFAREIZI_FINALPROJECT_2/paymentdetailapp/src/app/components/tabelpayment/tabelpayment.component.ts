@@ -32,7 +32,7 @@ export class TabelpaymentComponent implements OnInit {
   }
 
   confirmDelete(id: string) {
-    if(confirm(`Are you sure you want to delete Employee ID ${id}?`))
+    if(confirm(`Are you sure you want to delete Payment Detail ?`))
       this.deletePayment(id)
   }
   
