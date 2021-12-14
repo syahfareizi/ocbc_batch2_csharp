@@ -1,6 +1,6 @@
 <div class="auth-wrapper">
     <form class="form-loginForm" [formGroup]="loginForm" (ngSubmit)="loginUser()">
-        <h3 class="h3 mb-3 font-weight-normal text-center">User Loginpage</h3>
+        <h3 class="h3 mb-3 font-weight-normal text-center">Login Page</h3>
         <div class="form-group mt-3">
             <label >Email :</label>
             <input type="email" class="form-control" formControlName="Email" placeholder="Enter Email : " required>
@@ -15,6 +15,10 @@
                 Password is required. 
             </span>
         </div>
-        <button type="submit" class="btn btn-block btn-primary mt-3">Register</button>
+        <button type="submit" class="btn btn-block btn-primary mt-3">Login</button>
     </form>
+</div>
+<br>
+<div>
+    <span> Doesn't Have Any Account ? <a [routerLink]="['/register']">Register Now </a></span>
 </div>

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Route } from '@angular/router';
 import { FormControl,FormGroup,Validators } from '@angular/forms';
 import { EmployeemanagementService } from 'src/app/services/employeemanagement.service';
 

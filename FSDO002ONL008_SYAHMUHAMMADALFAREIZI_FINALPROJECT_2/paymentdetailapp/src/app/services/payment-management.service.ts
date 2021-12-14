@@ -53,4 +53,24 @@ export class PaymentManagementService {
       .pipe( catchError(this.handleError) )
     )
   }
+
+    //* UPDATE EMPLOYEE BY ID
+    updatePayment(payment: Paymentdetails,id:number): Observable<any> {
+      console.log(payment)
+      console.log(id)
+      return (
+        this.http
+        .put(`${this.endpoint}/${id}`, payment)
+        .pipe( catchError(this.handleError) )
+      )
+    }
+
+    //* GET Selected Payment
+    getSelectedPayment (id:number): Observable<any> {
+      return (
+        this.http
+        .get(`${this.endpoint}/${id}`)
+        .pipe( catchError(this.handleError) )
+      )
+    }
 }

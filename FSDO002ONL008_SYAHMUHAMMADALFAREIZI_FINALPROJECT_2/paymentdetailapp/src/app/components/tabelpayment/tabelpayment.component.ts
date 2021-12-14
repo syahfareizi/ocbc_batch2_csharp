@@ -21,6 +21,7 @@ export class TabelpaymentComponent implements OnInit {
     this.getAllPayments()
   }
 
+
   getAllPayments () {
     this.paymentService
     .getAllPayments()

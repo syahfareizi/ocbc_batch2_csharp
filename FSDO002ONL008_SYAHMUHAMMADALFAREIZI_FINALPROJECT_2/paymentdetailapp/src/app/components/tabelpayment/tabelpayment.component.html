@@ -16,10 +16,15 @@
                 <td>{{payment.cardNumber}}</td>
                 <td>{{payment.expirationDate}}</td>
                 <td>
-                    <!-- <button [routerLink]="['/updateemployee/',Employee.id]" class="btn btn-primary m-2"> Update Data </button> -->
+                    <button [routerLink]="['/update/',payment.id]" class="btn btn-primary m-2"> Update Data </button>
                     <button (click)="confirmDelete(payment.id!)" class="btn btn-danger m-2"> Delete Data </button>
                 </td>
             </tr>
         </tbody>
     </table>
+</div>
+<div class="container d-flex justify-content-right m-auto">
+    <button (click)="getAllPayments()" class="btn btn-warning m-2">
+        Refresh
+    </button>
 </div>
