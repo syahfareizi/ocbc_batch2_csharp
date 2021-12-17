@@ -8,6 +8,7 @@ for i in numbers:
         print(i)
     if i==918:
         break
+print ('Done')
             
 print ('Daftar angka Ganjil :')
 for i in numbers:
@@ -15,4 +16,4 @@ for i in numbers:
         print(i)
     if i==918:
         break
-            
+print ('Done')
