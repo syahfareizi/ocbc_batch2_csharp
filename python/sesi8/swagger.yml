@@ -33,16 +33,6 @@ paths:
       responses:
         200:
           description: Successfully read people list operation
-          schema:
-            type: array
-            items:
-              properties:
-                fname:
-                  type: string
-                lname:
-                  type: string
-                timestamp:
-                  type: string
 
     post:
       operationId: people.create
