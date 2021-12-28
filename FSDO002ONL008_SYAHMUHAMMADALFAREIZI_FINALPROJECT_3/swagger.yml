@@ -23,6 +23,17 @@ paths:
         200:
           description: Successfully read Movies set operation
 
+  /movies/mostpopular:
+    get:
+      operationId: movies.read_top_10
+      tags:
+        - Movies
+      summary: Read the top 10 set of Movies
+      description: Read the top 10 set of Movies
+      responses:
+        200:
+          description: Successfully read top 10 Movies set operation
+
     # post:
     #   operationId: movies.create
     #   tags:

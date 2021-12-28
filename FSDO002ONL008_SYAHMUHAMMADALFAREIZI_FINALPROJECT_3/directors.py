@@ -10,7 +10,7 @@ def read_all():
     :return:        json string of list of people
     """
     # Create the list of people from our data
-    directors = Directors.query.limit(10)
+    directors = Directors.query.all()
 
     # Serialize the data for the response
     directors_schema = DirectorsSchema(many=True)

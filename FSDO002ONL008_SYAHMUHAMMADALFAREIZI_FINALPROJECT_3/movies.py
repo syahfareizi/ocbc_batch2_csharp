@@ -10,7 +10,22 @@ def read_all():
     :return:        json string of list of people
     """
     # Create the list of people from our data
-    movies = Movies.query.limit(10)
+    movies = Movies.query.all()
+
+    # Serialize the data for the response
+    movies_schema = MoviesSchema(many=True)
+    data = movies_schema.dump(movies)
+    return data
+
+
+def read_top_10():
+    """
+    This function responds to a request for /api/people
+    with the complete lists of people
+    :return:        json string of list of people
+    """
+    # Create the list of people from our data
+    movies = Movies.query.order_by(db.desc(Movies.popularity)).limit(10)
 
     # Serialize the data for the response
     movies_schema = MoviesSchema(many=True)
