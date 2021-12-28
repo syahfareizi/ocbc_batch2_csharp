@@ -45,6 +45,32 @@ def read_one(id):
         abort(404, f"Movies not found for Id: {id}")
 
 
+def read_one_byname(director_name):
+    """
+    This function responds to a request for /api/directors/{id}
+    with one matching director from directors
+    :param id:   Id of director to find
+    :return:            director matching id
+    """
+    # Build the initial query
+    search = "%{}%".format(director_name)
+    directors = (
+        Directors.query.filter(Directors.name.like(search)).all()
+    )
+
+    # Did we find a Movies?
+    if directors is not None:
+
+        # Serialize the data for the response
+        director_schema = DirectorsSchema(many=True)
+        data = director_schema.dump(directors)
+        return data
+
+    # Otherwise, nope, didn't find that Movies
+    else:
+        abort(404, f"Directors not found")
+
+
 def create(director):
     """
     This function creates a new person in the people structure
