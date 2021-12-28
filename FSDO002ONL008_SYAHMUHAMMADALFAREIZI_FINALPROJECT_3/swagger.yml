@@ -1,0 +1,352 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger Rest Article
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /api
+
+# Paths supported by the server application
+paths:
+  /movies:
+    get:
+      operationId: movies.read_all
+      tags:
+        - Movies
+      summary: Read the entire set of Movies
+      description: Read the entire set of Movies
+      responses:
+        200:
+          description: Successfully read Movies set operation
+
+    # post:
+    #   operationId: movies.create
+    #   tags:
+    #     - Movies
+    #   summary: Create a Movies data
+    #   description: Create a new Movies data
+    #   parameters:
+    #     - name: movies
+    #       in: body
+    #       description: Movies data to create
+    #       required: True
+    #       schema:
+    #         type: object
+    #         properties:
+    #           id:
+    #             type: integer
+    #             description: ID to create
+    #           original_title:
+    #             type: string
+    #             description: Title of person to create
+    #           budget:
+    #             type: integer
+    #             description: gerder of the director
+    #           popularity:
+    #             type: integer
+    #             description: Popularity Number
+    #           release_date:
+    #             type: string
+    #             description: number of uid
+    #           revenue:
+    #             type: integer
+    #             description: name of the department
+    #           title:
+    #             type: string
+    #             description: name of the department
+    #           vote_average:
+    #             type: number
+    #             description: name of the department
+    #           vote_count:
+    #             type: integer
+    #             description: name of the department
+    #           overview:
+    #             type: string
+    #             description: name of the department
+    #           tagline:
+    #             type: string
+    #             description: name of the department
+    #           uid:
+    #             type: integer
+    #             description: name of the department
+    #           director_id:
+    #             type: integer
+    #             description: name of the department
+    #   responses:
+    #     201:
+    #       description: Successfully created person
+
+  /movies/{id}:
+    get:
+      operationId: movies.read_one
+      tags:
+        - Movies
+      summary: Read one movies
+      description: Read one movies
+      parameters:
+        - name: id
+          in: path
+          description: Id of the movies to get
+          type: integer
+          required: True
+      responses:
+        200:
+          description: Successfully read movies from Movies data operation
+
+  /movies/{director_id}:
+    post:
+      operationId: movies.create
+      tags:
+        - Movies
+      summary: Create a movies associated with a director
+      description: Create a movies associated with a director
+      parameters:
+        - name: director_id
+          in: path
+          description: Id of person associated with movies
+          type: integer
+          required: True
+        - name: movies
+          in: body
+          description: Movies data to create
+          required: True
+          schema:
+            type: object
+            properties:
+              id:
+                type: integer
+                description: ID to create
+              original_title:
+                type: string
+                description: Title of person to create
+              budget:
+                type: integer
+                description: gerder of the director
+              popularity:
+                type: integer
+                description: Popularity Number
+              release_date:
+                type: string
+                description: number of uid
+              revenue:
+                type: integer
+                description: name of the department
+              title:
+                type: string
+                description: name of the department
+              vote_average:
+                type: number
+                description: name of the department
+              vote_count:
+                type: integer
+                description: name of the department
+              overview:
+                type: string
+                description: name of the department
+              tagline:
+                type: string
+                description: name of the department
+              uid:
+                type: integer
+                description: name of the department
+      responses:
+        201:
+          description: Successfully created a note
+
+  /movies/{movie_id}/directors/{director_id}:
+    put:
+      operationId: movies.update
+      tags:
+        - Movies
+      summary: Update a Movies associated with a Director
+      description: Update a Movies associated with a Director
+      parameters:
+        - name: director_id
+          in: path
+          description: Id the Director to update
+          type: integer
+          required: True
+        - name: movie_id
+          in: path
+          description: Id of the Movies associated with a Director
+          type: integer
+          required: True
+        - name: movies
+          in: body
+          description: Movies data to create
+          required: True
+          schema:
+            type: object
+            properties:
+              original_title:
+                type: string
+                description: Title of Director to create
+              budget:
+                type: integer
+                description: gerder of the director
+              popularity:
+                type: integer
+                description: Popularity Number
+              release_date:
+                type: string
+                description: number of uid
+              revenue:
+                type: integer
+                description: name of the department
+              title:
+                type: string
+                description: name of the department
+              vote_average:
+                type: number
+                description: name of the department
+              vote_count:
+                type: integer
+                description: name of the department
+              overview:
+                type: string
+                description: name of the department
+              tagline:
+                type: string
+                description: name of the department
+              uid:
+                type: integer
+                description: name of the department
+      responses:
+        201:
+          description: Successfully created a Movies
+
+    delete:
+      operationId: movies.delete
+      tags:
+        - Movies
+      summary: Delete a Movies Data associated with a Director
+      description: Delete a Movies Data associated with a Director
+      parameters:
+        - name: director_id
+          in: path
+          description: Id of Director associated with Movies Data
+          type: integer
+          required: True
+        - name: movie_id
+          in: path
+          description: Id of Movies Data
+          type: integer
+          required: True
+      responses:
+        200:
+          description: Successfully deleted a Movies Data
+
+  /directors:
+    get:
+      operationId: directors.read_all
+      tags:
+        - Directors
+      summary: Read the entire set of Directors
+      description: Read the entire set of Directors
+      responses:
+        200:
+          description: Successfully read Directors set operation
+    post:
+      operationId: directors.create
+      tags:
+        - Directors
+      summary: Create a director data
+      description: Create a new director data
+      parameters:
+        - name: director
+          in: body
+          description: Director data to create
+          required: True
+          schema:
+            type: object
+            properties:
+              id:
+                type: integer
+                description: ID to create
+              name:
+                type: string
+                description: name of person to create
+              gender:
+                type: integer
+                description: gerder of the director
+              uid:
+                type: integer
+                description: number of uid
+              department:
+                type: string
+                description: name of the department
+      responses:
+        201:
+          description: Successfully created person
+
+  /directors/{id}:
+    get:
+      operationId: directors.read_one
+      tags:
+        - Directors
+      summary: Read one director
+      description: Read one director
+      parameters:
+        - name: id
+          in: path
+          description: Id of the director to get
+          type: integer
+          required: True
+      responses:
+        200:
+          description: Successfully read movies from Movies data operation
+
+    put:
+      operationId: directors.update
+      tags:
+        - Directors
+      summary: Update a Director data
+      description: Update a Director data
+      parameters:
+        - name: id
+          in: path
+          description: Id the Director data to update
+          type: integer
+          required: True
+        - name: director
+          in: body
+          description: Director data to create
+          required: True
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+                description: name of person to create
+              gender:
+                type: integer
+                description: gerder of the director
+              uid:
+                type: integer
+                description: number of uid
+              department:
+                type: string
+                description: name of the department
+      responses:
+        200:
+          description: Successfully updated person
+
+    delete:
+      operationId: directors.delete
+      tags:
+        - Directors
+      summary: Delete a Director data from the director list
+      description: Delete a Director
+      parameters:
+        - name: id
+          in: path
+          type: integer
+          description: Id of the Director to delete
+          required: true
+      responses:
+        200:
+          description: Successfully deleted a Director

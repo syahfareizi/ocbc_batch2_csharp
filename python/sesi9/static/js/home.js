@@ -49,10 +49,10 @@ ns.model = (function() {
                 $event_pump.trigger('model_error', [xhr, textStatus, errorThrown]);
             })
         },
-        update: function(fname, lname) {
+        update: function(person_id, fname, lname) {
             let ajax_options = {
                 type: 'PUT',
-                url: 'api/people/' + lname,
+                url: 'api/people/' + person_id,
                 accepts: 'application/json',
                 contentType: 'application/json',
                 dataType: 'json',
@@ -69,10 +69,10 @@ ns.model = (function() {
                 $event_pump.trigger('model_error', [xhr, textStatus, errorThrown]);
             })
         },
-        'delete': function(lname) {
+        'delete': function(person_id) {
             let ajax_options = {
                 type: 'DELETE',
-                url: 'api/people/' + lname,
+                url: 'api/people/' + person_id,
                 accepts: 'application/json',
                 contentType: 'plain/text'
             };
@@ -91,16 +91,19 @@ ns.model = (function() {
 ns.view = (function() {
     'use strict';
 
-    let $fname = $('#fname'),
+    let $person_id = $('#person_id'),
+        $fname = $('#fname'),
         $lname = $('#lname');
 
     // return the API
     return {
         reset: function() {
+            $person_id.val('');
             $lname.val('');
             $fname.val('').focus();
         },
-        update_editor: function(fname, lname) {
+        update_editor: function(person_id, fname, lname) {
+            $person_id.val(person_id);
             $lname.val(lname);
             $fname.val(fname).focus();
         },
@@ -113,7 +116,7 @@ ns.view = (function() {
             // did we get a people array?
             if (people) {
                 for (let i=0, l=people.length; i < l; i++) {
-                    rows += `<tr><td class="fname">${people[i].fname}</td><td class="lname">${people[i].lname}</td><td>${people[i].timestamp}</td></tr>`;
+                    rows += `<tr><td class="person_id">${people[i].person_id}</td><td class="fname">${people[i].fname}</td><td class="lname">${people[i].lname}</td><td>${people[i].timestamp}</td></tr>`;
                 }
                 $('table > tbody').append(rows);
             }
@@ -136,6 +139,7 @@ ns.controller = (function(m, v) {
     let model = m,
         view = v,
         $event_pump = $('body'),
+        $person_id = $('#person_id'),
         $fname = $('#fname'),
         $lname = $('#lname');
 
@@ -147,6 +151,10 @@ ns.controller = (function(m, v) {
     // Validate input
     function validate(fname, lname) {
         return fname !== "" && lname !== "";
+    }
+
+    function validateId(person_id) {
+        return person_id !== "";
     }
 
     // Create our event handlers
@@ -164,13 +172,14 @@ ns.controller = (function(m, v) {
     });
 
     $('#update').click(function(e) {
-        let fname = $fname.val(),
+        let person_id = $person_id.val(),
+            fname = $fname.val(),
             lname = $lname.val();
 
         e.preventDefault();
 
         if (validate(fname, lname)) {
-            model.update(fname, lname)
+            model.update(person_id, fname, lname)
         } else {
             alert('Problem with first or last name input');
         }
@@ -178,14 +187,14 @@ ns.controller = (function(m, v) {
     });
 
     $('#delete').click(function(e) {
-        let lname = $lname.val();
+        let person_id = $person_id.val();
 
         e.preventDefault();
 
-        if (validate('placeholder', lname)) {
-            model.delete(lname)
+        if (validateId(person_id)) {
+            model.delete(person_id)
         } else {
-            alert('Problem with first or last name input');
+            alert('Problem with id input');
         }
         e.preventDefault();
     });
@@ -196,8 +205,14 @@ ns.controller = (function(m, v) {
 
     $('table > tbody').on('dblclick', 'tr', function(e) {
         let $target = $(e.target),
+            person_id,
             fname,
             lname;
+
+        person_id = $target
+            .parent()
+            .find('td.person_id')
+            .text();
 
         fname = $target
             .parent()
@@ -209,7 +224,7 @@ ns.controller = (function(m, v) {
             .find('td.lname')
             .text();
 
-        view.update_editor(fname, lname);
+        view.update_editor(person_id,fname, lname);
     });
 
     // Handle the model events
