@@ -107,6 +107,21 @@ paths:
       responses:
         200:
           description: Successfully read movies from Movies data operation
+    delete:
+      operationId: movies.delete
+      tags:
+        - Movies
+      summary: Delete a Movies Data associated with a Director
+      description: Delete a Movies Data associated with a Director
+      parameters:
+        - name: id
+          in: path
+          description: Id of Movies Data
+          type: integer
+          required: True
+      responses:
+        200:
+          description: Successfully deleted a Movies Data
 
   /movies/{director_id}:
     post:
@@ -229,27 +244,6 @@ paths:
       responses:
         201:
           description: Successfully created a Movies
-
-    delete:
-      operationId: movies.delete
-      tags:
-        - Movies
-      summary: Delete a Movies Data associated with a Director
-      description: Delete a Movies Data associated with a Director
-      parameters:
-        - name: director_id
-          in: path
-          description: Id of Director associated with Movies Data
-          type: integer
-          required: True
-        - name: movie_id
-          in: path
-          description: Id of Movies Data
-          type: integer
-          required: True
-      responses:
-        200:
-          description: Successfully deleted a Movies Data
 
   /directors:
     get:

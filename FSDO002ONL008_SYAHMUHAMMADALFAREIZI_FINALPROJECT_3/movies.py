@@ -128,7 +128,7 @@ def update(director_id, movie_id, movies):
         abort(404, f"Note not found")
 
 
-def delete(director_id, movie_id):
+def delete(id):
     """
     This function deletes a note from the note structure
     :param person_id:   Id of the person the note is related to
@@ -137,8 +137,8 @@ def delete(director_id, movie_id):
     """
     # Get the note requested
     movies = (
-        Movies.query.filter(Directors.id == director_id)
-        .filter(Movies.id == movie_id)
+        Movies.query
+        .filter(Movies.id == id)
         .one_or_none()
     )
 
