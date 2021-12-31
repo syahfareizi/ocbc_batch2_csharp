@@ -26,7 +26,7 @@ export default class Header extends Component {
         break;
       default:
         this.setState({
-          counter: this.state.counter < 0 ? oldCounter - 1 : 0,
+          counter: oldCounter - 1,
         });
         break;
     }
