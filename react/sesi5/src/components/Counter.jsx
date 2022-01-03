@@ -5,8 +5,16 @@ function Counter() {
   const [Counter, setCounter] = useState(0);
 
   useEffect(() => {
-    console.log("efek berjalan/di trigger");
+    console.log("Selalu berjalan");
   });
+
+  useEffect(() => {
+    console.log("hanya ketika Counter berjalan");
+  }, [Counter]);
+
+  useEffect(() => {
+    console.log("Hanya jalan sekali ");
+  }, []);
 
   return (
     <div>
