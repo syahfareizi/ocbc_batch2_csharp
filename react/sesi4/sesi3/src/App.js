@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Button from './components/Button';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
         <Button name="Hallo Alex"></Button>
         <Header batch='2' logo={logo}  />
+        <Counter />
       </header>
     </div>
   );

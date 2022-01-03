@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 import { useState } from "react";
+import Counter from "./components/Counter";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         Hallo {Name}
       </p>
       <button onClick={changeName}> Change my Name! </button>
+      <Counter />
     </div>
   );
 }
