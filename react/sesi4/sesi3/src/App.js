@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button name="Hallo Alex"></Button>
         <Header batch='2' logo={logo}  />
       </header>
     </div>
