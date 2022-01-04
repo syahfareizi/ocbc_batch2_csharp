@@ -4,6 +4,7 @@ import "bootstrap";
 import Header from "./components/Header";
 import { useState, useEffect } from "react";
 import Content from "./components/Content";
+import Footer from "./components/Footer";
 
 function App() {
   const [datas, setDatas] = useState([]);
@@ -27,6 +28,7 @@ function App() {
           date={data.date}
         />
       ))}
+      <Footer />
     </>
   );
 }
