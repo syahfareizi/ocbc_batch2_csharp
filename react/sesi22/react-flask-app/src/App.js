@@ -6,6 +6,8 @@ import { useEffect } from "react";
 
 function App() {
   const [placeholder, setPlaceholder] = useState("Hi");
+  const [time, setTime] = useState(0);
+  // const [localtime, setLocaltime] = useState(new Date().toUTCString(time));
 
   useEffect(() => {
     fetch("/hello")
@@ -13,7 +15,19 @@ function App() {
       .then((data) => {
         setPlaceholder(data.result);
       });
-  });
+    fetch("/time")
+      .then((res) => res.json())
+      .then((data) => setTime(data.time));
+  }, []);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => setTime(new Date().toUTCString()), 1000);
+  //   console.log("baru");
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // }, [time]);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -30,6 +44,7 @@ function App() {
           Learn React
         </a>
         <p>Flask says {placeholder}</p>
+        <p>Current Time is {new Date(time).toString()}</p>
       </header>
     </div>
   );

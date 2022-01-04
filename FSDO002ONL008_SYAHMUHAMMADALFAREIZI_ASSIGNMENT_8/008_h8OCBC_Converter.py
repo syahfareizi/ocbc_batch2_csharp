@@ -2,13 +2,15 @@
 def celciustokelvin(suhuawal):
     '''Fungsi untuk mengkonversi suhu dari Celcius ke Kelvin'''
     suhukelvin = suhuawal + 273.15
-    return {"celcius": suhuawal, "kelvin": suhukelvin}
+    backToCelcius = suhukelvin - 273.15
+    return {"celcius": suhuawal, "kelvin": suhukelvin, "newcelcius":backToCelcius}
 
 
 def kelvintocelcius(suhuawal):
     '''Fungsi untuk mengkonversi suhu dari Kelvin ke Celcius'''
     suhucelcius = suhuawal - 273.15
-    return {"kelvin": suhuawal, "celcius": suhucelcius}
+    backToKelvin = suhucelcius + 273.15
+    return {"kelvin": suhuawal, "celcius": suhucelcius, "newkelvin": backToKelvin}
 
 
 def tofahrenheit(suhuawalcelcius, suhuawalkelvin):
