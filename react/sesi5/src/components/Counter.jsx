@@ -17,7 +17,7 @@ function Counter() {
   }, []);
 
   return (
-    <div>
+    <div className="App">
       <h2>let's count</h2>
       <h3>{Counter}</h3>
       <button onClick={() => setCounter(Counter + 1)}>Click Me ! </button>

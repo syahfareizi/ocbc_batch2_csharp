@@ -1,9 +1,11 @@
 import "./App.css";
+import "bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 import { useState, useEffect } from "react";
 import Counter from "./components/Counter";
+import Card from "./components/Card";
 
 function App() {
   const [Name, setName] = useState("Budi");
@@ -19,23 +21,31 @@ function App() {
     return setName("Faris");
   }
   return (
-    <div className="App">
+    <>
       <Header />
-      <hr></hr>
-      <Content />
-      <hr></hr>
+      <div>
+        <Content />
+      </div>
       <Footer />
       <hr></hr>
-      <p>Hallo {Name}</p>
-      <p> TODO LIST </p>
-      {Todos.map((todo) => (
-        <div key={todo.id}>
-          {todo.title} - {todo.completed ? "Completed" : "Pending"}
-        </div>
-      ))}
-      <button onClick={changeName}> Change my Name! </button>
+      <div className="App">Hallo {Name}</div>
+      <div className="App">
+        <button onClick={changeName}> Change my Name! </button>
+      </div>
       <Counter />
-    </div>
+      <div className="App"> TODO LIST </div>
+      {Todos.map((todo) => (
+        // <div key={todo.id}>
+        //   {todo.title} - {todo.completed ? "Completed" : "Pending"}
+        // </div>
+        <Card
+          key={todo.id}
+          title={todo.title}
+          status={todo.completed}
+          userId={todo.userId}
+        ></Card>
+      ))}
+    </>
   );
 }
 

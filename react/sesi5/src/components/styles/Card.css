@@ -1,0 +1,12 @@
+.Card {
+  background-color: gray;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 15em;
+  margin-left: 15em;
+  padding: 2em;
+  border-radius: 2em;
+  font-weight: bold;
+  font-size: large;
+  color: aliceblue;
+}
