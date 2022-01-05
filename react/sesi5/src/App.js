@@ -1,50 +1,35 @@
 import "./App.css";
 import "bootstrap";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Content from "./components/Content";
-import { useState, useEffect } from "react";
-import Counter from "./components/Counter";
-import Card from "./components/Card";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Changename from "./pages/Changename";
+import Todos from "./pages/Todos";
+import Homepage from "./pages/Homepage";
 
 function App() {
-  const [Name, setName] = useState("Budi");
-  const [Todos, setTodos] = useState([]);
+  // const [Name, setName] = useState("Budi");
+  // const [Todos, setTodos] = useState([]);
 
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/todos")
-      .then((response) => response.json())
-      .then((result) => setTodos(result));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://jsonplaceholder.typicode.com/todos")
+  //     .then((response) => response.json())
+  //     .then((result) => setTodos(result));
+  // }, []);
 
-  function changeName() {
-    return setName("Faris");
-  }
+  // function changeName() {
+  //   return setName("Faris");
+  // }
   return (
     <>
-      <Header />
-      <div>
-        <Content />
-      </div>
-      <Footer />
-      <hr></hr>
-      <div className="App">Hallo {Name}</div>
-      <div className="App">
-        <button onClick={changeName}> Change my Name! </button>
-      </div>
-      <Counter />
-      <div className="App"> TODO LIST </div>
-      {Todos.map((todo) => (
-        // <div key={todo.id}>
-        //   {todo.title} - {todo.completed ? "Completed" : "Pending"}
-        // </div>
-        <Card
-          key={todo.id}
-          title={todo.title}
-          status={todo.completed}
-          userId={todo.userId}
-        ></Card>
-      ))}
+      <Router>
+        {/* <Link to="/">Home</Link>
+        <Link to="/changename">Change Name Page</Link>
+        <Link to="/todolist">Todo List Page</Link> */}
+        <Routes>
+          <Route path="/changename" element={<Changename />}></Route>
+          <Route path="/todolist" element={<Todos />}></Route>
+          <Route path="/" element={<Homepage />}></Route>
+        </Routes>
+      </Router>
     </>
   );
 }
