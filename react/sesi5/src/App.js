@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Changename from "./pages/Changename";
 import Todos from "./pages/Todos";
 import Homepage from "./pages/Homepage";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   // const [Name, setName] = useState("Budi");
@@ -21,6 +23,7 @@ function App() {
   return (
     <>
       <Router>
+        <Header />
         {/* <Link to="/">Home</Link>
         <Link to="/changename">Change Name Page</Link>
         <Link to="/todolist">Todo List Page</Link> */}
@@ -29,6 +32,7 @@ function App() {
           <Route path="/todolist" element={<Todos />}></Route>
           <Route path="/" element={<Homepage />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </>
   );

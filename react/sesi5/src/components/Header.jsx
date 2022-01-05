@@ -16,22 +16,22 @@ function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link link-dark px-2">
-                Features
+              <a href="/changename" className="nav-link link-dark px-2">
+                Change Name
               </a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link link-dark px-2">
-                FAQs
+              <a href="/todolist" className="nav-link link-dark px-2">
+                Todo List
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="/" className="nav-link link-dark px-2">
                 About
               </a>
-            </li>
+            </li> */}
           </ul>
-          <ul className="nav">
+          {/* <ul className="nav">
             <li className="nav-item">
               <a href="/" className="nav-link link-dark px-2">
                 Login
@@ -42,7 +42,7 @@ function Header() {
                 Sign-up
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </nav>
       <header className="py-3 mb-4 border-bottom">
