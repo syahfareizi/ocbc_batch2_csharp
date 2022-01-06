@@ -1,10 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
+import { incrementAction } from "../store/Actions/CounterAction";
 function Counter() {
   const dispatch = useDispatch();
-  const counter = useSelector((state) => state.counter);
+  const counter = useSelector(({ counter }) => counter.counter);
 
   function increment() {
-    dispatch({ type: "increment", payload: 1 });
+    dispatch(incrementAction());
   }
   function decrement() {
     dispatch({ type: "decrement", payload: 1 });
