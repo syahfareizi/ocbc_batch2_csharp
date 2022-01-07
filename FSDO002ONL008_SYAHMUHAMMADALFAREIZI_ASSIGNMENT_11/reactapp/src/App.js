@@ -51,7 +51,7 @@ function App() {
           <div className="col">
             <Card
               tipe={"secondary"}
-              header={"In Proggress"}
+              header={"In Progress"}
               title={[...task.inproggresstask]}
               btnbody={"Evaluate"}
               fungsi={toEvaluate}
