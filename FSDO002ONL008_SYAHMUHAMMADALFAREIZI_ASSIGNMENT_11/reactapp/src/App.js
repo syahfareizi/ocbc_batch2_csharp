@@ -8,6 +8,7 @@ import Card from "./components/Card";
 import { useDispatch, useSelector } from "react-redux";
 import { toBacklog } from "./store/action/inputToBacklog";
 import { toInputTask } from "./store/action/toInput";
+import { toInporgress } from "./store/action/backlogToOnproggress";
 
 function App() {
   const dispatch = useDispatch();
@@ -41,6 +42,7 @@ function App() {
               header={"Backlog"}
               title={[...task.backlogtask]}
               btnbody={"Take"}
+              fungsi={toInporgress}
             />
           </div>
           <div className="col">
