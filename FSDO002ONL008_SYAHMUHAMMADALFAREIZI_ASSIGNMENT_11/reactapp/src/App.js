@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      {/* {JSON.stringify(task)} */}
+      {JSON.stringify(task)}
       <Header />
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />

@@ -4,9 +4,11 @@ export const toInporgress = (payload) => {
     newtask.push(payload);
     setTimeout(() => {
       dispatch({ type: "backlogtoinproggress", payload: newtask });
-      newtask = [...getState().task.backlogtask];
-      newtask.pop(payload);
-      console.log(newtask);
+      newtask = [...getState().task.backlogtask].filter((el) => {
+        return el !== payload;
+      });
+      // newtask.pop(payload);
+      // console.log(newtask);
       dispatch({ type: "inputtobacklog", payload: newtask });
     }, 50);
   };

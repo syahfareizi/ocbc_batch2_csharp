@@ -4,9 +4,9 @@ export const toEvaluate = (payload) => {
     newtask.push(payload);
     setTimeout(() => {
       dispatch({ type: "inproggresstoevaluate", payload: newtask });
-      newtask = [...getState().task.evaluatetask];
-      newtask.pop(payload);
-      console.log(newtask);
+      newtask = [...getState().task.inproggresstask].filter((el) => {
+        return el !== payload;
+      });
       dispatch({ type: "backlogtoinproggress", payload: newtask });
     }, 50);
   };
