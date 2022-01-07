@@ -17,7 +17,7 @@ function Task(props) {
           {titles.map((title, index) => (
             <div class="card-body" key={index}>
               <h5 class="card-title">
-                {index + 1}.{title}
+                {index + 1}. {title}
               </h5>
               <Button btnbody={btnbody} fungsi={fungsi} title={title} />
             </div>

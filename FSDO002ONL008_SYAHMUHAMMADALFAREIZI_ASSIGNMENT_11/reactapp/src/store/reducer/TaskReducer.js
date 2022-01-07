@@ -19,10 +19,12 @@ export default function taskReducer(state = initialState, action) {
       return { ...state, backlogtask: payload };
     case "backlogtoinproggress":
       return { ...state, inproggresstask: payload };
-    // case "inproggresstoevaluate":
-    //   return { ...state, counter: state.counter - payload };
-    // case "evaluatetodone":
-    //   return { ...state, counter: state.counter - payload };
+    case "inproggresstoevaluate":
+      return { ...state, evaluatetask: payload };
+    case "evaluatetodone":
+      return { ...state, donetask: payload };
+    case "donetoclear":
+      return { ...state, donetask: payload };
     default:
       return state;
   }

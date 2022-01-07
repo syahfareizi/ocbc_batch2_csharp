@@ -9,6 +9,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { toBacklog } from "./store/action/inputToBacklog";
 import { toInputTask } from "./store/action/toInput";
 import { toInporgress } from "./store/action/backlogToOnproggress";
+import { toEvaluate } from "./store/action/onproggressToEvaluate";
+import { toDone } from "./store/action/evaluateToDone";
+import { toClear } from "./store/action/doneToClear";
 
 function App() {
   const dispatch = useDispatch();
@@ -16,7 +19,7 @@ function App() {
 
   return (
     <>
-      {JSON.stringify(task)}
+      {/* {JSON.stringify(task)} */}
       <Header />
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
@@ -51,6 +54,7 @@ function App() {
               header={"In Proggress"}
               title={[...task.inproggresstask]}
               btnbody={"Evaluate"}
+              fungsi={toEvaluate}
             />
           </div>
           <div className="col">
@@ -59,6 +63,7 @@ function App() {
               header={"Evaluation"}
               title={[...task.evaluatetask]}
               btnbody={"Done"}
+              fungsi={toDone}
             />
           </div>
           <div className="col">
@@ -66,7 +71,8 @@ function App() {
               tipe={"success"}
               header={"Done"}
               title={[...task.donetask]}
-              btnbody={null}
+              btnbody={"Clear"}
+              fungsi={toClear}
             />
           </div>
         </div>
