@@ -9,7 +9,7 @@ function Button(props) {
           <div></div>
         ) : (
           <button
-            className="btn btn-light"
+            className="btn btn-warning"
             onClick={() => dispatch(props.fungsi(props.title))}
           >
             {props.btnbody}
