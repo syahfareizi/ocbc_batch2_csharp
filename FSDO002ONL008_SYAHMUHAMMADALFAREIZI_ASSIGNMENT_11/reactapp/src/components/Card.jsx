@@ -9,8 +9,8 @@ function Card(props) {
   console.log(cnString);
   return (
     <>
-      <div class={cnString}>
-        <div class="card-header">{props.header}</div>
+      <div className={cnString}>
+        <div className="card-header">{props.header}</div>
         <Task title={title} btnbody={btnbody} fungsi={fungsi} />
       </div>
     </>

@@ -7,16 +7,16 @@ function Task(props) {
   return (
     <>
       {titles.length === 0 ? (
-        <div class="card-body">
-          <div class="card-body">
-            <h5 class="card-title">Tidak ada task.</h5>
+        <div className="card-body">
+          <div className="card-body">
+            <h5 className="card-title">Tidak ada task.</h5>
           </div>
         </div>
       ) : (
-        <div class="card-body">
+        <div className="card-body">
           {titles.map((title, index) => (
-            <div class="card-body" key={index}>
-              <h5 class="card-title">
+            <div className="card-body" key={index}>
+              <h5 className="card-title">
                 {index + 1}. {title}
               </h5>
               <Button btnbody={btnbody} fungsi={fungsi} title={title} />
