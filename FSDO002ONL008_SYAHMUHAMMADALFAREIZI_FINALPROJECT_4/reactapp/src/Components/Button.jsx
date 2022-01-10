@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 
 function Button(props) {
   const dispatch = useDispatch();
-  const cnString = "btn btn-" + props.warna;
+  const cnString = "btn m-1 btn-" + props.warna;
   return (
     <>
       <button

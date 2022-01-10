@@ -64,3 +64,34 @@ export const deleteUser = (key) => {
     }, 0);
   };
 };
+
+export const selectUser = (payload) => {
+  return (dispatch) => {
+    setTimeout(() => {
+      dispatch({ type: "updatekey", payload: payload.key });
+      dispatch({ type: "updatefn", payload: payload.firstName });
+      dispatch({ type: "updateln", payload: payload.lastName });
+    }, 0);
+  };
+};
+export const updateKey = (payload) => {
+  return (dispatch) => {
+    setTimeout(() => {
+      dispatch({ type: "updatekey", payload: payload });
+    }, 0);
+  };
+};
+export const updateFirstname = (payload) => {
+  return (dispatch) => {
+    setTimeout(() => {
+      dispatch({ type: "updatefn", payload: payload });
+    }, 0);
+  };
+};
+export const updateLastname = (payload) => {
+  return (dispatch) => {
+    setTimeout(() => {
+      dispatch({ type: "updateln", payload: payload });
+    }, 0);
+  };
+};

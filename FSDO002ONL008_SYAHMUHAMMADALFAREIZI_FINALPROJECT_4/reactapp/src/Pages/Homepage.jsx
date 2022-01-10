@@ -2,6 +2,7 @@ import Card from "../Components/Card";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Resultcard from "../Components/Resultcard";
+import Tablecard from "../Components/Tablecard";
 import logo from "../logo.svg";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
           </div>
           <div className="col">
             <Resultcard />
+            <Tablecard />
           </div>
         </div>
       </div>
