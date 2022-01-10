@@ -5,7 +5,7 @@ import {
   getUserByKey,
   updateUserByKey,
   deleteUser,
-  debug,
+  // debug,
   updateKey,
   updateFirstname,
   updateLastname,
@@ -84,14 +84,14 @@ function Card(props) {
                 fungsi={deleteUser}
               />
             </div>
-            <div className="col">
+            {/* <div className="col">
               <Button
                 warna={"dark"}
                 btnbody={"Debug"}
                 newuser={newUser}
                 fungsi={debug}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

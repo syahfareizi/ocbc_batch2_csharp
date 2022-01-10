@@ -2,7 +2,8 @@ const initialState = {
   key: 0,
   firstName: "",
   lastName: "",
-  user: {},
+  result: {},
+  Item: {},
 };
 
 export default function userReducer(state = initialState, action) {
@@ -15,16 +16,18 @@ export default function userReducer(state = initialState, action) {
       return { ...state, firstName: payload };
     case "updateln":
       return { ...state, lastName: payload };
-    case "getoneuser":
-      return { ...state, user: payload };
-    case "updateuser":
-      return { ...state, user: payload };
-    case "createuser":
-      return { ...state, user: payload };
-    case "deleteuser":
-      return { ...state, user: payload };
-    case "debug":
-      return { ...state, user: payload };
+    case "setitem":
+      return { ...state, Item: payload };
+    case "getallitem":
+      return { ...state, result: payload };
+    // case "updateuser":
+    //   return { ...state, Notification: payload };
+    // case "createuser":
+    //   return { ...state, Notification: payload };
+    // case "deleteuser":
+    //   return { ...state, Notification: payload };
+    // case "debug":
+    //   return { ...state, Notification: payload };
     default:
       return state;
   }

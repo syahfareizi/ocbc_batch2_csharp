@@ -1,21 +1,19 @@
-// import { useDispatch, useSelector } from "react-redux";
-// import { useEffect, useState } from "react";
-import { useEffect, useState } from "react";
-import { deleteUser, selectUser } from "../store/Actions/actionList";
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { debug, deleteUser, selectUser } from "../store/Actions/actionList";
 // import { useSelector } from "react-redux";
 import Button from "./Button";
 
 function Tablecard(props) {
   // const [getallUser, setgetallUser] = useState();
-  const [result, setresult] = useState({});
+  const dispatch = useDispatch();
+  const result = useSelector((user) => user.user.result);
   useEffect(() => {
-    fetch("/debug").then((result) =>
-      result
-        .json()
-        .then((result) => setresult(result))
-        .then()
-    );
-  }, [result]);
+    // fetch("/debug")
+    //   .then((response) => response.json())
+    //   .then((data) => dispatch({ type: "getallitem", payload: data }));
+    dispatch(debug());
+  }, [dispatch]);
   return (
     <>
       <table className="table table-striped align-items-center">

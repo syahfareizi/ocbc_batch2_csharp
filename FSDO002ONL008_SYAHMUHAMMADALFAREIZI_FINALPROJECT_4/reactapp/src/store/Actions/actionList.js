@@ -1,7 +1,6 @@
 export const toNewUser = (payload) => {
   return (dispatch) => {
     setTimeout(() => {
-      // dispatch({ type: "tonewuser", payload: payload });
       fetch("/keys", {
         method: "POST",
         headers: {
@@ -10,7 +9,10 @@ export const toNewUser = (payload) => {
         body: JSON.stringify(payload),
       })
         .then((result) => result.json())
-        .then((result) => dispatch({ type: "createuser", payload: result }));
+        .then((result) => {
+          dispatch({ type: "setitem", payload: result });
+          dispatch(debug());
+        });
     }, 0);
   };
 };
@@ -19,7 +21,7 @@ export const getUserByKey = (key) => {
     setTimeout(() => {
       fetch("/keys/" + key)
         .then((result) => result.json())
-        .then((result) => dispatch({ type: "getoneuser", payload: result }));
+        .then((result) => dispatch({ type: "setitem", payload: result }));
     }, 0);
   };
 };
@@ -28,7 +30,7 @@ export const debug = () => {
     setTimeout(() => {
       fetch("/debug")
         .then((result) => result.json())
-        .then((result) => dispatch({ type: "debug", payload: result }));
+        .then((result) => dispatch({ type: "getallitem", payload: result }));
     }, 0);
   };
 };
@@ -44,7 +46,10 @@ export const updateUserByKey = (payload) => {
         body: JSON.stringify(payload),
       })
         .then((result) => result.json())
-        .then((result) => dispatch({ type: "updateuser", payload: result }));
+        .then((result) => {
+          dispatch({ type: "setitem", payload: result });
+          dispatch(debug());
+        });
     }, 0);
   };
 };
@@ -60,7 +65,10 @@ export const deleteUser = (key) => {
         },
       })
         .then((result) => result.json())
-        .then((result) => dispatch({ type: "deleteuser", payload: result }));
+        .then((result) => {
+          dispatch({ type: "setitem", payload: result });
+          dispatch(debug());
+        });
     }, 0);
   };
 };
