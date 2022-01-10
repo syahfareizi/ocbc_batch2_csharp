@@ -18,7 +18,7 @@ function Tablecard(props) {
   }, [result]);
   return (
     <>
-      <table class="table table-striped align-items-center">
+      <table className="table table-striped align-items-center">
         <thead>
           <tr>
             <th scope="col">Key</th>
