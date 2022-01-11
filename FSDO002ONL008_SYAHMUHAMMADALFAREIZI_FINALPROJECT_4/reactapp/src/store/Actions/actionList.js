@@ -1,3 +1,4 @@
+//CREATE NEW USER
 export const toNewUser = (payload) => {
   return (dispatch) => {
     setTimeout(() => {
@@ -12,6 +13,9 @@ export const toNewUser = (payload) => {
         .then((result) => {
           dispatch({ type: "setitem", payload: result });
           dispatch(debug());
+          dispatch({ type: "updatekey", payload: 0 });
+          dispatch({ type: "updatefn", payload: "" });
+          dispatch({ type: "updateln", payload: "" });
         });
     }, 0);
   };
@@ -21,7 +25,12 @@ export const getUserByKey = (key) => {
     setTimeout(() => {
       fetch("/keys/" + key)
         .then((result) => result.json())
-        .then((result) => dispatch({ type: "setitem", payload: result }));
+        .then((result) => {
+          dispatch({ type: "setitem", payload: result });
+          dispatch({ type: "updatekey", payload: 0 });
+          dispatch({ type: "updatefn", payload: "" });
+          dispatch({ type: "updateln", payload: "" });
+        });
     }, 0);
   };
 };
@@ -30,10 +39,16 @@ export const debug = () => {
     setTimeout(() => {
       fetch("/debug")
         .then((result) => result.json())
-        .then((result) => dispatch({ type: "getallitem", payload: result }));
+        .then((result) => {
+          dispatch({ type: "getallitem", payload: result });
+          dispatch({ type: "updatekey", payload: 0 });
+          dispatch({ type: "updatefn", payload: "" });
+          dispatch({ type: "updateln", payload: "" });
+        });
     }, 0);
   };
 };
+// UPDATE EXISTING USER
 export const updateUserByKey = (payload) => {
   console.log(payload);
   return (dispatch) => {
@@ -49,11 +64,14 @@ export const updateUserByKey = (payload) => {
         .then((result) => {
           dispatch({ type: "setitem", payload: result });
           dispatch(debug());
+          dispatch({ type: "updatekey", payload: 0 });
+          dispatch({ type: "updatefn", payload: "" });
+          dispatch({ type: "updateln", payload: "" });
         });
     }, 0);
   };
 };
-
+// DELETE EXISTING USER
 export const deleteUser = (key) => {
   console.log(key);
   return (dispatch) => {
@@ -68,6 +86,9 @@ export const deleteUser = (key) => {
         .then((result) => {
           dispatch({ type: "setitem", payload: result });
           dispatch(debug());
+          dispatch({ type: "updatekey", payload: 0 });
+          dispatch({ type: "updatefn", payload: "" });
+          dispatch({ type: "updateln", payload: "" });
         });
     }, 0);
   };
