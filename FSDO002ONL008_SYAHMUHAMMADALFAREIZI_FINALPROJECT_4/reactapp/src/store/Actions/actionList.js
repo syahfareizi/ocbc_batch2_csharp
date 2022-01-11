@@ -1,3 +1,6 @@
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+toast.configure();
 //CREATE NEW USER
 export const toNewUser = (payload) => {
   return (dispatch) => {
@@ -16,6 +19,25 @@ export const toNewUser = (payload) => {
           dispatch({ type: "updatekey", payload: 0 });
           dispatch({ type: "updatefn", payload: "" });
           dispatch({ type: "updateln", payload: "" });
+          result.value == null
+            ? toast.warning("Error Occured", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              })
+            : toast.success("Data Created", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              });
         });
     }, 0);
   };
@@ -30,6 +52,25 @@ export const getUserByKey = (key) => {
           dispatch({ type: "updatekey", payload: 0 });
           dispatch({ type: "updatefn", payload: "" });
           dispatch({ type: "updateln", payload: "" });
+          result.value == null
+            ? toast.warning("Error Occured", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              })
+            : toast.success("Data Founded", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              });
         });
     }, 0);
   };
@@ -67,6 +108,25 @@ export const updateUserByKey = (payload) => {
           dispatch({ type: "updatekey", payload: 0 });
           dispatch({ type: "updatefn", payload: "" });
           dispatch({ type: "updateln", payload: "" });
+          result.value == null
+            ? toast.warning("Error Occured", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              })
+            : toast.success("Data Updated", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              });
         });
     }, 0);
   };
@@ -89,6 +149,25 @@ export const deleteUser = (key) => {
           dispatch({ type: "updatekey", payload: 0 });
           dispatch({ type: "updatefn", payload: "" });
           dispatch({ type: "updateln", payload: "" });
+          result.value == null
+            ? toast.warning("Error Occured", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              })
+            : toast.error("Data Deleted", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              });
         });
     }, 0);
   };

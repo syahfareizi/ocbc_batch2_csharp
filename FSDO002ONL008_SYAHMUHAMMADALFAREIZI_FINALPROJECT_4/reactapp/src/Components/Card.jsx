@@ -31,7 +31,7 @@ function Card(props) {
             <form className="m-3">
               <label className="m-2"> Key :</label>
               <input
-                type="number"
+                type="text"
                 value={user.key}
                 onChange={(e) => dispatch(updateKey(+e.target.value))}
               />
